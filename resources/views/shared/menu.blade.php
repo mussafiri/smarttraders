@@ -6,8 +6,8 @@
                        <div class="col-md-6 col-sm-6">
                            <div class="topbar-left">
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-envelope"></i> info@aievari4.com</a></li>
-                                    <li><a href="#"><i class="fa fa-phone"></i> +909-654-9805</a></li>
+                                    <li><a href="#"><i class="fa fa-envelope"></i> info@smarttraders.ae</a></li>
+                                    <li><a href="#"><i class="fa fa-phone"></i> +971-585-138-862</a></li>
                                 </ul>
 							</div>
                         </div>
