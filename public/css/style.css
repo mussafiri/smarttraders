@@ -55,6 +55,7 @@
 /*----------------------------------------*/
 html, body {
 	height: 100%;
+	/* color: #5d6471; */
 }
 .floatleft {
 	float:left;
@@ -87,13 +88,12 @@ img {max-width:100%;
 }
 p {
 	margin:0 0 15px;
-    color: #5d6471;
+    color: #BA9256;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Nunito', sans-serif;
-	margin: 0 0 15px;
-	color: #151b2c;
-    font-weight: 600;
+    font-family: 'Muslim', sans-serif;
+	color: #ffffff;
+    /* font-weight: 600; */
 }
 h1{
 	font-size: 48px;
@@ -101,7 +101,7 @@ h1{
 		
 }
 h2{
-	font-size: 38px;
+	font-size: 2.6em;
 	line-height: 46px;
 		
 }
@@ -141,7 +141,12 @@ a:hover, a:focus {
     text-decoration: none;
 }
 body {
-	background: #fff none repeat scroll 0 0;
+    background-image: url('/img/background/bg1.jpg');
+    background-position: 0ch 55em;
+    background-size: cover;
+    background-repeat:no-repeat;
+    z-index: 1;
+    position: relative;
 	color: #5d6471;
     font-family: 'Nunito', sans-serif;
 	font-size: 16px;
@@ -149,6 +154,27 @@ body {
 	overflow-x: hidden;
 	line-height: 26px;
 }
+#star-six{
+    width: 0;
+    height: 0;
+    left: 10em;
+    border-left: 500px solid transparent;
+    border-right: 500px solid transparent;
+    border-bottom: 1000px solid red;
+    position: relative;
+    z-index: 9999;
+  }
+  #star-six::after{
+    width: 0;
+    height: 0;
+    border-left: 500px solid transparent;
+    border-right: 500px solid transparent;
+    border-top: 1000px solid red;
+    position: absolute;
+    content: "";
+    top: 300px;
+    left: -500px;
+  }
 #scrollUp {
     bottom: 40px;
     font-size: 20px;
@@ -310,6 +336,7 @@ div#preloader {
     width: 100%;
     height: auto;
     z-index: 999;
+    background:rgb(2, 16, 33);
 }
 .header-area{
 	background:transparent;
@@ -333,15 +360,15 @@ div#preloader {
 }
 .main-menu ul.navbar-nav li a {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 700;
+    color: rgb(157, 195, 218, 0.67);
+    font-size: 13px;
+    /* font-weight: 700; */
     padding: 33px 15px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     position: relative;
 }
 .main-menu ul.navbar-nav li a:hover{
-	color: #E6922E;
+	color: #ffffff;
 }
 .main-menu ul.navbar-nav li.active a:focus {
     color: #fff;
@@ -433,19 +460,19 @@ div#preloader {
 }
 .s-menu {
     padding: 10px 25px;
-    border: 1px solid #E6922E;
-    background: #E6922E;
+    border: 1px solid #BA9256;
+    background: #BA9256;
     color: #fff;
     transition: 0.4s;
     font-size: 15px;
     font-weight: 700;
     border-radius: 3px;
-    text-transform: uppercase;
+    text-transform: none;
 }
 .s-menu:hover {
     border: 1px solid #fff;
     background: #fff;
-	color:#E6922E;
+	color:#BA9256;
     transition: 0.4s;
 }
 .header-area.stick  .header-right-link {
@@ -463,8 +490,7 @@ div#preloader {
     top: 0;
     width: 100%;
     z-index: 999999;
-    box-shadow: 0px 0px 3px #ddd, -2px -2px 3px #ddd;
-    background: #fff;
+    background: rgb(2, 16, 33);
 }
 .header-area.stick .logo a {
     display: inline-block;
@@ -473,7 +499,7 @@ div#preloader {
 }
 .header-area.stick .main-menu ul.navbar-nav li a {
     padding: 32px 15px;
-    color: #151b2c;
+    /* color: #151b2c; */
 }
 .header-area.stick .main-menu ul.nav li ul.sub-menu li a {
     color: #151b2c;
@@ -490,15 +516,15 @@ div#preloader {
     display: block;
 }
 .header-area.stick .s-menu {
-    border: 1px solid #E6922E;
-    background: #E6922E;
+    border: 1px solid #BA9256;
+    background: #BA9256;
     color: #fff;
     transition: 0.4s;
 }
 .header-area.stick .s-menu:hover{
-    border: 1px solid #E6922E;
+    border: 1px solid #BA9256;
     background: #fff;
-    color: #E6922E;
+    color: #BA9256;
     transition: 0.4s;
 }
 /*----------------------------------------*/
@@ -518,7 +544,7 @@ div#preloader {
     font-weight: 500;
 }
 .mean-container a.meanmenu-reveal:hover {
-    color:#E6922E
+    color:#BA9256
 }
 .mean-container .mean-nav ul {
     list-style-type: none;
@@ -554,7 +580,7 @@ div#preloader {
 /*  3. Intro Area
 /*----------------------------------------*/
 .slide-area {
-    background: rgba(0, 0, 0, 0) url(img/slider/h1.jpg) no-repeat scroll top center / cover;
+    background: rgba(0, 0, 0, 0) url(/img/slider/h1.jpg) no-repeat scroll top center / cover;
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -566,9 +592,10 @@ div#preloader {
     top: 0;
     height: 100%;
     width: 100%;
-    background: rgba(10, 24, 40, 0.8) none repeat scroll 0 0;
+    background: linear-gradient(to right, rgb(2, 16, 33) 40%, transparent);
     content: "";
     z-index: -1;
+    opacity: 0.95;
 }
 .display-table{
 	width: 100%;
@@ -584,31 +611,37 @@ div#preloader {
 .slide-content {
     margin-top: 60px;
 }
-.title2 {
-    font-size: 90px;
-    line-height: 92px;
-    margin: 0px auto;
+.title2{
     color: #fff;
-    padding-bottom: 20px;
-    max-width: 900px;
-    font-weight: 700;
-}
-.ready-btn {
-    border: 1px solid #E6922E;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 20px;
-    padding: 12px 10px;
-    text-align: center;
     text-transform: uppercase;
+}
+h2.title2{  
+    position: relative;
+  }
+h2.title2:before {
+    content : "";
+    position: absolute;
+    margin-left: 0.2em;
+    top: 103.2%;
+    left    : 0;
+    bottom  : 0;
+    height  : 1px;
+    width   : 7%;  /* or 100px */
+    border-bottom:1px solid #CBA274;
+  }
+.ready-btn {
+    border: 2px solid #BA9256;
+    color: #ffffff;
+    cursor: pointer;
+    /* display: inline-block; */
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 30px;
+    text-align: center;
     transition: all 0.4s ease 0s;
     z-index: 2;
-    background: #E6922E;
-    width: 160px;
-    border-radius: 2px;
+    background: #373E51;
+    border-radius: 30px;
 }
 .ready-btn.right-btn {
     margin-left: 15px;
@@ -623,8 +656,8 @@ div#preloader {
     transition: 0.4s;
 }
 .ready-btn.left-btn:hover {
-    background: #fff;
-    border: 1px solid #fff;
+    background: transparent;
+    border: 1px solid #CBA274;
     color: #E6922E;
     transition: 0.4s;
 }
@@ -685,7 +718,7 @@ div#preloader {
 .fun_text i {
     font-size: 44px;
     color: #fff;
-    background: #E6922E;
+    background: #BA9256;
     margin-bottom: 20px;
     display: inline-block;
     line-height: 78px;
@@ -700,6 +733,7 @@ div#preloader {
     padding: 40px 30px;
     position: relative;
     margin-bottom: 30px;
+    background-color: #ffffff;
 }
 .fun_text::after {
     position: absolute;

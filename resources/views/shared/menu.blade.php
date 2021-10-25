@@ -1,33 +1,10 @@
-        <header class="header-one">
-            <!-- Start top bar -->
-            <div class="topbar-area fix hidden-xs">
-                <div class="container">
-                    <div class="row">
-                       <div class="col-md-6 col-sm-6">
-                           <div class="topbar-left">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-envelope"></i> info@aievari4.com</a></li>
-                                    <li><a href="#"><i class="fa fa-phone"></i> +909-654-9805</a></li>
-                                </ul>
-							</div>
-                        </div>
-                        <div class=" col-md-6 col-sm-6">
-                            <div class="topbar-right">
-                                <div class="top-social">
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    </ul> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End top bar -->
+  <style>
+    .active_custom{
+        color: #ffffff;
+        font-weight: 700;
+    }
+  </style>     
+       <header class="header-one">
             <!-- header-area start -->
             <div id="sticker" class="header-area hidden-xs">
                 <div class="container">
@@ -57,16 +34,10 @@
                                         <div class="collapse navbar-collapse" id="navbar-example">
                                             <div class="main-menu">
                                                 <ul class="nav navbar-nav navbar-right">
-                                                    <li><a class="pages" href="{{ url('/')}}">Home</a>
-                                                        <!-- <ul class="sub-menu">
-                                                            <li><a href="{{ url('/')}}">Home 01</a></li>
-                                                            <li><a href="{{ url('index-2')}}">Home 02</a></li>
-                                                        </ul> -->
-                                                    </li>
-                                                    <li><a href="{{ url('about')}}">About us</a></li>
-                                                    <li><a href="{{ url('what_we_do')}}">What We Do</a></li>
-                                                    <li><a href="{{ url('traded/products')}}">Products</a></li>
-                                                    <li><a href="{{ url('investment')}}">Investment</a></li>
+                                                    <li><a href="{{ url('about')}}"> <span class="{{Request::is('about') ? 'active_custom' : null }}">About us</span></a></li>
+                                                    <li><a href="{{ url('what_we_do')}}"><span class="{{Request::is('what_we_do') ? 'active_custom' : null }}">What We Do</span></a></li>
+                                                    <li><a href="{{ url('traders')}}"><span class="{{Request::is('traders') ? 'active_custom' : null }}">Traders</span></a></li>
+                                                    <li><a href="{{ url('investment')}}"><span class="{{Request::is('investment') ? 'active_custom' : null }}">Investment</span></a></li>
                                                     <!-- <li><a class="pages" href="{{ url('#')}}">Pages</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="{{ url('team')}}">team</a></li>
@@ -83,7 +54,7 @@
                                                             <li><a href="{{ url('blog-details')}}">Blog Details</a></li>
                                                         </ul>
                                                     </li> -->
-                                                    <li><a href="{{ url('contact')}}">contacts</a></li>
+                                                    <li><a href="{{ url('contact')}}"><span class="{{Request::is('contact') ? 'active_custom' : null }}">contacts</span></a></li>
                                                 </ul>
                                             </div>
                                         </div>
