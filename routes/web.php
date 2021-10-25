@@ -22,7 +22,7 @@ Route::get('about', function () {
 Route::get('what_we_do', function () {
     return view('what_we_do');
 });
-Route::get('traded/products', function () {
+Route::get('traders', function () {
     return view('traded_products');
 });
 Route::get('blog-details', function () {
