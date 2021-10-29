@@ -1,9 +1,48 @@
+<style>
+    .ready-btn-footer {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    /* display: inline-block; */
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    z-index: 2;
+    background: #080E33;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+.ready-btn-footer:hover{
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    /* display: inline-block; */
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-weight: 600;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    z-index: 2;
+    background: transparent;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+</style>
 <!-- Start Footer Area -->
 <footer class="footer1">
             <div class="footer-area">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-5 col-sm-5 col-xs-12">
+                        <div class="col-md-3 col-sm-5 col-xs-12">
                             <div class="footer-content logo-footer">
                                 <div class="footer-head">
                                     <div class="footer-logo">
@@ -12,12 +51,6 @@
                                     <p>
                                         Are you looking for professional advice for your new business. Are you looking for professional advice for your new business. Are you looking for professional advice for your new business.
                                     </p>
-                                    <div class="subs-feilds">
-                                        <div class="suscribe-input">
-                                            <input type="email" class="email form-control width-80" id="sus_email" placeholder="Type Email">
-                                            <button type="submit" id="sus_submit" class="add-btn">Subscribe</button>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -25,7 +58,7 @@
                         <div class="col-md-4 col-sm-3 col-xs-12">
                             <div class="footer-content">
                                 <div class="footer-head">
-                                    <h4>Services Link</h4>
+                                    <h4>Explore</h4>
                                     <ul class="footer-list">
                                         <li><a href="#">About us</a></li>
                                         <li><a href="#">Services </a></li>
@@ -49,12 +82,17 @@
                         <div class="col-md-3 col-sm-4 col-xs-12">
                             <div class="footer-content last-content">
                                 <div class="footer-head">
-                                    <h4>Information</h4> 
+                                    <h4>Account</h4> 
                                     <div class="footer-contacts">
-										<p><span>Tel :</span> +0890-564-5644</p>
-										<p><span>Email :</span> info@aievari4.com</p>
-										<p><span>Location :</span> House- 65/4, London</p>
+										<span style="color: #fff;font-size: 20px;font-weight:550">Get Started!</span> <a href="{{url('/')}}" class="ready-btn-footer">Login</a>
 									</div> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-xs-12">
+                            <div class="footer-content last-content">
+                                <div class="footer-head">
+                                    <h4>Connect</h4>  
                                     <div class="footer-icons">
                                         <ul>
                                             <li>
@@ -70,11 +108,6 @@
                                             <li>
                                                 <a href="#">
                                                     <i class="fa fa-google"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-pinterest"></i>
                                                 </a>
                                             </li>
                                             <li>
@@ -96,8 +129,8 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="copyright">
                                 <p>
-                                    Copyright © 2021
-                                    <a href="#">Aievari</a> All Rights Reserved
+                                  © 2021
+                                    SmartTrader.com - UNITED ARAB EMIRATES All Rights Reserved
                                 </p>
                             </div>
                         </div>
