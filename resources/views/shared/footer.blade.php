@@ -46,7 +46,7 @@
                             <div class="footer-content logo-footer">
                                 <div class="footer-head">
                                     <div class="footer-logo">
-                                    	<a class="footer-black-logo" href="#"><img src="img/logo/logo.png" alt=""></a>
+                                    	<a class="footer-black-logo" href="#"><img src="img/logo/logov1.png" alt=""></a>
                                     </div>
                                     <p>
                                         Are you looking for professional advice for your new business. Are you looking for professional advice for your new business. Are you looking for professional advice for your new business.
