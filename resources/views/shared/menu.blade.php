@@ -16,10 +16,10 @@
                                     <div class="logo">
                                         <!-- Brand -->
                                         <a class="navbar-brand page-scroll white-logo" href="{{ url('/')}}">
-                                            <img src="img/logo/logo3.png" alt="">
+                                            <img src="img/logo/logov1.png" height="50" alt="">
                                         </a>
                                         <a class="navbar-brand page-scroll black-logo" href="{{ url('/')}}">
-                                            <img src="img/logo/logo.png" alt="">
+                                            <img src="img/logo/logov1.png" alt="">
                                         </a>
                                     </div>
                                     <!-- logo end -->
@@ -74,7 +74,7 @@
                         <div class="col-md-12">
                             <div class="mobile-menu">
                                 <div class="logo">
-                                    <a href="{{ url('/')}}"><img src="img/logo/logo.png" alt="" /></a>
+                                    <a href="{{ url('/')}}"><img src="img/logo/logov1.png" alt="" /></a>
                                 </div>
                                 <nav id="dropdown">
                                     <ul>
