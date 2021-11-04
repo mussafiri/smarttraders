@@ -76,7 +76,7 @@
 	@include('shared.footer')
 
 	<!-- all js here -->
-	<div class="a2a_kit a2a_kit_size_32 a2a_floating_style1 a2a_vertical_style" style="top:460px;" data-a2a-scroll-show="60,90">
+	<div class="a2a_kit a2a_kit_size_32 a2a_floating_style1 a2a_vertical_style" style="top:330px;" data-a2a-scroll-show="60,90">
 		<a href="#" class="fa fa-facebook fa-1x text-center" title="Facebook" ></a>
 		<a href="#" class="fa fa-twitter fa-1x text-center" title="Twitter" ></a>
 		<a href="#" class="fa fa-linkedin fa-1x text-center" title="LinkedIn" ></a>

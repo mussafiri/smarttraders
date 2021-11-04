@@ -467,24 +467,6 @@
         </div>
     </div>
     <!-- End Support-service Area -->
-    <!-- Start Self-area -->
-    <div class="self-area area-padding">
-        <div class="container">
-            <div class="row">
-                <!-- column end -->
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="self-content">
-                        <h4>An investment multi-national firm is a invest money of one or more experts. Provides more profite, We help your satele to future life and then create the road. Grow Money speedly without any risk. </h4>
-                        <span class="talk-text">Alex ferneld, CEO</span>
-                    </div>
-                </div>
-                <!-- column end -->
-            </div>
-        </div>
-    </div>
-    <!-- End Self-area -->
     <!-- Start Work proses Area -->
     <div class="work-proses fix  area-padding-2">
         <div class="container">
