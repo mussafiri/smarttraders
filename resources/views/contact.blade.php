@@ -112,13 +112,6 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <!-- Start Map -->
-                            <div class="map-area">
-                                <div id="googleMap" style="width:100%;height:380px;"></div>
-                            </div>
-                            <!-- End Map -->
-                        </div>
                         <!-- Start Left contact -->
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="contact-form">
@@ -150,6 +143,13 @@
                             </div>
                         </div>
                         <!-- End Left contact -->
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <!-- Start Map -->
+                            <div class="map-area">
+                                <div id="googleMap" style="width:100%;height:380px;"></div>
+                            </div>
+                            <!-- End Map -->
+                        </div>
                     </div>
                 </div>
             </div>
