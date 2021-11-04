@@ -1327,7 +1327,7 @@ span.users {
 /*----------------------------------------*/
 
 .banner-area {
-    background: rgba(0, 0, 0, 0) url(img/background/fg.jpg) no-repeat scroll top center / cover;
+    background: rgba(0, 0, 0, 0) url(/img/background/fg3.jpg) no-repeat scroll top center / cover;
     position: relative;
     z-index: 1;
 }
@@ -1338,19 +1338,19 @@ span.users {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(6, 34, 65, 0.70) none repeat scroll 0 0;
+    background: rgba(2, 16, 33, 0.9) none repeat scroll 0 0;
     content: "";
     z-index: -1;
 }
 
 .banner-btn {
-    border: 1px solid #E6922E;
+    border: 1px solid #BA9256;
     display: inline-block;
     padding: 12px 25px;
     color: #fff;
     font-weight: 500;
     font-size: 20px;
-    background: #E6922E;
+    background: #BA9256;
     border-radius: 2px;
 }
 
@@ -1490,8 +1490,8 @@ span.users {
 }
 
 .reviews-btn {
-    border: 1px solid #E6922E;
-    background: #E6922E;
+    border: 1px solid #BA9256;
+    background: #BA9256;
     color: #fff;
     cursor: pointer;
     display: inline-block;
@@ -1506,20 +1506,22 @@ span.users {
 }
 
 .reviews-btn:hover {
-    border: 1px solid #E6922E;
+    border: 1px solid #BA9256;
     background: #fff;
-    color: #E6922E;
+    color: #BA9256;
 }
 
 .single-testi {
     margin: 0px 0px 40px;
+    padding: 30px 15px;
+    border: 1px solid #E6922E;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.7);
 }
 
 .clients-text {
-    padding: 30px 30px;
+    /* padding: 30px 30px; */
     position: relative;
-    background-color: #fff;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    /* background-color: #fff; */
     border-radius: 4px;
 }
 
@@ -1568,7 +1570,7 @@ span.users {
 }
 
 .testi-text span a {
-    color: #E6922E;
+    color: #CCA177;
 }
 
 .testi-text h5 {
@@ -1578,16 +1580,20 @@ span.users {
 
 .client-rating a {
     display: inline-block;
-    color: #fec731;
+    color: #CCA177;
     font-size: 20px;
     padding: 0px 5px 0px 0px;
 }
 
 .reviews-content .active.center .single-testi .clients-text {
-    border: 1px solid #E6922E;
+    border: none;
 }
 
 .reviews-content .active.center .single-testi .clients-text p {
+    color: rgba(209, 228, 240, 0.77);
+}
+
+.reviews-content .single-testi .clients-text p {
     color: #444;
 }
 
@@ -1622,7 +1628,7 @@ span.users {
 }
 
 .testimonial-carousel.owl-carousel.owl-theme .owl-controls .owl-dots div.owl-dot.active span {
-    background: #E6922E;
+    background: #BA9256;
     width: 30px;
     border-radius: 3px;
 }
@@ -1674,7 +1680,8 @@ span.users {
 }
 
 .faq-details h4.check-title a {
-    color: #151b2c;
+    color: #CCA177;
+    font-weight: 500;
     display: block;
     padding: 15px 10px 15px 70px;
     text-decoration: none;
@@ -1698,7 +1705,7 @@ span.users {
 }
 
 .faq-details .panel-heading h4 a::before {
-    color: #151b2c;
+    color: #324169;
     content: "\e648 ";
     font-family: themify;
     font-size: 16px;
@@ -1723,7 +1730,7 @@ span.users {
     top: 0px;
     width: 50px;
     height: 100%;
-    background: #E6922E;
+    background: #CCA177;
 }
 
 .faq-area .col-md-6 {

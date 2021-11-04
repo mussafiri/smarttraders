@@ -670,7 +670,7 @@
     </div>
     <!-- End Banner Area -->
     <!-- Start Blog Area-->
-    <div class="blog-area fix  area-padding-2">
+    <!-- <div class="blog-area fix  area-padding-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
@@ -679,11 +679,11 @@
                         <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts</p>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="blog-grid home-blog">
+            </div> -->
+            <!-- <div class="row">
+                <div class="blog-grid home-blog"> -->
                     <!-- Start single blog -->
-                    <div class="col-md-4 col-sm-6 col-xs-12">
+                    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-blog">
                             <div class="blog-image">
                                 <a class="image-scale" href="#">
@@ -710,10 +710,10 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- End single blog -->
                     <!-- Start single blog -->
-                    <div class="col-md-4 col-sm-6 col-xs-12">
+                    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-blog">
                             <div class="blog-content">
                                 <div class="blog-meta">
@@ -768,9 +768,9 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- End single blog -->
-                    <div class="col-md-4 col-sm-6 col-xs-12">
+                    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-blog">
                             <div class="blog-content">
                                 <div class="blog-meta">
@@ -797,9 +797,9 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- End single blog -->
-                    <div class="col-md-4 col-sm-6 col-xs-12">
+                    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-blog">
                             <div class="blog-image">
                                 <a class="image-scale" href="#">
@@ -826,9 +826,9 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- End single blog -->
-                    <div class="col-md-4 col-sm-6 col-xs-12">
+                    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-blog">
                             <div class="blog-content">
                                 <div class="blog-meta">
@@ -855,14 +855,14 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- End single blog -->
-                </div>
-            </div>
+                <!-- </div>
+            </div> -->
             <!-- End row -->
-        </div>
-    </div>
-    <!-- End Blog Area-->
+        <!-- </div>
+    </div> -->
+    <!-- End Blog Area -->
     <!-- Start reviews Area -->
     <div class="reviews-area fix area-padding">
         <div class="container">
@@ -873,7 +873,7 @@
                             <div class="review-head">
                                 <h3>Our customer say about our company work</h3>
                                 <p>The phrasal sequence of the Lorem Ipsum text is now so widespread and commonplace that many DTP programmes can generate dummy. The phrasal sequence of the Lorem Ipsum text is now so widespread and commonplace that many DTP programmes can generate dummy</p>
-                                <a class="reviews-btn" href="review.html">More reviews</a>
+                                <a class="reviews-btn" href="">More reviews</a>
                             </div>
                         </div>
                     </div>
@@ -983,14 +983,14 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="section-headline text-center">
-                        <h3>Some important FAQ</h3>
-                        <p>Help agencies to define their new business objectives and then create professional software.</p>
+                        <h3>FAQ</h3>
+                        <p>Help clients to define their new business objectives and then make professional trading.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <!-- Start Column Start -->
-                <div class="col-md-7 col-sm-6 col-xs-12">
+                <div class="col-md-12 col-sm-6 col-xs-12">
                     <div class="company-faq">
                         <div class="faq-full">
                             <div class="faq-details">
@@ -1088,33 +1088,6 @@
                                 </div>
                             </div>
                             <!-- End FAQ -->
-                        </div>
-                    </div>
-                </div>
-                <!-- End Column -->
-                <div class="col-md-5 col-sm-6 col-xs-12">
-                    <div class="faq-content">
-                        <h4>Have a any qustion?</h4>
-                        <div class="faq-quote">
-                            <div class="row">
-                                <form id="contactForm" method="POST" action="contact.php" class="contact-form">
-                                    <div class="col-md-12 col-sm-12 col-xs-12">
-                                        <input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
-                                        <div class="help-block with-errors"></div>
-                                        <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
-                                        <div class="help-block with-errors"></div>
-                                        <input type="text" id="msg_subject" class="form-control" placeholder="Subject" required="" data-error="Please enter your message subject">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                    <div class="col-md-12 col-sm-12 col-xs-12">
-                                        <textarea id="message" rows="7" placeholder="Massage" class="form-control" required data-error="Write your message"></textarea>
-                                        <div class="help-block with-errors"></div>
-                                        <button type="submit" id="submit" class="quote-btn">Submit</button>
-                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </form>
-                            </div>
                         </div>
                     </div>
                 </div>
