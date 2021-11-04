@@ -38,7 +38,7 @@
                                                     <li><a href="{{ url('what_we_do')}}"><span class="{{Request::is('what_we_do') ? 'active_custom' : null }}">What We Do</span></a></li>
                                                     <li><a href="{{ url('traders')}}"><span class="{{Request::is('traders') ? 'active_custom' : null }}">Traders</span></a></li>
                                                     <li><a href="{{ url('investment')}}"><span class="{{Request::is('investment') ? 'active_custom' : null }}">Investment</span></a></li>
-                                                    <!-- <li><a class="pages" href="{{ url('#')}}">Pages</a>
+                                                    <!-- <li><a  href="{{ url('#')}}">Pages</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="{{ url('team')}}">team</a></li>
                                                             <li><a href="{{ url('faq')}}">FAQ</a></li>
@@ -47,7 +47,7 @@
                                                             <li><a href="{{ url('signup')}}">Register</a></li>
                                                         </ul>
                                                     </li> -->
-                                                    <!-- <li><a class="pages" href="{{ url('#')}}">Blog</a>
+                                                    <!-- <li><a  href="{{ url('#')}}">Blog</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="{{ url('blog')}}">Blog grid</a></li>
                                                             <li><a href="{{ url('blog-sidebar')}}">Blog Sidebar</a></li>
@@ -79,28 +79,12 @@
                                 <nav id="dropdown">
                                     <ul>
                                         <li><a class="pages" href="{{ url('/')}}">Home</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="{{ url('/')}}">Home 01</a></li>
-                                                <li><a href="{{ url('index-2')}}">Home 02</a></li>
-                                            </ul>
                                         </li>
                                         <li><a href="{{ url('about')}}">About us</a></li>
-                                        <li><a href="{{ url('investment')}}">Investment</a></li>
-                                        <li><a class="pages" href="{{ url('#')}}">Pages</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="{{ url('team')}}">team</a></li>
-                                                <li><a href="{{ url('faq')}}">FAQ</a></li>
-                                                <li><a href="{{ url('review')}}">Reviews</a></li>
-                                                <li><a href="{{ url('login')}}">Login</a></li>
-                                                <li><a href="{{ url('signup')}}">Register</a></li>
-                                            </ul>
+                                        <li><a href="{{ url('investment')}}">What We Do</a></li>
+                                        <li><a  href="{{ url('traders')}}">Traders</a>
                                         </li>
-                                        <li><a class="pages" href="{{ url('#')}}">Blog</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="{{ url('blog')}}">Blog grid</a></li>
-                                                <li><a href="{{ url('blog-sidebar')}}">Blog Sidebar</a></li>
-                                                <li><a href="{{ url('blog-details')}}">Blog Details</a></li>
-                                            </ul>
+                                        <li><a  href="{{ url('investment')}}">Investment</a>
                                         </li>
                                         <li><a href="{{ url('contact')}}">contacts</a></li>
                                     </ul>

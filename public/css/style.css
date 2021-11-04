@@ -669,7 +669,7 @@ div#preloader {
 /*----------------------------------------*/
 
 .mobile-menu-area {
-    background: #fdfcfc none repeat scroll 0 0;
+    background: rgb(2, 16, 33) none repeat scroll 0 0;
     padding: 10px 0px;
 }
 
@@ -695,8 +695,8 @@ div#preloader {
 }
 
 .mean-container .mean-nav ul li a {
-    background: #fdfcfc none repeat scroll 0 0;
-    color: #3d5368;
+    background: rgb(2, 16, 33) none repeat scroll 0 0;
+    color: rgb(157, 195, 218, 0.67);
     display: block;
     float: left;
     font-size: 14px;
