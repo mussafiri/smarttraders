@@ -31,7 +31,7 @@
         height: 1200px;
         margin-left: -20em;
         bottom: -18.8em;
-        
+
     }
     .mission-about {
     border: 1px solid #ccc;
