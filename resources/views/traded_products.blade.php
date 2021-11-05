@@ -198,7 +198,7 @@
                 </div>
             </div>
         </div>
-      
+
         <div class="background-img1">
             <div class="background-color1">
             <div class="container">
@@ -218,7 +218,7 @@
                 </div>
             </div>
         </div>
-            </div> 
+            </div>
         </div>
         <div class="invest-area  page-padding-2" style="background: rgb(2, 16, 33, 0.06);">
             <div class="container">
@@ -283,7 +283,7 @@
                                     </div>
                                 </div>
                                 <p class="pricing-text">
-                                    Trade stocks and shares in some of the world's biggest companies and best-known brands.
+                                    Trade stocks and shares in some of the world's biggest companies and best-known brands. 
                                 </p>
                             </div>
                         </div>

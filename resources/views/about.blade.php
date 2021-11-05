@@ -165,7 +165,7 @@
                 <div class="row">
                     <div class="about-mission">
                         <!-- Start column -->
-                        <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="col-md-6 col-sm-4 col-xs-12">
                             <div class="mission-about">
                                 <div class="mission-icon">
                                 <i class="fa fa-eye" aria-hidden="true"></i>
@@ -177,7 +177,7 @@
                             </div>
                         </div>
                         <!-- Start column -->
-                        <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="col-md-6 col-sm-4 col-xs-12">
                             <div class="mission-about">
                                 <div class="mission-icon">
                                 <i class="fa fa-rocket" aria-hidden="true"></i>
@@ -189,7 +189,7 @@
                             </div>
                         </div>
                         <!-- Start column -->
-                        <div class="col-md-4 col-sm-4 col-xs-12">
+                        <!-- <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="mission-about">
                                 <div class="mission-icon">
                                 <i class="fa fa-bullseye" aria-hidden="true"></i>
@@ -199,7 +199,7 @@
                                     <p>“we do it for you and we can’t do it without you” </p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="mission-about">
                                 <div class="mission-icon">
