@@ -72,6 +72,28 @@
     padding-right: 10px;
     line-height: 40px;
 }
+.about-image .video-play.vid-zone {
+    background: #BA9256;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 34px;
+    height: 100px;
+    line-height: 96px;
+    width: 100px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.about-image .video-play.vid-zone i {
+    color: #fff;
+    margin-left: 5px;
+}
+
+.about-image .video-play.vid-zone:hover {
+    background: #fff;
+    color: #BA9256;
+    transition: 0.4s;
+}
 </style>
 <!-- Start breadcumb Area -->
 <div class="page-area">
@@ -188,18 +210,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Start column -->
-                        <!-- <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="mission-about">
-                                <div class="mission-icon">
-                                <i class="fa fa-bullseye" aria-hidden="true"></i>
-                                </div>
-                                <div class="mission-text">
-                                    <h4 class="titles-ab">Our mortal</h4>
-                                    <p>“we do it for you and we can’t do it without you” </p>
-                                </div>
-                            </div>
-                        </div> -->
                         <!-- <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="mission-about">
                                 <div class="mission-icon">
