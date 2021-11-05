@@ -973,7 +973,7 @@ span.users {
 }
 
 .pri_table_list {
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.7);
     padding: 40px;
     position: relative;
     overflow: hidden;
@@ -985,6 +985,7 @@ span.users {
 .pricing-text {
     padding: 10px 0px;
     display: block;
+    color: rgba(209, 228, 240, 0.77);
 }
 
 .pri_table_list ol li {
@@ -994,21 +995,21 @@ span.users {
 
 .price-btn a {
     color: #fff;
-    text-transform: uppercase;
+    text-transform: capitalize;
     transition: all 0.4s ease 0s;
     border-radius: 2px;
     font-weight: 700;
     font-size: 14px;
     padding: 8px 20px;
-    background: #E6922E;
+    background: #BA9256;
     display: inline-block;
-    border: 1px solid #E6922E;
+    border: 1px solid #BA9256;
 }
 
 .price-btn a:hover {
     background: transparent;
-    color: #E6922E;
-    border: 1px solid #E6922E;
+    color: #BA9256;
+    border: 1px solid #BA9256;
     transition: all 0.4s ease 0s;
 }
 
@@ -1046,7 +1047,7 @@ span.users {
 /*--------------------------------*/
 
 .support-services {
-    background: #fff;
+    background: #c4c4c4;
     position: relative;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
     z-index: 1;
@@ -1056,7 +1057,7 @@ span.users {
     transition: 0.4s;
     z-index: 1;
     margin-bottom: 30px;
-    border: 1px solid #E6922E;
+    border: 1px solid #CCA177;
 }
 
 .support-services::after {
@@ -1066,7 +1067,7 @@ span.users {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(233, 146, 46, 0.96);
+    background: #CCA177;
     transition: 0.4s;
     opacity: 0;
     z-index: -1;
@@ -1075,11 +1076,11 @@ span.users {
 .support-images {
     float: left;
     font-size: 44px;
-    color: #E6922E;
+    color: #BA9256;
     line-height: 70px;
     width: 70px;
     height: 70px;
-    border: 1px solid #E6922E;
+    border: 2px solid #BA9256;
     text-align: center;
     margin-right: 30px;
     border-radius: 50%;
@@ -1097,6 +1098,7 @@ span.users {
 
 .support-content p {
     margin-bottom: 0px;
+    color: #252F4D;
 }
 
 .support-services:hover::after {
@@ -2284,17 +2286,7 @@ span.users {
     z-index: 9;
 }
 
-.about-image .video-play.vid-zone {
-    background: #BA9256;
-    border-radius: 100%;
-    display: inline-block;
-    font-size: 34px;
-    height: 100px;
-    line-height: 96px;
-    width: 100px;
-    overflow: hidden;
-    transition: 0.4s;
-}
+.about-image .video-play.vid-zone {}
 
 .about-image .video-play.vid-zone i {
     color: #fff;
@@ -2302,7 +2294,7 @@ span.users {
 }
 
 .about-image .video-play.vid-zone:hover {
-    background: #fff;
+    /* background: #fff; */
     color: #BA9256;
     transition: 0.4s;
 }

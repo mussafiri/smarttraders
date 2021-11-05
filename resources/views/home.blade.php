@@ -195,18 +195,20 @@
         opacity: 0.949;
     }
 
-#overlay,#cc{
-    background-image: url('img/background/star.png');
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-attachment: scroll;
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-    height: 1200px;
-    margin-left: -20em;
-    bottom: -45.8em;
+    #overlay,
+    #cc {
+        background-image: url('img/background/star.png');
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-attachment: scroll;
+        z-index: -1;
+        position: absolute;
+        width: 100%;
+        height: 1200px;
+        margin-left: -20em;
+        bottom: -45.8em;
     }
+
     /* #triangle-up {
       width: 0;
       height: 0;
@@ -218,7 +220,202 @@
       left: 7em;
       z-index: -99999;
     } */
-    
+    .mt-2 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .play-btn {
+        width: 100px;
+        height: 100px;
+        background: radial-gradient(rgba(186, 146, 86, 0.8) 60%, rgba(255, 255, 255, 1) 62%);
+        border-radius: 50%;
+        position: relative;
+        display: block;
+        margin: 4px auto;
+        box-shadow: 0px 0px 25px 3px rgba(186, 146, 86, 0.8);
+    }
+
+    /* triangle */
+    .play-btn::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translateX(-40%) translateY(-50%);
+        transform: translateX(-40%) translateY(-50%);
+        transform-origin: center center;
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 25px solid #fff;
+        z-index: 100;
+        -webkit-transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+
+    /* pulse wave */
+    .play-btn:before {
+        content: "";
+        position: absolute;
+        width: 150%;
+        height: 150%;
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+        -webkit-animation: pulsate1 2s;
+        animation: pulsate1 2s;
+        -webkit-animation-direction: forwards;
+        animation-direction: forwards;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-timing-function: steps;
+        animation-timing-function: steps;
+        opacity: 1;
+        border-radius: 50%;
+        border: 5px solid rgba(255, 255, 255, .75);
+        top: -26%;
+        left: -26%;
+        background: rgba(198, 16, 0, 0);
+    }
+
+    @-webkit-keyframes pulsate1 {
+        0% {
+            -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+            opacity: 1;
+            box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+        }
+
+        100% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            opacity: 0;
+            box-shadow: none;
+
+        }
+    }
+
+    @keyframes pulsate1 {
+        0% {
+            -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+            opacity: 1;
+            box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+        }
+
+        100% {
+            -webkit-transform: scale(1, 1);
+            transform: scale(1);
+            opacity: 0;
+            box-shadow: none;
+
+        }
+    }
+
+    .read-more {
+        transform: translate(-50%, -50%);
+        color: #BA9256;
+        text-decoration: none;
+        font-size: 20px;
+        display: inline-block;
+        padding: 0.4em 1.5em;
+        border: 2px solid #BA9256;
+        transition: 0.02s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+        margin-top: 70px;
+        margin-left: 90px;
+    }
+
+    .read-more::before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 100%;
+        bottom: 0;
+        background: #BA9256;
+        transition: 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+        z-index: -1;
+    }
+
+    .read-more::after {
+        content: "";
+        display: inline-block;
+        background-image: url("https://image.flaticon.com/icons/png/128/109/109617.png");
+        position: absolute;
+        top: 0;
+        left: calc(100% - 3em);
+        right: 3em;
+        bottom: 0;
+        background-size: 1.5em;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: right 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+    }
+
+    .read-more:hover {
+        padding: 0.5em 3.5em 0.5em 0.5em;
+    }
+
+    .read-more:hover::before {
+        left: calc(100% - 3em);
+        right: 0;
+        transition: 0.3s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+    }
+
+    .read-more:hover::after {
+        right: 0;
+        transition: right 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+    }
+
+    .white {
+        color: #ffffff;
+    }
+
+    .font-weight-600 {
+        font-weight: 500;
+    }
+
+    #videowrapper {
+        position: relative;
+        z-index: 1;
+    }
+    #videowrapper::after{
+        background-color: red;
+    }
+
+    #fullScreenDiv {
+        min-height: 100%;
+        height: 90vh;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        background: rgb(2, 16, 33);;
+        position: relative;
+    }
+
+    #video {
+        width: 100vw;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+
+
+    #videoMessage {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: rgb(2, 16, 33);
+        opacity: 0.949;
+    }
 </style>
 <!-- Start Intro Area -->
 <div class="slide-area fix" data-stellar-background-ratio="0.6">
@@ -255,45 +452,37 @@
 </div>
 <!-- End Intro Area -->
 <div class="overlay-color" id="overlay"></div>
-    <div class="background-color">
-    <div class="counter-area fix area-padding-2">
+<div class="background-color">
+    <div class="about-area page-padding" style="background: rgb(2, 16, 33, 0.36);">
         <div class="container">
-            <!-- Start counter Area -->
             <div class="row">
-                <div class="fun-content">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <!-- fun_text  -->
-                        <div class="fun_text">
-                            <span class="counter-icon"><i class="flaticon-034-reward"></i></span>
-                            <span class="counter">2209</span>
-                            <h4>Total Members</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <!-- fun_text  -->
-                        <div class="fun_text">
-                            <span class="counter-icon"><i class="flaticon-034-reward"></i></span>
-                            <span class="counter">2209</span>
-                            <h4>Total Members</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <!-- fun_text  -->
-                        <div class="fun_text">
-                            <span class="counter-icon"><i class="flaticon-016-graph"></i></span>
-                            <span class="counter">$3974544</span>
-                            <h4>Total Payments</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <!-- fun_text  -->
-                        <div class="fun_text">
-                            <span class="counter-icon"><i class="flaticon-043-world"></i></span>
-                            <span class="counter">80</span>
-                            <h4>World Country</h4>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="about-content">
+                        <h3>About Us</h3>
+                        <p>We are a private trading and investment company licensed to trade for proprietary account on regulated exchanges (DMCC),
+                            by executing trades of different financial instruments such as FOREX, STOCKS, INDICES,
+                            FUTURES AND COMODITIES as well as diversify its own capital in Real estates as one of asset management of the company.
+                            <br><br>
+                            We use innovative approach in diversifying our portfolio and create sustainable income for our clients.
+                            With all the ongoing uncertainty in the world of finance brought about by different variables,
+                            one must seek alternatives that provide assurance and ease of mind. To provide this to our clients ...
+                        </p>
+                        <div class="mt-3">
+                            <a class="read-more white" href="{{url('about')}}">Read More</a>
                         </div>
                     </div>
                 </div>
+                <!-- column end -->
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="about-image">
+                        <img src="img/about/ab2.jpg" alt="">
+                        <div class="video-content">
+                            <a href="https://www.youtube.com/watch?v=O33uuBh6nXA" class="play-btn video-play vid-zone">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- column end -->
             </div>
         </div>
     </div>
@@ -316,7 +505,7 @@
                                 <div class="rates">
                                     <span class="prices">5%</span><span class="users">Daily</span>
                                 </div>
-                                <span class="per-day">10 days</span>
+                                <span class="per-day">Monthly</span>
                             </div>
                             <ol class="pricing-text">
                                 <li class="check">Minimam Invest : $100</li>
@@ -334,7 +523,7 @@
                                 <div class="rates">
                                     <span class="prices">15%</span><span class="users">Daily</span>
                                 </div>
-                                <span class="per-day">30 days</span>
+                                <span class="per-day">Quotery</span>
                             </div>
                             <ol class="pricing-text">
                                 <li class="check">Minimam Invest : $1000</li>
@@ -353,7 +542,7 @@
                                 <div class="rates">
                                     <span class="prices">50%</span><span class="users">Daily</span>
                                 </div>
-                                <span class="per-day">45 days</span>
+                                <span class="per-day">Semi- Annualy</span>
                             </div>
                             <ol class="pricing-text">
                                 <li class="check">Minimam Invest : $1000</li>
@@ -372,7 +561,7 @@
                                 <div class="rates">
                                     <span class="prices">100%</span><span class="users">Daily</span>
                                 </div>
-                                <span class="per-day">60 days</span>
+                                <span class="per-day">Annualy</span>
                             </div>
                             <ol class="pricing-text">
                                 <li class="check">Minimam Invest : $1000</li>
@@ -390,7 +579,7 @@
     </div>
     <!-- End Invest area -->
     <!-- Start Support-service Area -->
-    <div class="support-service-area fix area-padding-2">
+    <div class="support-service-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
@@ -405,7 +594,7 @@
                     <!-- Start About -->
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="support-services wow ">
-                            <a class="support-images" href="#"><i class="flaticon-023-management"></i></a>
+                            <a class="support-images" href="#"><i class="flaticon-023-management font-weight-600"></i></a>
                             <div class="support-content">
                                 <h4>Expert management</h4>
                                 <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create</p>
@@ -415,7 +604,7 @@
                     <!-- Start About -->
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="support-services ">
-                            <a class="support-images" href="#"><i class="flaticon-036-security"></i></a>
+                            <a class="support-images" href="#"><i class="flaticon-036-security font-weight-600"></i></a>
                             <div class="support-content">
                                 <h4>Secure investment</h4>
                                 <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create</p>
@@ -425,7 +614,7 @@
                     <!-- Start services -->
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="support-services ">
-                            <a class="support-images" href="#"><i class="flaticon-003-approve"></i></a>
+                            <a class="support-images" href="#"><i class="flaticon-003-approve font-weight-600"></i></a>
                             <div class="support-content">
                                 <h4>Registered company</h4>
                                 <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create</p>
@@ -435,7 +624,7 @@
                     <!-- Start services -->
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="support-services">
-                            <a class="support-images" href="#"><i class="flaticon-042-wallet"></i></a>
+                            <a class="support-images" href="#"><i class="flaticon-042-wallet font-weight-600"></i></a>
                             <div class="support-content">
                                 <h4>Instant withdrawal</h4>
                                 <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create</p>
@@ -445,7 +634,7 @@
                     <!-- Start services -->
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="support-services ">
-                            <a class="support-images" href="#"><i class="flaticon-032-report"></i></a>
+                            <a class="support-images" href="#"><i class="flaticon-032-report font-weight-600"></i></a>
                             <div class="support-content">
                                 <h4>Verified security</h4>
                                 <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create</p>
@@ -455,7 +644,7 @@
                     <!-- Start services -->
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="support-services">
-                            <a class="support-images" href="#"><i class="flaticon-024-megaphone"></i></a>
+                            <a class="support-images" href="#"><i class="flaticon-024-megaphone font-weight-600"></i></a>
                             <div class="support-content">
                                 <h4>Live customer support</h4>
                                 <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create</p>
@@ -468,7 +657,7 @@
     </div>
     <!-- End Support-service Area -->
     <!-- Start Work proses Area -->
-    <div class="work-proses fix  area-padding-2">
+    <!-- <div class="work-proses fix  area-padding-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
@@ -494,9 +683,9 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- End column -->
-                            <div class="col-md-4 col-sm-4 col-xs-12">
+                            </div> -->
+    <!-- End column -->
+    <!-- <div class="col-md-4 col-sm-4 col-xs-12">
                                 <div class="single-proses">
                                     <div class="proses-content">
                                         <div class="proses-icon point-orange">
@@ -508,9 +697,9 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- End column -->
-                            <div class="col-md-4 col-sm-4 col-xs-12">
+                            </div> -->
+    <!-- End column -->
+    <!-- <div class="col-md-4 col-sm-4 col-xs-12">
                                 <div class="single-proses last-item">
                                     <div class="proses-content">
                                         <div class="proses-icon point-green">
@@ -522,17 +711,17 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- End column -->
-                        </div>
+                            </div> -->
+    <!-- End column -->
+    <!-- </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Work proses Area -->
     <!--Start payment-history area -->
-    <div class="payment-history-area  fix area-padding-2">
+    <!-- <div class="payment-history-area  fix area-padding-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
@@ -651,7 +840,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End payment-history area -->
     <!-- Start Banner Area -->
     <div class="banner-area area-padding">
@@ -680,10 +869,10 @@
                     </div>
                 </div>
             </div> -->
-            <!-- <div class="row">
+    <!-- <div class="row">
                 <div class="blog-grid home-blog"> -->
-                    <!-- Start single blog -->
-                    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
+    <!-- Start single blog -->
+    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-blog">
                             <div class="blog-image">
                                 <a class="image-scale" href="#">
@@ -711,9 +900,9 @@
                             </div>
                         </div>
                     </div> -->
-                    <!-- End single blog -->
-                    <!-- Start single blog -->
-                    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
+    <!-- End single blog -->
+    <!-- Start single blog -->
+    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-blog">
                             <div class="blog-content">
                                 <div class="blog-meta">
@@ -769,8 +958,8 @@
                             </div>
                         </div>
                     </div> -->
-                    <!-- End single blog -->
-                    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
+    <!-- End single blog -->
+    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-blog">
                             <div class="blog-content">
                                 <div class="blog-meta">
@@ -798,8 +987,8 @@
                             </div>
                         </div>
                     </div> -->
-                    <!-- End single blog -->
-                    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
+    <!-- End single blog -->
+    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-blog">
                             <div class="blog-image">
                                 <a class="image-scale" href="#">
@@ -827,8 +1016,8 @@
                             </div>
                         </div>
                     </div> -->
-                    <!-- End single blog -->
-                    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
+    <!-- End single blog -->
+    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-blog">
                             <div class="blog-content">
                                 <div class="blog-meta">
@@ -856,11 +1045,11 @@
                             </div>
                         </div>
                     </div> -->
-                    <!-- End single blog -->
-                <!-- </div>
+    <!-- End single blog -->
+    <!-- </div>
             </div> -->
-            <!-- End row -->
-        <!-- </div>
+    <!-- End row -->
+    <!-- </div>
     </div> -->
     <!-- End Blog Area -->
     <!-- Start reviews Area -->
@@ -977,6 +1166,100 @@
         </div>
     </div>
     <!-- End reviews Area -->
+    <!-- Our Team Area -->
+    <div class="team-page-area page-padding-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-headline text-center">
+                        <h3>Our Team</h3>
+                        <p>Help agencies to define their new business objectives and then create professional software.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="team-member text-center">
+                    <!-- Single team member -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-member">
+                            <div class="team-img">
+                                <a href="#">
+                                    <img src="img/team/t1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="team-content">
+                                <h5><a href="#">Hamilton</a></h5>
+                                <p>Software developer</p>
+                                <ul class="team-hover">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single team member -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-member">
+                            <div class="team-img">
+                                <a href="#">
+                                    <img src="img/team/t2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="team-content">
+                                <h5><a href="#">Timeo poll</a></h5>
+                                <p>Syber security</p>
+                                <ul class="team-hover">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single team member -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-member">
+                            <div class="team-img">
+                                <a href="#">
+                                    <img src="img/team/t3.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="team-content">
+                                <h5><a href="#">Angle Lilou</a></h5>
+                                <p>Server expert</p>
+                                <ul class="team-hover">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single team member -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-member">
+                            <div class="team-img">
+                                <a href="#">
+                                    <img src="img/team/t4.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="team-content">
+                                <h5><a href="#">Louise</a></h5>
+                                <p>Software developer</p>
+                                <ul class="team-hover">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Our Team Area -->
     <!-- Start FAQ area -->
     <div class="faq-area  area-padding">
         <div class="container">
@@ -1096,6 +1379,97 @@
         </div>
     </div>
     <!-- End FAQ area -->
-</div>
+    <div id="videowrapper">
+        <div id="fullScreenDiv">
+            <video id="video" role="presentation" preload="auto" playsinline="" crossorigin="anonymous" loop="true" muted="" autoplay="true" class="blur">
+                <source src="img/background/board2.mp4" type="video/webm">
+                <source src="/img/background/board2.mp4" type="video/mp4">
+            </video>
+            <div id="videoMessage" class="styling">
+                <div class="team-member text-center">
+                    <div class="container">
+                    <div class="row">
+                          <!-- Single team member -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-member">
+                            <div class="team-img">
+                                <a href="#">
+                                    <img src="img/team/t1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="team-content">
+                                <h5><a href="#">Hamilton</a></h5>
+                                <p>Software developer</p>
+                                <ul class="team-hover">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single team member -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-member">
+                            <div class="team-img">
+                                <a href="#">
+                                    <img src="img/team/t2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="team-content">
+                                <h5><a href="#">Timeo poll</a></h5>
+                                <p>Syber security</p>
+                                <ul class="team-hover">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single team member -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-member">
+                            <div class="team-img">
+                                <a href="#">
+                                    <img src="img/team/t3.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="team-content">
+                                <h5><a href="#">Angle Lilou</a></h5>
+                                <p>Server expert</p>
+                                <ul class="team-hover">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single team member -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-member">
+                            <div class="team-img">
+                                <a href="#">
+                                    <img src="img/team/t4.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="team-content">
+                                <h5><a href="#">Louise</a></h5>
+                                <p>Software developer</p>
+                                <ul class="team-hover">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>   
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 @endsection
