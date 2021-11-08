@@ -127,6 +127,12 @@
     .white{
         color: #fff;
     }
+    .pri_table_one{
+        height: calc(400px - 70px);
+    }
+    .pri_table_two{
+        height: calc(300px - 50px);
+    }
 </style>
 <!-- Start breadcumb Area -->
 
@@ -233,7 +239,7 @@
                 <div class="row">
                     <div class="pricing-content">
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="pri_table_list">
+                            <div class="pri_table_list pri_table_one">
                                 <div class="top-price-inner">
                                     <div class="rates">
                                         <span class="prices">Forex</span>
@@ -248,7 +254,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="pri_table_list">
+                            <div class="pri_table_list pri_table_one">
                                 <div class="top-price-inner">
                                     <div class="rates">
                                         <span class="prices">Trading Indices CFDs</span>
@@ -264,7 +270,7 @@
                 <div class="row">
                     <div class="pricing-content">
                         <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="pri_table_list">
+                            <div class="pri_table_list pri_table_two">
                                 <div class="top-price-inner">
                                     <div class="rates">
                                         <span class="prices">Commodities</span>
@@ -276,7 +282,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="pri_table_list">
+                            <div class="pri_table_list pri_table_two">
                                 <div class="top-price-inner">
                                     <div class="rates">
                                         <span class="prices">Equities</span>
@@ -288,7 +294,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="pri_table_list">
+                            <div class="pri_table_list pri_table_two">
                                 <div class="top-price-inner">
                                     <div class="rates">
                                         <span class="prices">Futures</span>
