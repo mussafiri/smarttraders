@@ -447,8 +447,8 @@
         <div class="display-table-cell">
             <div id="cc"></div>
             <div class="container">
-                <div class="row" style="margin-top: 3em;">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
                         <!-- Start Slider content -->
                         <div class="slide-content text-left">
                             <h2 class="title2">Welcome to the next level in <span style="color: #CBA274;">Trading</span></h2>

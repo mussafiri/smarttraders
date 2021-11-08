@@ -127,7 +127,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.6em;
+    font-size: 3.5rem;
     line-height: 46px;
 }
 
@@ -763,7 +763,9 @@ div#preloader {
 }
 
 .slide-content {
-    margin-top: 60px;
+    position: absolute;
+    margin-bottom: 10px;
+    z-index: 1;
 }
 
 .title2 {
@@ -1367,7 +1369,7 @@ span.users {
     font-size: 40px;
     max-width: 840px;
     line-height: 46px;
-    font-weight: 600;
+    /* font-weight: 600; */
     margin: 0 auto 40px;
 }
 
@@ -2244,7 +2246,7 @@ span.users {
     line-height: 36px;
     font-size: 29px;
     position: relative;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .about-content p {
