@@ -314,6 +314,7 @@
     }
     .map-area {
         margin-bottom: 50px;
+        overflow: scroll;
     }
     .deposite-content {
         width: 100%;
