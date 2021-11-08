@@ -40,6 +40,7 @@
     position: relative;
     text-align: center;
     margin-bottom: 30px;
+    height: calc(400px - 10px);
     box-shadow: 0 5px 25px rgb(0 0 0 / 70%);
 }
 
