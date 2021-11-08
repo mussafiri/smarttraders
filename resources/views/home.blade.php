@@ -440,6 +440,9 @@
     .owl-carousel {
         margin-bottom: 15px
     }
+    .page-padding{
+        padding: 120px 0px 110px;
+    }
 </style>
 <!-- Start Intro Area -->
 <div class="slide-area fix" data-stellar-background-ratio="0.6">
