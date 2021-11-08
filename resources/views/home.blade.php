@@ -381,7 +381,8 @@
         position: relative;
         z-index: 1;
     }
-    #videowrapper::after{
+
+    #videowrapper::after {
         background-color: red;
     }
 
@@ -391,30 +392,53 @@
         width: 100vw;
         padding: 0;
         margin: 0;
-        background: rgb(2, 16, 33);;
+        background: rgb(2, 16, 33);
+        ;
         position: relative;
     }
 
     #video {
-        width: 100vw;
+        width: 100%;
         height: auto;
-        margin: auto;
         display: block;
+        margin: auto;
+        position: absolute;
+        /* z-index: -1; */
     }
 
-
-    #videoMessage {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    .overlay-team {
         background: rgb(2, 16, 33);
-        opacity: 0.949;
+        opacity: 0.9;
+        height: auto;
+        /* z-index: 1; */
+    }
+
+    .page-padding-team {
+        padding: 20px 0px -3px;
+        background: rgb(2, 16, 33);
+        opacity: 0.9;
+    }
+
+    .owl-carousel .item {
+        margin: 3px
+    }
+
+    .owl-carousel.owl-item {
+        width: 325px;
+    }
+
+    .owl-carousel .item img {
+        display: block;
+        width: 100%;
+        height: auto
+    }
+
+    .owl-carousel .item {
+        margin: 3px
+    }
+
+    .owl-carousel {
+        margin-bottom: 15px
     }
 </style>
 <!-- Start Intro Area -->
@@ -1166,100 +1190,7 @@
         </div>
     </div>
     <!-- End reviews Area -->
-    <!-- Our Team Area -->
-    <div class="team-page-area page-padding-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="section-headline text-center">
-                        <h3>Our Team</h3>
-                        <p>Help agencies to define their new business objectives and then create professional software.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="team-member text-center">
-                    <!-- Single team member -->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="single-member">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="img/team/t1.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="team-content">
-                                <h5><a href="#">Hamilton</a></h5>
-                                <p>Software developer</p>
-                                <ul class="team-hover">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single team member -->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="single-member">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="img/team/t2.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="team-content">
-                                <h5><a href="#">Timeo poll</a></h5>
-                                <p>Syber security</p>
-                                <ul class="team-hover">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single team member -->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="single-member">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="img/team/t3.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="team-content">
-                                <h5><a href="#">Angle Lilou</a></h5>
-                                <p>Server expert</p>
-                                <ul class="team-hover">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single team member -->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="single-member">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="img/team/t4.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="team-content">
-                                <h5><a href="#">Louise</a></h5>
-                                <p>Software developer</p>
-                                <ul class="team-hover">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Our Team Area -->
+
     <!-- Start FAQ area -->
     <div class="faq-area  area-padding">
         <div class="container">
@@ -1379,97 +1310,208 @@
         </div>
     </div>
     <!-- End FAQ area -->
-    <div id="videowrapper">
-        <div id="fullScreenDiv">
-            <video id="video" role="presentation" preload="auto" playsinline="" crossorigin="anonymous" loop="true" muted="" autoplay="true" class="blur">
-                <source src="img/background/board2.mp4" type="video/webm">
-                <source src="/img/background/board2.mp4" type="video/mp4">
-            </video>
-            <div id="videoMessage" class="styling">
-                <div class="team-member text-center">
-                    <div class="container">
-                    <div class="row">
-                          <!-- Single team member -->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="single-member">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="img/team/t1.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="team-content">
-                                <h5><a href="#">Hamilton</a></h5>
-                                <p>Software developer</p>
-                                <ul class="team-hover">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
-                            </div>
+    <!-- Our Team Area -->
+    <div class="team-page-area page-padding-team">
+        <video id="video" role="presentation" preload="auto" playsinline="" crossorigin="anonymous" loop="true" muted="" autoplay="true" class="blur">
+            <source src="img/background/board2.mp4" type="video/webm">
+            <source src="/img/background/board2.mp4" type="video/mp4">
+        </video>
+        <div class="overlay-team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="text-center">
+                            <h3>Our Board Directors</h3>
+                            <p>Help agencies to define their new business objectives and then create professional software.</p>
                         </div>
                     </div>
-                    <!-- Single team member -->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="single-member">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="img/team/t2.jpg" alt="">
-                                </a>
+                </div>
+                <!-- <div id="videowrapper">
+           <div id="fullScreenDiv"> -->
+                <div class="row" class="styling">
+                    <div class="team-member text-center">
+                        <div class="team-carousel item-indicator">
+                            <!-- Single team member -->
+                            <div class="single-member">
+                                <div class="team-img">
+                                    <a href="#">
+                                        <img src="img/team/t2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="team-content">
+                                    <h5><a href="#">Benjamin Mokobane</a></h5>
+                                    <p>Director Operations <br>South African</p>
+                                    <ul class="team-hover">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="team-content">
-                                <h5><a href="#">Timeo poll</a></h5>
-                                <p>Syber security</p>
-                                <ul class="team-hover">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
+                            <!-- Single team member -->
+                            <div class="single-member">
+                                <div class="team-img">
+                                    <a href="#">
+                                        <img src="img/team/t3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="team-content">
+                                    <h5><a href="#">Gration Kamugisha</a></h5>
+                                    <p>Director Operations <br>Canada</p>
+                                    <ul class="team-hover">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Single team member -->
+                            <div class="single-member">
+                                <div class="team-img">
+                                    <a href="#">
+                                        <img src="img/team/t4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="team-content">
+                                    <h5><a href="#">Martin Tairo</a></h5>
+                                    <p>Director Operations <br>Kenya</p>
+                                    <ul class="team-hover">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Single team member -->
+                            <div class="single-member">
+                                <div class="team-img">
+                                    <a href="#">
+                                        <img src="img/team/t1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="team-content">
+                                    <h5><a href="#">Emmanuel Magashi</a></h5>
+                                    <p>Director:<br>Trade And Investments</p>
+                                    <ul class="team-hover">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Single team member -->
+                            <div class="single-member">
+                                <div class="team-img">
+                                    <a href="#">
+                                        <img src="img/team/t2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="team-content">
+                                    <h5><a href="#">Tumpe Daudi</a></h5>
+                                    <p>Director:<br>Sales And Marketing</p>
+                                    <ul class="team-hover">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Single team member -->
+                            <div class="single-member">
+                                <div class="team-img">
+                                    <a href="#">
+                                        <img src="img/team/t3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="team-content">
+                                    <h5><a href="#">Rev.Joseph A. Maseght</a></h5>
+                                    <p>Director:<br>Corporate Relations</p>
+                                    <ul class="team-hover">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Single team member -->
+                            <div class="single-member">
+                                <div class="team-img">
+                                    <a href="#">
+                                        <img src="img/team/t4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="team-content">
+                                    <h5><a href="#">Sylvanus Clemence</a></h5>
+                                    <p>Director:<br>asset Management</p>
+                                    <ul class="team-hover">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Single team member -->
+                            <div class="single-member">
+                                <div class="team-img">
+                                    <a href="#">
+                                        <img src="img/team/t4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="team-content">
+                                    <h5><a href="#">Ahmed A.S Mkwawa</a></h5>
+                                    <p>Director:<br>Operations</p>
+                                    <ul class="team-hover">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Single team member -->
+                            <div class="single-member">
+                                <div class="team-img">
+                                    <a href="#">
+                                        <img src="img/team/t1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="team-content">
+                                    <h5><a href="#">Steve Ndaula</a></h5>
+                                    <p>Managing Director</p>
+                                    <ul class="team-hover">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Single team member -->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="single-member">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="img/team/t3.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="team-content">
-                                <h5><a href="#">Angle Lilou</a></h5>
-                                <p>Server expert</p>
-                                <ul class="team-hover">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single team member -->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="single-member">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="img/team/t4.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="team-content">
-                                <h5><a href="#">Louise</a></h5>
-                                <p>Software developer</p>
-                                <ul class="team-hover">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>   
-                    </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- End Our Team Area -->
 </div>
+<script>
+    $(document).ready(function() {
+
+        $(".owl-carousel").owlCarousel({
+
+            autoPlay: 3000,
+            items: 4,
+            itemsDesktop: [1199, 3],
+            itemsDesktopSmall: [979, 3],
+            center: true,
+            nav: true,
+            loop: true,
+            responsive: {
+                600: {
+                    items: 4
+                }
+            }
+
+        });
+
+    });
+</script>
 @endsection
