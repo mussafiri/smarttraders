@@ -130,7 +130,7 @@
                             <div class="copyright">
                                 <p>
                                   © 2021
-                                    SmartTrader.com - UNITED ARAB EMIRATES All Rights Reserved
+                                    <a href="">SmartTrader.com</a> - UNITED ARAB EMIRATES
                                 </p>
                             </div>
                         </div>

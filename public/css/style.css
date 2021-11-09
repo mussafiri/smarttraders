@@ -2020,7 +2020,7 @@ span.users {
 }
 
 .footer-area-bottom {
-    padding: 25px 0;
+    padding: 70px 0;
     background: #CCA177;
 }
 
@@ -2036,10 +2036,13 @@ span.users {
 .copyright>p {
     margin-bottom: 0;
     color: #ffffff;
+    font-size: 1.1rem;
 }
 
 .copyright a {
-    color: #E6922E;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 

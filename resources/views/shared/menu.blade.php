@@ -70,8 +70,8 @@
                                   <div class="collapse navbar-collapse" id="navbar-example">
                                       <div class="main-menu">
                                           <ul class="nav navbar-nav navbar-right">
-                                              <li><a href="{{ url('about')}}"> <span class="{{Request::is('about') ? 'active_custom' : null }}">About us</span></a></li>
-                                              <li><a href="{{ url('what_we_do')}}"><span class="{{Request::is('what_we_do') ? 'active_custom' : null }}">What We Do</span></a></li>
+                                              <li><a href="{{ url('about')}}"> <span class="{{Request::is('about') ? 'active_custom' : null }}">About Us</span></a></li>
+                                              <!-- <li><a href="{{ url('what_we_do')}}"><span class="{{Request::is('what_we_do') ? 'active_custom' : null }}">What We Do</span></a></li> -->
                                               <li><a href="{{ url('traders')}}"><span class="{{Request::is('traders') ? 'active_custom' : null }}">Traders</span></a></li>
                                               <li><a href="{{ url('investment')}}"><span class="{{Request::is('investment') ? 'active_custom' : null }}">Investment</span></a></li>
                                               <!-- <li><a  href="{{ url('#')}}">Pages</a>
@@ -90,7 +90,7 @@
                                                             <li><a href="{{ url('blog-details')}}">Blog Details</a></li>
                                                         </ul>
                                                     </li> -->
-                                              <li><a href="{{ url('contact')}}"><span class="{{Request::is('contact') ? 'active_custom' : null }}">contacts</span></a></li>
+                                              <li><a href="{{ url('contact')}}"><span class="{{Request::is('contact') ? 'active_custom' : null }}">Contact Us</span></a></li>
                                           </ul>
                                       </div>
                                   </div>
@@ -116,13 +116,13 @@
                               <ul>
                                   <li><a class="pages" href="{{ url('/')}}">Home</a>
                                   </li>
-                                  <li><a href="{{ url('about')}}">About us</a></li>
-                                  <li><a href="{{ url('investment')}}">What We Do</a></li>
+                                  <li><a href="{{ url('about')}}">About Us</a></li>
+                                  <!-- <li><a href="{{ url('investment')}}">What We Do</a></li> -->
                                   <li><a href="{{ url('traders')}}">Traders</a>
                                   </li>
                                   <li><a href="{{ url('investment')}}">Investment</a>
                                   </li>
-                                  <li><a href="{{ url('contact')}}">contacts</a></li>
+                                  <li><a href="{{ url('contact')}}">Contact Us</a></li>
                               </ul>
                           </nav>
                       </div>

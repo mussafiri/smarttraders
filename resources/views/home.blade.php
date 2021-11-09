@@ -1216,14 +1216,14 @@
                                         <div class="panel-heading">
                                             <h4 class="check-title">
                                                 <a data-toggle="collapse" class="active" data-parent="#accordion" href="#check1">
-                                                    <span class="acc-icons"></span>How to successful our mission and vision
+                                                    <span class="acc-icons"></span>How to successful our mission and vision 
                                                 </a>
                                             </h4>
                                         </div>
                                         <div id="check1" class="panel-collapse collapse in">
                                             <div class="panel-body">
                                                 <p>
-                                                    When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
+                                                <i class="fa fa-reply fa-rotate-180" aria-hidden="true"></i> &nbsp; When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
                                                 </p>
                                             </div>
                                         </div>
@@ -1241,7 +1241,7 @@
                                         <div id="check2" class="panel-collapse collapse">
                                             <div class="panel-body">
                                                 <p>
-                                                    When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
+                                                <i class="fa fa-reply fa-rotate-180" aria-hidden="true"></i> &nbsp; When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
                                                 </p>
                                             </div>
                                         </div>
@@ -1259,7 +1259,7 @@
                                         <div id="check3" class="panel-collapse collapse ">
                                             <div class="panel-body">
                                                 <p>
-                                                    When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
+                                                <i class="fa fa-reply fa-rotate-180" aria-hidden="true"></i> &nbsp; When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
                                                 </p>
                                             </div>
                                         </div>
@@ -1277,7 +1277,7 @@
                                         <div id="check4" class="panel-collapse collapse ">
                                             <div class="panel-body">
                                                 <p>
-                                                    When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
+                                                <i class="fa fa-reply fa-rotate-180" aria-hidden="true"></i> &nbsp; When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
                                                 </p>
                                             </div>
                                         </div>
@@ -1295,7 +1295,7 @@
                                         <div id="check5" class="panel-collapse collapse">
                                             <div class="panel-body">
                                                 <p>
-                                                    When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
+                                                <i class="fa fa-reply fa-rotate-180" aria-hidden="true"></i> &nbsp; When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
                                                 </p>
                                             </div>
                                         </div>
