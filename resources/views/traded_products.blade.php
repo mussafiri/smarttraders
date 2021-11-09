@@ -151,31 +151,28 @@
         border: 1px solid #CCA177;
     }
   
+    .slide-content {
+        top: 15em;
+    }
 </style>
 <!-- Start breadcumb Area -->
-
 <div class="page-area">
     <div class="breadcumb-overlay">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="breadcrumb text-center">
-                        <div class="row">
-                            <div class="col-md-4 col-sm-6 col-xs-12">
-                                <!-- Start Slider content -->
-                                <div class="slide-content text-left">
-                                    <h2 class="title2">Welcome to the next level in <span style="color: #CBA274;">Trading</span></h2>
-                                    <div class="layer-1-3">
-                                        <p class="text-left">Take your trading to the next level with the highest degree of automation for your charting.</p>
-                                    </div>
-                                    <div class="layer-1-3">
-                                        <a href="{{url('/')}}" class="ready-btn left-btn">Register Now</a>
-                                    </div>
-                                </div>
-                                <!-- End Slider content -->
-                            </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <!-- Start Slider content -->
+                    <div class="slide-content text-left">
+                        <h2 class="title2">Welcome to the next level in <span style="color: #CBA274;">Trading</span></h2>
+                        <div class="layer-1-3">
+                            <p class="text-left">Take your trading to the next level with the highest degree of automation for your charting.</p>
+                        </div>
+                        <div class="layer-1-3">
+                            <a href="{{url('/')}}" class="ready-btn left-btn">Register Now</a>
                         </div>
                     </div>
+
+                    <!-- End Slider content -->
                 </div>
             </div>
         </div>
