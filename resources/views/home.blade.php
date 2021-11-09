@@ -473,7 +473,6 @@
                     <div class="wheel"></div>
                 </div>
             </div>
-            <div class="d-sm-none d-md-none" id="triangle-up"></div>
         </div>
     </div>
 </div>

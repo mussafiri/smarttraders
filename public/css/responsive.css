@@ -149,12 +149,12 @@
         object-fit: cover;
     }
     .title2 {
-        font-size: 60px;
+        /* font-size: 60px; */
         line-height: 60px;
         max-width: 600px;
     }
     .slide-content {
-        margin-top: 130px;
+        /* margin-top: 130px; */
     }
     .about-image {
         margin-right: 0px;
@@ -203,7 +203,7 @@
     .slide-area {
         max-height: 620px;
     }
-    .mouse{
+    .mouse {
         display: none;
     }
     .self-content {

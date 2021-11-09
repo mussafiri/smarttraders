@@ -101,7 +101,7 @@
 
     /* vertical spacing between columns */
 
-    .col-pad{
+    .col-pad {
         margin-bottom: 90px;
     }
 
@@ -109,6 +109,188 @@
         height: 100%;
         box-shadow: 0 5px 25px rgb(0 0 0 / 70%);
         border: 1px solid #ccc;
+    }
+
+    .mouse_scroll {
+        display: block;
+        margin: 0 auto;
+        width: 24px;
+        height: 100px;
+    }
+
+    .mouse {
+        height: 42px;
+        width: 24px;
+        border-radius: 14px;
+        transform: none;
+        border: 2px solid #BA9256;
+        position: relative;
+        top: 30em;
+    }
+
+    .wheel {
+        height: 5px;
+        width: 2px;
+        display: block;
+        margin: 5px auto;
+        background: white;
+        position: relative;
+
+        height: 6px;
+        width: 4px;
+        border: 2px solid #BA9256;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+    }
+
+    .wheel {
+        -webkit-animation: mouse-wheel 0.6s linear infinite;
+        -moz-animation: mouse-wheel 0.6s linear infinite;
+        animation: mouse-wheel 0.6s linear infinite;
+    }
+
+    @-webkit-keyframes mouse-wheel {
+        0% {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+            transform: translateY(0);
+        }
+
+        100% {
+            opacity: 0;
+            -webkit-transform: translateY(6px);
+            -ms-transform: translateY(6px);
+            transform: translateY(6px);
+        }
+    }
+
+    @-moz-keyframes mouse-wheel {
+        0% {
+            top: 1px;
+        }
+
+        25% {
+            top: 2px;
+        }
+
+        50% {
+            top: 3px;
+        }
+
+        75% {
+            top: 2px;
+        }
+
+        100% {
+            top: 1px;
+        }
+    }
+
+    @-o-keyframes mouse-wheel {
+
+        0% {
+            top: 1px;
+        }
+
+        25% {
+            top: 2px;
+        }
+
+        50% {
+            top: 3px;
+        }
+
+        75% {
+            top: 2px;
+        }
+
+        100% {
+            top: 1px;
+        }
+    }
+
+    @keyframes mouse-wheel {
+
+        0% {
+            top: 1px;
+        }
+
+        25% {
+            top: 2px;
+        }
+
+        50% {
+            top: 3px;
+        }
+
+        75% {
+            top: 2px;
+        }
+
+        100% {
+            top: 1px;
+        }
+    }
+
+    @-webkit-keyframes mouse-scroll {
+
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .5;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-moz-keyframes mouse-scroll {
+
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .5;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-o-keyframes mouse-scroll {
+
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .5;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes mouse-scroll {
+
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .5;
+        }
+
+        100% {
+            opacity: 1;
+        }
     }
 </style>
 <!-- Start breadcumb Area -->
@@ -130,10 +312,16 @@
                                         <a href="{{url('/')}}" class="ready-btn left-btn">Register Now</a>
                                     </div>
                                 </div>
+
                                 <!-- End Slider content -->
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="mouse_scroll">
+                <div class="mouse">
+                    <div class="wheel"></div>
                 </div>
             </div>
         </div>

@@ -32,6 +32,187 @@
         margin-left: -20em;
         bottom: -49.8em;
     }
+    .mouse_scroll {
+        display: block;
+        margin: 0 auto;
+        width: 24px;
+        height: 100px;
+    }
+
+    .mouse {
+        height: 42px;
+        width: 24px;
+        border-radius: 14px;
+        transform: none;
+        border: 2px solid #BA9256;
+        position: relative;
+        top: 30em;
+    }
+
+    .wheel {
+        height: 5px;
+        width: 2px;
+        display: block;
+        margin: 5px auto;
+        background: white;
+        position: relative;
+
+        height: 6px;
+        width: 4px;
+        border: 2px solid #BA9256;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+    }
+
+    .wheel {
+        -webkit-animation: mouse-wheel 0.6s linear infinite;
+        -moz-animation: mouse-wheel 0.6s linear infinite;
+        animation: mouse-wheel 0.6s linear infinite;
+    }
+
+    @-webkit-keyframes mouse-wheel {
+        0% {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+            transform: translateY(0);
+        }
+
+        100% {
+            opacity: 0;
+            -webkit-transform: translateY(6px);
+            -ms-transform: translateY(6px);
+            transform: translateY(6px);
+        }
+    }
+
+    @-moz-keyframes mouse-wheel {
+        0% {
+            top: 1px;
+        }
+
+        25% {
+            top: 2px;
+        }
+
+        50% {
+            top: 3px;
+        }
+
+        75% {
+            top: 2px;
+        }
+
+        100% {
+            top: 1px;
+        }
+    }
+
+    @-o-keyframes mouse-wheel {
+
+        0% {
+            top: 1px;
+        }
+
+        25% {
+            top: 2px;
+        }
+
+        50% {
+            top: 3px;
+        }
+
+        75% {
+            top: 2px;
+        }
+
+        100% {
+            top: 1px;
+        }
+    }
+
+    @keyframes mouse-wheel {
+
+        0% {
+            top: 1px;
+        }
+
+        25% {
+            top: 2px;
+        }
+
+        50% {
+            top: 3px;
+        }
+
+        75% {
+            top: 2px;
+        }
+
+        100% {
+            top: 1px;
+        }
+    }
+
+    @-webkit-keyframes mouse-scroll {
+
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .5;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-moz-keyframes mouse-scroll {
+
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .5;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-o-keyframes mouse-scroll {
+
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .5;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes mouse-scroll {
+
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .5;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
 </style>
 <!-- Start breadcumb Area -->
 <div class="page-area">
@@ -56,6 +237,11 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="mouse_scroll">
+                <div class="mouse">
+                    <div class="wheel"></div>
                 </div>
             </div>
         </div>
