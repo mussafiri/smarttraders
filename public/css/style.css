@@ -763,7 +763,8 @@ div#preloader {
 }
 
 .slide-content {
-    margin-top: 60px;
+    /* margin-top: 60px; */
+    position: absolute;
 }
 
 .title2 {
@@ -2154,10 +2155,14 @@ span.users {
 }
 
 .page-area {
-    background-image: url('/img/background/trade.jpg');
+    background-image: url('/img/slider/h1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: relative;
 }
 
 .background-img1 {

@@ -201,7 +201,10 @@
         padding: 0px;
     }
     .slide-area {
-        max-height: 420px;
+        max-height: 620px;
+    }
+    .mouse{
+        display: none;
     }
     .self-content {
         padding: 30px 20px 30px 30px;
