@@ -46,7 +46,7 @@
         transform: none;
         border: 2px solid #BA9256;
         position: relative;
-        top: 30em;
+        top: 20em;
     }
 
     .wheel {
