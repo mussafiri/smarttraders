@@ -101,7 +101,7 @@
 
     /* vertical spacing between columns */
 
-    [class*="col-"] {
+    .col-pad{
         margin-bottom: 90px;
     }
 
@@ -202,7 +202,7 @@
         <div class="about-feature-area  area-padding-2">
             <div class="container">
                 <div class="row row-flex">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="col-md-6 col-sm-6 col-xs-12 col-pad">
                         <div class="content colour-1">
                             <div class="mission-about">
                                 <div class="mission-icon">
@@ -215,7 +215,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="col-md-6 col-sm-6 col-xs-12 col-pad">
                         <div class="content colour-2">
                             <div class="mission-about">
                                 <div class="mission-icon">

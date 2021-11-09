@@ -140,7 +140,7 @@
 
     /* vertical spacing between columns */
 
-    [class*="col-"] {
+    .col-pad{
         margin-bottom: 30px;
     }
 
@@ -256,7 +256,7 @@
                     </div>
                 </div>
                 <div class="row row-flex">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="col-md-6 col-sm-6 col-xs-12 col-pad">
                         <div class="content">
                             <div class="top-price-inner">
                                 <div class="rates">
@@ -271,7 +271,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="col-md-6 col-sm-6 col-xs-12 col-pad">
                         <div class="content">
                             <div class="top-price-inner">
                                 <div class="rates">
@@ -285,7 +285,7 @@
                     </div>
                 </div>
                 <div class="row row-flex">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-sm-4 col-xs-12 col-pad">
                         <div class="content">
                             <div class="top-price-inner">
                                 <div class="rates">
@@ -297,7 +297,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-sm-4 col-xs-12 col-pad">
                         <div class="content">
                             <div class="top-price-inner">
                                 <div class="rates">
@@ -309,7 +309,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-sm-4 col-xs-12 col-pad">
                         <div class="content">
                             <div class="top-price-inner">
                                 <div class="rates">
