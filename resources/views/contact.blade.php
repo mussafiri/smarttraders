@@ -30,7 +30,7 @@
         width: 100%;
         height: 1200px;
         margin-left: -20em;
-        bottom: -18.8em;
+        bottom: -49.8em;
     }
 </style>
 <!-- Start breadcumb Area -->
@@ -55,14 +55,16 @@
                                 <!-- End Slider content -->
                             </div>
                         </div>
-                        <ul class="breadcrumb-bg">
-                            <li class="home-bread"><a href="{{url('/')}}">Home</a></li>
-                            <li>Contact Us</li>
-                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="breadcrumb1 text-center">
+                        <ul class="breadcrumb-bg">
+                            <li class="home-bread"><a href="{{url('/')}}">Home</a></li>
+                            <li>Contact Us</li>
+                        </ul>
     </div>
 </div>
 <!-- End breadcumb Area -->

@@ -30,7 +30,7 @@
         width: 100%;
         height: 1200px;
         margin-left: -20em;
-        bottom: -18.8em;
+        bottom: -49.8em;
     }
 
     .title-bg {
@@ -114,24 +114,41 @@
         position: relative;
         bottom: 1em;
     }
-    .background-color1{
-    background: linear-gradient(rgb(0,0,0, 0.6) 50%, transparent);
+
+    .background-color1 {
+        background: linear-gradient(rgb(0, 0, 0, 0.6) 50%, transparent);
     }
-    .section-height{
+
+    .section-height {
         height: 70vh;
     }
-    .sub-title-sm{
-     font-size: 26px;
-     color: #CCA177;
+
+    .sub-title-sm {
+        font-size: 26px;
+        color: #CCA177;
     }
-    .white{
+
+    .white {
         color: #fff;
     }
-    .pri_table_one{
-        height: calc(400px - 70px);
+
+    .row-flex {
+        display: flex;
+        flex-wrap: wrap;
     }
-    .pri_table_two{
-        height: calc(300px - 50px);
+
+
+    /* vertical spacing between columns */
+
+    [class*="col-"] {
+        margin-bottom: 30px;
+    }
+
+    .content {
+        height: 100%;
+        padding: 20px 20px 10px;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 70%);
+        border: 1px solid #CCA177;
     }
 </style>
 <!-- Start breadcumb Area -->
@@ -157,14 +174,16 @@
                                 <!-- End Slider content -->
                             </div>
                         </div>
-                        <ul class="breadcrumb-bg">
-                            <li class="home-bread"><a href="{{url('/')}}">Home</a></li>
-                            <li>Traded Products</li>
-                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="breadcrumb1 text-center">
+        <ul class="breadcrumb-bg">
+            <li class="home-bread"><a href="{{url('/')}}">Home</a></li>
+            <li>Traded Products</li>
+        </ul>
     </div>
 </div>
 <!-- End breadcumb Area -->
@@ -207,23 +226,23 @@
 
         <div class="background-img1">
             <div class="background-color1">
-            <div class="container">
-            <div class="row">
-                   <div class="col-md-12 col-sm-12 col-xs-12 mt-5">
-                        <div class="text-center">
-                            <i class="fa fa-star fa-color te" aria-hidden="true"></i>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12 mt-5">
+                            <div class="text-center">
+                                <i class="fa fa-star fa-color te" aria-hidden="true"></i>
+                            </div>
                         </div>
-                    </div>
-                <div class="col-md-11 col-sm-12 col-xs-12">
-                    <div class="section-height">
-                        <div class="text-left mt-6">
-                            <h6 class="sub-title-sm">Fast. Simple. Powerful. SmartTrader</h6>
-                            <p class="white">With automated Smart Tools, relevant data, widgets, and more. SmartTrader validates your trading decisions and gives you all of the information you need so you can execute trades with confidence.</p>
+                        <div class="col-md-11 col-sm-12 col-xs-12">
+                            <div class="section-height">
+                                <div class="text-left mt-6">
+                                    <h6 class="sub-title-sm">Fast. Simple. Powerful. SmartTrader</h6>
+                                    <p class="white">With automated Smart Tools, relevant data, widgets, and more. SmartTrader validates your trading decisions and gives you all of the information you need so you can execute trades with confidence.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
             </div>
         </div>
         <div class="invest-area  page-padding-2" style="background: rgb(2, 16, 33, 0.06);">
@@ -236,74 +255,70 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="pricing-content">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="pri_table_list pri_table_one">
-                                <div class="top-price-inner">
-                                    <div class="rates">
-                                        <span class="prices">Forex</span>
-                                    </div>
-                                    <span class="per-day">(Foreign Exchange)</span>
+                <div class="row row-flex">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="content">
+                            <div class="top-price-inner">
+                                <div class="rates">
+                                    <span class="prices">Forex</span>
                                 </div>
-                                <p class="pricing-text">
-                                    We Buy and Sell currency pairs on the most popular trading market and exploit the results of world events. With the markets
-                                    reacting to geo-political and economic stimuli every day, it's a great way to speculate on world events.
-                                    Forex Traders buy and sell about $5trn of Forex daily, which creates liquid markets that offers opportunities for all types of traders.
-                                </p>
+                                <span class="per-day">(Foreign Exchange)</span>
                             </div>
+                            <p class="pricing-text">
+                                We Buy and Sell currency pairs on the most popular trading market and exploit the results of world events. With the markets
+                                reacting to geo-political and economic stimuli every day, it's a great way to speculate on world events.
+                                Forex Traders buy and sell about $5trn of Forex daily, which creates liquid markets that offers opportunities for all types of traders.
+                            </p>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="pri_table_list pri_table_one">
-                                <div class="top-price-inner">
-                                    <div class="rates">
-                                        <span class="prices">Trading Indices CFDs</span>
-                                    </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="content">
+                            <div class="top-price-inner">
+                                <div class="rates">
+                                    <span class="prices">Trading Indices CFDs</span>
                                 </div>
-                                <p class="pricing-text">
-                                    We speculate the major markets based on the effects of global trade and the performance of big businesses.
-                                </p>
                             </div>
+                            <p class="pricing-text">
+                                We speculate the major markets based on the effects of global trade and the performance of big businesses.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="pricing-content">
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="pri_table_list pri_table_two">
-                                <div class="top-price-inner">
-                                    <div class="rates">
-                                        <span class="prices">Commodities</span>
-                                    </div>
+                <div class="row row-flex">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="content">
+                            <div class="top-price-inner">
+                                <div class="rates">
+                                    <span class="prices">Commodities</span>
                                 </div>
-                                <p class="pricing-text">
-                                    We trade the world's raw materials including gold, silver, and energy products like crude oil.
-                                </p>
                             </div>
+                            <p class="pricing-text">
+                                We trade the world's raw materials including gold, silver, and energy products like crude oil.
+                            </p>
                         </div>
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="pri_table_list pri_table_two">
-                                <div class="top-price-inner">
-                                    <div class="rates">
-                                        <span class="prices">Equities</span>
-                                    </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="content">
+                            <div class="top-price-inner">
+                                <div class="rates">
+                                    <span class="prices">Equities</span>
                                 </div>
-                                <p class="pricing-text">
-                                    Trade stocks and shares in some of the world's biggest companies and best-known brands. 
-                                </p>
                             </div>
+                            <p class="pricing-text">
+                                Trade stocks and shares in some of the world's biggest companies and best-known brands.
+                            </p>
                         </div>
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="pri_table_list pri_table_two">
-                                <div class="top-price-inner">
-                                    <div class="rates">
-                                        <span class="prices">Futures</span>
-                                    </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="content">
+                            <div class="top-price-inner">
+                                <div class="rates">
+                                    <span class="prices">Futures</span>
                                 </div>
-                                <p class="pricing-text">
-                                    Traders worldwide use us futures to control risk or seek opportunity on changing markets
-                                </p>
                             </div>
+                            <p class="pricing-text">
+                                Traders worldwide use us futures to control risk or seek opportunity on changing markets
+                            </p>
                         </div>
                     </div>
                 </div>

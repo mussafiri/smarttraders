@@ -30,71 +30,86 @@
         width: 100%;
         height: 1200px;
         margin-left: -20em;
-        bottom: -18.8em;
+        bottom: -49.8em;
 
     }
-    .mission-about {
-    border: 1px solid #ccc;
-    padding: 8px 9px;
-    display: block;
-    position: relative;
-    text-align: center;
-    margin-bottom: 30px;
-    height: calc(400px - 10px);
-    box-shadow: 0 5px 25px rgb(0 0 0 / 70%);
-}
 
-.mission-icon {
-    display: block;
-}
+    .mission-icon {
+        display: block;
+    }
 
-.mission-icon i {
-    font-size: 40px;
-    width: 110px;
-    height: 110px;
-    border: 1px solid #CCA177;
-    display: inline-block;
-    text-align: center;
-    line-height: 80px;
-    position: relative;
-    top: -70px;
-    background: #CCA177;
-    color: #fff;
-    border-radius: 50%;
-    transition: 0.4s;
-}
-.about-feature-area{
-    background-color:rgb(2, 16, 33, 0.89);
-}
-.titles-ab{
-    font-size: 40px;
-    font-weight: 700;
-    color: #CCA177;
-    padding-right: 10px;
-    line-height: 40px;
-}
-.about-image .video-play.vid-zone {
-    background: #BA9256;
-    border-radius: 100%;
-    display: inline-block;
-    font-size: 34px;
-    height: 100px;
-    line-height: 96px;
-    width: 100px;
-    overflow: hidden;
-    transition: 0.4s;
-}
+    .mission-icon i {
+        font-size: 40px;
+        width: 110px;
+        height: 110px;
+        border: 1px solid #CCA177;
+        display: inline-block;
+        text-align: center;
+        line-height: 80px;
+        position: relative;
+        top: -120px;
+        background: #CCA177;
+        color: #fff;
+        border-radius: 50%;
+        transition: 0.4s;
+    }
 
-.about-image .video-play.vid-zone i {
-    color: #fff;
-    margin-left: 5px;
-}
+    .mission-text {
+        margin-top: -71px;
+    }
 
-.about-image .video-play.vid-zone:hover {
-    background: #fff;
-    color: #BA9256;
-    transition: 0.4s;
-}
+    .about-feature-area {
+        background-color: rgb(2, 16, 33, 0.89);
+    }
+
+    .titles-ab {
+        font-size: 40px;
+        font-weight: 700;
+        color: #CCA177;
+        padding-right: 10px;
+        line-height: 40px;
+    }
+
+    .about-image .video-play.vid-zone {
+        background: #BA9256;
+        border-radius: 100%;
+        display: inline-block;
+        font-size: 34px;
+        height: 100px;
+        line-height: 96px;
+        width: 100px;
+        overflow: hidden;
+        transition: 0.4s;
+    }
+
+    .about-image .video-play.vid-zone i {
+        color: #fff;
+        margin-left: 5px;
+    }
+
+    .about-image .video-play.vid-zone:hover {
+        background: #fff;
+        color: #BA9256;
+        transition: 0.4s;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    /* vertical spacing between columns */
+
+    [class*="col-"] {
+        margin-bottom: 90px;
+    }
+
+    .content {
+        height: 100%;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 70%);
+        border: 1px solid #ccc;
+    }
 </style>
 <!-- Start breadcumb Area -->
 <div class="page-area">
@@ -102,7 +117,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="breadcrumb text-center">
+                    <div class="breadcrumb text-center">
                         <div class="row">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <!-- Start Slider content -->
@@ -118,14 +133,16 @@
                                 <!-- End Slider content -->
                             </div>
                         </div>
-                        <ul class="breadcrumb-bg">
-                            <li class="home-bread"><a href="{{url('/')}}">Home</a></li>
-                            <li>About Us</li>
-                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="breadcrumb1 text-center">
+        <ul class="breadcrumb-bg">
+            <li class="home-bread"><a href="{{url('/')}}">Home</a></li>
+            <li>About Us</li>
+        </ul>
     </div>
 </div>
 <!-- End breadcumb Area -->
@@ -184,14 +201,12 @@
         <!-- Start About Area -->
         <div class="about-feature-area  area-padding-2">
             <div class="container">
-                <!-- end Row -->
-                <div class="row">
-                    <div class="about-mission">
-                        <!-- Start column -->
-                        <div class="col-md-6 col-sm-4 col-xs-12">
+                <div class="row row-flex">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="content colour-1">
                             <div class="mission-about">
                                 <div class="mission-icon">
-                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
                                 </div>
                                 <div class="mission-text">
                                     <h4 class="titles-ab">Our Vision</h4>
@@ -199,11 +214,12 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Start column -->
-                        <div class="col-md-6 col-sm-4 col-xs-12">
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="content colour-2">
                             <div class="mission-about">
                                 <div class="mission-icon">
-                                <i class="fa fa-rocket" aria-hidden="true"></i>
+                                    <i class="fa fa-rocket" aria-hidden="true"></i>
                                 </div>
                                 <div class="mission-text">
                                     <h4 class="titles-ab">Our Mission</h4>
@@ -211,18 +227,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="mission-about">
-                                <div class="mission-icon">
-                                    <i class="flaticon-023-management"></i>
-                                </div>
-                                <div class="mission-text">
-                                    <h4>Our Experience</h4>
-                                    <p>The phrasal sequence of the Lorem Ipsum text is now so widespread and commonplace that many DTP programme</p>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!-- End column -->
                     </div>
                 </div>
             </div>
