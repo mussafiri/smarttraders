@@ -2161,11 +2161,11 @@ span.users {
     background-image: url('/img/background/b10.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     background-attachment: scroll;
     width: 100%;
     height: 100%;
     z-index: 1;
-    position: relative;
 }
 
 .background-img1 {
@@ -2613,11 +2613,12 @@ span.users {
 .login-page {
     display: block;
     overflow: hidden;
-    border: 1px solid #ccc;
+    /* border: 1px solid #CCA177; */
     width: 50%;
     margin: 0 auto;
     text-align: center;
     border-radius: 3px;
+    box-shadow: 0 5px 25px rgb(0 0 0 / 70%);
 }
 
 .login-form {
