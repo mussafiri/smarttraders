@@ -49,6 +49,9 @@ Route::get('investment', function () {
 Route::get('login', function () {
     return view('auth.login');
 });
+Route::get('reset/password', function () {
+    return view('auth.password.reset');
+});
 Route::get('review', function () {
     return view('review');
 });

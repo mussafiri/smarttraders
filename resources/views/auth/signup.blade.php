@@ -12,7 +12,7 @@
     .screen {
         background: linear-gradient(90deg, #CCA177, #052750);
         position: relative;
-        height: 620px;
+        height: 700px;
         width: auto;
         box-shadow: 0px 0px 24px #BA9256;
         align-content: center;
@@ -69,9 +69,9 @@
 
     .screen__background__shape4 {
         height: 400px;
-        width: 200px;
+        width: 201px;
         background: #031A35;
-        top: 420px;
+        top: 520px;
         right: 50px;
         border-radius: 60px;
     }
@@ -165,7 +165,7 @@
         margin-top: 5px;
         padding: 10px 20px;
         border-radius: 26px;
-        border: 1px solid #BA9256;
+        border: none;
         text-transform: capitalize;
         /* font-weight: 700; */
         display: flex;
@@ -237,6 +237,12 @@
                                             <div class="signup__field">
                                                 <i class="signup__icon fa fa-user" style="opacity: .5;"></i>
                                                 <input type="text" class="signup__input" placeholder="Last Name" required data-error="Please enter your name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 col-sm-12 col-xs-12">
+                                            <div class="signup__field">
+                                                <i class="signup__icon fa fa-envelope"></i>
+                                                <input type="email" class="signup__input" placeholder="Email" required data-error="Please enter your name">
                                             </div>
                                         </div>
                                         <div class="col-md-8 col-sm-12 col-xs-12">

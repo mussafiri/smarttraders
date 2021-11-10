@@ -76,24 +76,24 @@
         border-radius: 60px;
     }
 
-    .login {
+    .reset {
         width: 100%;
         /* padding: 30px; */
-        padding-top: 60px;
+        padding-top: 100px;
     }
 
-    .login__field {
+    .reset__field {
         padding: 20px 0px;
         position: relative;
     }
 
-    .login__icon {
+    .reset__icon {
         position: absolute;
         top: 30px;
         color: #7875B5;
     }
 
-    .login__input {
+    .reset__input {
         border: none;
         border-bottom: 2px solid #D1D1D4;
         background: none;
@@ -104,9 +104,9 @@
         transition: .2s;
     }
 
-    .login__input:active,
-    .login__input:focus,
-    .login__input:hover {
+    .reset__input:active,
+    .reset__input:focus,
+    .reset__input:hover {
         outline: none;
         border-bottom-color: #03152B;
     }
@@ -116,7 +116,7 @@
         color: #fff;
     }
 
-    .social-login {
+    .social-reset {
         position: absolute;
         height: 140px;
         width: 160px;
@@ -132,14 +132,14 @@
         justify-content: center;
     }
 
-    .social-login__icon {
+    .social-reset__icon {
         padding: 20px 10px;
         color: #fff;
         text-decoration: none;
         text-shadow: 0px 0px 8px #7875B5;
     }
 
-    .social-login__icon:hover {
+    .social-reset__icon:hover {
         transform: scale(1.5);
     }
 
@@ -156,12 +156,12 @@
         margin-bottom: 0px;
     }
 
-    .login__submit {
+    .reset__submit {
         background-image: linear-gradient(to right, #603813 0%, #b29f94 51%, #603813 100%);
         box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
     }
 
-    .login__submit {
+    .reset__submit {
         font-size: 14px;
         margin-top: 5px;
         padding: 10px 20px;
@@ -179,7 +179,7 @@
         
     }
 
-    .login__submit:hover {
+    .reset__submit:hover {
         background-position: right center;
         color: #fff;
         text-decoration: none;
@@ -223,45 +223,36 @@
                         <div class="login-page">
                             <div class="screen">
                                 <div class="screen__content">
-                                    <form class="login">
+                                    <form class="reset">
                                         <div class="col-md-12 col-sm-12 col-xs-12 text-left">
-                                            <h3 class="title-h3" style="font-size: 2.5rem;color:#151b2c;padding-bottom:0px">Sign In Now</h3>
-                                            <small style="font-size: 1.1rem;"><i class=" fa fa-info-circle"></i> Sign In for SmartTrade to learning more about SmartTrader platform</small>
+                                            <h3 class="title-h3" style="font-size: 2.5rem;color:#151b2c;padding-bottom:0px">Reset Password</h3>
+                                            <small style="font-size: 1.1rem;"><i class=" fa fa-info-circle"></i> Enter the email address you used when you joined and we will send you temporary password that will need to change.</small>
                                         </div>
                                         <div class="col-md-8 col-sm-12 col-xs-12">
-                                            <div class="login__field">
-                                                <i class="login__icon fa fa-envelope"></i>
-                                                <input type="email" class="login__input" placeholder="Email" required data-error="Please enter your name">
+                                            <div class="reset__field">
+                                                <i class="reset__icon fa fa-envelope"></i>
+                                                <input type="text" class="reset__input" placeholder="Email" required data-error="Please enter your name">
                                             </div>
                                         </div>
                                         <div class="col-md-8 col-sm-12 col-xs-12">
-                                            <div class="login__field">
-                                                <i class="login__icon fa fa-lock"></i>
-                                                <input type="password" class="login__input" placeholder="Password">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-8 col-sm-12 col-xs-12">
-                                            <button class="button login__submit">
-                                                <span class="button__text">Sign In</span>
+                                            <button class="button reset__submit">
+                                                <span class="button__text">Send Link</span>
                                                 <i class="button__icon fa fa-long-arrow-right"></i>
                                             </button>
                                         </div>
                                         <div class="col-md-10 col-sm-12 col-xs-12 button__text_left">
                                             <div class="col-md-12">
-                                                <span><a href="{{url('signup')}}" style="color: #252F4D;">Sign Up ?</a></span>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <span><a href="{{url('reset/password')}}" style="color: #252F4D;">Forgot Password ?</a></span>
+                                                <span><a href="{{url('login')}}" style="color: #252F4D;">Sign In ?</a></span>
                                             </div>
                                         </div>
                                     </form>
-                                    <div class="social-login">
+                                    <div class="social-reset">
                                         <h3 style="font-size: 2.2rem;">SmartTrader</h3>
                                         <div class="social-icons">
-                                            <a href="#" class="social-login__icon fa fa-facebook"></a>
-                                            <a href="#" class="social-login__icon fa fa-twitter"></a>
-                                            <a href="#" class="social-login__icon fa fa-instagram"></a>
-                                            <a href="#" class="social-login__icon fa fa-linkedin"></a>
+                                            <a href="#" class="social-reset__icon fa fa-facebook"></a>
+                                            <a href="#" class="social-reset__icon fa fa-twitter"></a>
+                                            <a href="#" class="social-reset__icon fa fa-instagram"></a>
+                                            <a href="#" class="social-reset__icon fa fa-linkedin"></a>
                                         </div>
                                     </div>
                                 </div>
