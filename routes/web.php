@@ -47,13 +47,13 @@ Route::get('investment', function () {
     return view('investment');
 });
 Route::get('login', function () {
-    return view('login');
+    return view('auth.login');
 });
 Route::get('review', function () {
     return view('review');
 });
 Route::get('signup', function () {
-    return view('signup');
+    return view('auth.signup');
 });
 Route::get('team', function () {
     return view('team');
