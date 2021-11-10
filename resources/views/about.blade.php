@@ -110,6 +110,14 @@
         box-shadow: 0 5px 25px rgb(0 0 0 / 70%);
         border: 1px solid #ccc;
     }
+    .text-left {
+        color: #D4D8E3;
+        padding-right: 15px;
+        padding-bottom: 5px;
+    }
+    .slide-content{
+        margin-top: -80px;
+    }
 </style>
 <!-- Start breadcumb Area -->
 <div class="slide-area-page fix" data-stellar-background-ratio="0.6">
@@ -131,13 +139,6 @@
                         </div>
                         <!-- End Slider content -->
                     </div>
-                </div>
-            </div>
-
-            <div class="mouse_scroll">
-
-                <div class="mouse">
-                    <div class="wheel"></div>
                 </div>
             </div>
         </div>

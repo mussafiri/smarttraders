@@ -30,40 +30,47 @@
         width: 100%;
         height: 1200px;
         margin-left: -20em;
-        bottom: -49.8em;
+        bottom: -45.8em;
     }
    
-    .slide-content {
-        top: 15em;
+    .text-left {
+        color: #D4D8E3;
+        padding-right: 15px;
+        padding-bottom: 5px;
+    }
+    .slide-content{
+        margin-top: -80px;
     }
 </style>
 <!-- Start breadcumb Area -->
-<div class="page-area">
-    <div class="breadcumb-overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <!-- Start Slider content -->
-                    <div class="slide-content text-left">
-                        <h2 class="title2">Welcome to the next level in <span style="color: #CBA274;">Trading</span></h2>
-                        <div class="layer-1-3">
-                            <p class="text-left">Take your trading to the next level with the highest degree of automation for your charting.</p>
+<div class="slide-area-page fix" data-stellar-background-ratio="0.6">
+    <div class="display-table">
+        <div class="display-table-cell">
+            <div id="cc"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <!-- Start Slider content -->
+                        <div class="slide-content text-left">
+                            <h2 class="title2">Welcome to the next level in <span style="color: #CBA274;">Trading</span></h2>
+                            <div class="layer-1-3">
+                                <p class="text-left">Take your trading to the next level with the highest degree of automation for your charting.</p>
+                            </div>
+                            <div class="layer-1-3">
+                                <a href="{{url('signup')}}" class="ready-btn left-btn">Sign Up Now</a>
+                            </div>
                         </div>
-                        <div class="layer-1-3">
-                        <a href="{{url('signup')}}" class="ready-btn left-btn">Sign Up Now</a>
-                        </div>
+                        <!-- End Slider content -->
                     </div>
-
-                    <!-- End Slider content -->
                 </div>
             </div>
         </div>
     </div>
     <div class="breadcrumb1 text-center">
-                        <ul class="breadcrumb-bg">
-                            <li class="home-bread"><a href="{{url('/')}}">Home</a></li>
-                            <li>Contact Us</li>
-                        </ul>
+        <ul class="breadcrumb-bg">
+            <li class="home-bread"><a href="{{url('/')}}">Home</a></li>
+            <li>Contact Us</li>
+        </ul>
     </div>
 </div>
 <!-- End breadcumb Area -->
