@@ -129,6 +129,7 @@ h1 {
 h2 {
     font-size: 2.6em;
     line-height: 46px;
+    font-family: 'Moncler', sans-serif;
 }
 
 h3 {
@@ -749,6 +750,26 @@ div#preloader {
     opacity: 0.95;
 }
 
+.slide-area-page {
+    background: rgba(0, 0, 0, 0) url('/img/background/b10.jpg') no-repeat scroll top center / cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.slide-area-page::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, rgb(2, 16, 33) 50%, transparent 100%);
+    content: "";
+    z-index: -1;
+    opacity: 0.969;
+}
+
 .display-table {
     width: 100%;
     height: 100%;
@@ -769,7 +790,8 @@ div#preloader {
 
 .title2 {
     color: #fff;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    font-family: 'Califonia Bound';
 }
 
 h2.title2 {
@@ -826,6 +848,11 @@ h2.title2:before {
 }
 
 .slide-area .video-content {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.slide-area-page .video-content {
     display: inline-block;
     margin-left: 40px;
 }
@@ -2194,7 +2221,7 @@ span.users {
 
 .breadcrumb-bg {
     position: relative;
-    top: -35px;
+    top: -63px;
     background: #0A1828;
     border-radius: 5px;
     padding: 22px 30px;

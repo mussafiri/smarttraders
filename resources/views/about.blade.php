@@ -30,7 +30,7 @@
         width: 100%;
         height: 1200px;
         margin-left: -20em;
-        bottom: -49.8em;
+        bottom: -45.8em;
 
     }
 
@@ -110,29 +110,34 @@
         box-shadow: 0 5px 25px rgb(0 0 0 / 70%);
         border: 1px solid #ccc;
     }
-
-    .slide-content {
-        top: 15em;
-    }
 </style>
 <!-- Start breadcumb Area -->
-<div class="page-area">
-    <div class="breadcumb-overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <!-- Start Slider content -->
-                    <div class="slide-content text-left">
-                        <h2 class="title2">Welcome to the next level in <span style="color: #CBA274;">Trading</span></h2>
-                        <div class="layer-1-3">
-                            <p class="text-left">Take your trading to the next level with the highest degree of automation for your charting.</p>
+<div class="slide-area-page fix" data-stellar-background-ratio="0.6">
+    <div class="display-table">
+        <div class="display-table-cell">
+            <div id="cc"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <!-- Start Slider content -->
+                        <div class="slide-content text-left">
+                            <h2 class="title2">Welcome to the next level in <span style="color: #CBA274;">Trading</span></h2>
+                            <div class="layer-1-3">
+                                <p class="text-left">Take your trading to the next level with the highest degree of automation for your charting.</p>
+                            </div>
+                            <div class="layer-1-3">
+                                <a href="{{url('signup')}}" class="ready-btn left-btn">Sign Up Now</a>
+                            </div>
                         </div>
-                        <div class="layer-1-3">
-                            <a href="{{url('/')}}" class="ready-btn left-btn">Register Now</a>
-                        </div>
+                        <!-- End Slider content -->
                     </div>
+                </div>
+            </div>
 
-                    <!-- End Slider content -->
+            <div class="mouse_scroll">
+
+                <div class="mouse">
+                    <div class="wheel"></div>
                 </div>
             </div>
         </div>

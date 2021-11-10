@@ -459,7 +459,7 @@
                                 <p class="text-left">Take your trading to the next level with the highest degree of automation for your charting.</p>
                             </div>
                             <div class="layer-1-3">
-                                <a href="{{url('/')}}" class="ready-btn left-btn">Register Now</a>
+                                <a href="{{url('signup')}}" class="ready-btn left-btn">Sign Up Now</a>
                             </div>
                         </div>
                         <!-- End Slider content -->
@@ -474,6 +474,12 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="breadcrumb1 text-center">
+        <ul class="breadcrumb-bg">
+            <li class="home-bread"><a href="{{url('/')}}">Home</a></li>
+            <li>About Us</li>
+        </ul>
     </div>
 </div>
 <!-- End Intro Area -->
