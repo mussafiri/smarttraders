@@ -186,8 +186,9 @@
     .button__text_left{
         text-align: left;
         margin-top: 10px;
-        color: #151b2c;
-        font-size: 1.8rem;
+        color: #252F4D;
+        font-size: 1.7rem;
+        font-weight: 100;
     }
 </style>
 <!-- Start breadcumb Area -->
@@ -240,11 +241,16 @@
                                         <div class="col-md-8 col-sm-12 col-xs-12">
                                             <button class="button login__submit">
                                                 <span class="button__text">Sign Up</span>
-                                                <i class="button__icon fa fa-arrow-right"></i>
+                                                <i class="button__icon fa fa-long-arrow-right"></i>
                                             </button>
                                         </div>
-                                        <div class="col-md-8 col-sm-12 col-xs-12 button__text_left text-left">
-                                            <span><a href="">Sign In ?</a></span>
+                                        <div class="col-md-10 col-sm-12 col-xs-12 button__text_left">
+                                            <div class="col-md-6 ">
+                                              <span><a href="{{url('signup')}}" style="color: #252F4D;">Sign In ?</a></span>
+                                            </div>
+                                            <div class="col-md-6 ">
+                                              <span><a href="" style="color: #252F4D;">Forgot Password ?</a></span>
+                                            </div>
                                         </div>
                                     </form>
                                     <div class="social-login">
