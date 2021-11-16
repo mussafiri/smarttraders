@@ -13,6 +13,7 @@
         margin: 0 auto;
         width: 24px;
         height: 100px;
+        /* border: 2px solid #BA9256; */
     }
 
     .mouse {
@@ -30,9 +31,8 @@
         width: 2px;
         display: block;
         margin: 5px auto;
-        background: white;
+        background: #BA9256;
         position: relative;
-
         height: 6px;
         width: 4px;
         border: 2px solid #BA9256;
@@ -466,20 +466,12 @@
                     </div>
                 </div>
             </div>
-
             <div class="mouse_scroll">
-
-                <div class="mouse">
+               <div class="mouse">
                     <div class="wheel"></div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="breadcrumb1 text-center">
-        <ul class="breadcrumb-bg">
-            <li class="home-bread"><a href="{{url('/')}}">Home</a></li>
-            <li>About Us</li>
-        </ul>
     </div>
 </div>
 <!-- End Intro Area -->

@@ -32,13 +32,14 @@
         margin-left: -20em;
         bottom: -45.8em;
     }
-   
+
     .text-left {
         color: #D4D8E3;
         padding-right: 15px;
         padding-bottom: 5px;
     }
-    .slide-content{
+
+    .slide-content {
         margin-top: -80px;
     }
 </style>
@@ -130,25 +131,36 @@
                             <!-- End Map -->
                         </div>
                         <div class="col-md-6 col-sm-12">
-                            <form id="contactForm" method="POST" action="contact.php" class="contact-form">
+                            @if ($errors->any())
+                            <div class="alert alert-danger" role="alert">
+                                <strong>{{ $errors->first() }}</strong>
+                            </div>
+                            @endif
+                            @if(session()->has('success'))
+                            <div class="alert alert-success">
+                                {{ session()->get('success') }}
+                            </div>
+                            @endif
+                            <form method="POST" action="{{ action('contactUsController@contact_Us_emailSend') }}" class="contact-form">
+                                @csrf
                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
+                                    <input type="text" name="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                                    <input type="email" class="email form-control" name="email" placeholder="Email" required data-error="Please enter your email">
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <input type="text" id="msg_subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
+                                    <input type="text" name="subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <textarea id="message" rows="7" placeholder="Massage" class="form-control" required data-error="Write your message"></textarea>
+                                    <textarea name="texts" rows="7" placeholder="Massage" class="form-control" required data-error="Write your message"></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-                                    <button type="submit" id="submit" class="add-btn contact-btn">Send Message</button>
+                                    <button type="submit" name="submit" class="add-btn contact-btn">Send Message</button>
                                     <div id="msgSubmit" class="h3 text-center hidden"></div>
                                     <div class="clearfix"></div>
                                 </div>
@@ -161,4 +173,11 @@
     </div>
 </div>
 <!-- End Contact Area -->
+<script>
+    window.setTimeout(function() {
+        $(".alert").fadeTo(1000, 0).slideUp(500, function() {
+            $(this).remove();
+        });
+    }, 3000);
+</script>
 @endsection

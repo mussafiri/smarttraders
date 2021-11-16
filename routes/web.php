@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\contactUsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -61,3 +61,4 @@ Route::get('signup', function () {
 Route::get('team', function () {
     return view('team');
 });
+Route::post('contact','contactUsController@contact_Us_emailSend');
