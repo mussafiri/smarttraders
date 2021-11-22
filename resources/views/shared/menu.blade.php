@@ -73,7 +73,7 @@
                                               <li><a href="{{ url('about')}}"> <span class="{{Request::is('about') ? 'active_custom' : null }}">About Us</span></a></li>
                                               <!-- <li><a href="{{ url('what_we_do')}}"><span class="{{Request::is('what_we_do') ? 'active_custom' : null }}">What We Do</span></a></li> -->
                                               <li><a href="{{ url('traders')}}"><span class="{{Request::is('traders') ? 'active_custom' : null }}">Traders</span></a></li>
-                                              <li><a href="{{ url('investment')}}"><span class="{{Request::is('investment') ? 'active_custom' : null }}">Investment</span></a></li>
+                                              <!-- <li><a href="{{ url('investment')}}"><span class="{{Request::is('investment') ? 'active_custom' : null }}">Investment</span></a></li> -->
                                               <!-- <li><a  href="{{ url('#')}}">Pages</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="{{ url('team')}}">team</a></li>
@@ -120,7 +120,7 @@
                                   <!-- <li><a href="{{ url('investment')}}">What We Do</a></li> -->
                                   <li><a href="{{ url('traders')}}">Traders</a>
                                   </li>
-                                  <li><a href="{{ url('investment')}}">Investment</a>
+                                  <!-- <li><a href="{{ url('investment')}}">Investment</a> -->
                                   </li>
                                   <li><a href="{{ url('contact')}}">Contact Us</a></li>
                               </ul>

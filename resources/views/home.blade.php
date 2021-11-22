@@ -537,7 +537,7 @@
                                 <li class="check">Avarage Monthly : 50% </li>
                             </ol>
                             <div class="price-btn blue">
-                                <a class="blue" href="#">Deposite</a>
+                                <!-- <a class="blue" href="#">Deposite</a> -->
                             </div>
                         </div>
                     </div>
@@ -555,7 +555,7 @@
                                 <li class="check">Avarage Monthly :100% </li>
                             </ol>
                             <div class="price-btn blue">
-                                <a class="blue" href="#">Deposite</a>
+                                <!-- <a class="blue" href="#">Deposite</a> -->
                             </div>
                         </div>
                     </div>
@@ -574,7 +574,7 @@
                                 <li class="check">Avarage Monthly : 200% </li>
                             </ol>
                             <div class="price-btn blue">
-                                <a class="blue" href="#">Deposite</a>
+                                <!-- <a class="blue" href="#">Deposite</a> -->
                             </div>
                         </div>
                     </div>
@@ -593,7 +593,7 @@
                                 <li class="check">Avarage Monthly : 250% </li>
                             </ol>
                             <div class="price-btn blue">
-                                <a class="blue" href="#">Deposite</a>
+                                <!-- <a class="blue" href="#">Deposite</a> -->
                             </div>
                         </div>
                     </div>
@@ -1086,7 +1086,7 @@
                             <div class="review-head">
                                 <h3>Our customer say about our company work</h3>
                                 <p>The phrasal sequence of the Lorem Ipsum text is now so widespread and commonplace that many DTP programmes can generate dummy. The phrasal sequence of the Lorem Ipsum text is now so widespread and commonplace that many DTP programmes can generate dummy</p>
-                                <a class="reviews-btn" href="">More reviews</a>
+                                <!-- <a class="reviews-btn" href="">More reviews</a> -->
                             </div>
                         </div>
                     </div>
@@ -1321,7 +1321,7 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="text-center">
-                            <h3>Our Board Directors</h3>
+                            <h3>Our Board  Of  Directors</h3>
                             <p>Help agencies to define their new business objectives and then create professional software.</p>
                         </div>
                     </div>

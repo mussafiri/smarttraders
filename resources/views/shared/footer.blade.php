@@ -84,7 +84,7 @@
                                 <div class="footer-head">
                                     <h4>Account</h4> 
                                     <div class="footer-contacts">
-										<span style="color: #fff;font-size: 20px;font-weight:550">Get Started!</span> <a href="{{url('/')}}" class="ready-btn-footer">Login</a>
+										<span style="color: #fff;font-size: 20px;font-weight:550">Get Started!</span> <a href="{{url('/login')}}" class="ready-btn-footer">Login</a>
 									</div> 
                                 </div>
                             </div>

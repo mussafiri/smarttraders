@@ -253,7 +253,7 @@
                             <h3>Your investment money more safe and secure</h3>
                             <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create. Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create. Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create. </p>
 
-                            <a class="feature-btn" href="#">Get started now</a>
+                            <!-- <a class="feature-btn" href="#">Get started now</a> -->
                         </div>
                     </div>
                 </div>
@@ -267,7 +267,7 @@
                                 <li><a href="#">Digital content marketing online clients plateform</a></li>
                                 <li><a href="#">Safe secure services for you online email account</a></li>
                             </ul>
-                            <a class="feature-btn" href="#">Learn about more</a>
+                            <!-- <a class="feature-btn" href="#">Learn about more</a> -->
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
@@ -285,7 +285,7 @@
                                 <li><a href="#">Digital content marketing online clients plateform</a></li>
                                 <li><a href="#">Safe secure services for you online email account</a></li>
                             </ul>
-                            <a class="feature-btn" href="#">Learn more</a>
+                            <!-- <a class="feature-btn" href="#">Learn more</a> -->
                         </div>
                     </div>
                 </div>
