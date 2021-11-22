@@ -36,6 +36,23 @@
 	   -moz-box-shadow: 0 8px 6px -6px black;
 	        box-shadow: 0 8px 6px -6px black;
 }
+.title-footer{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Califonia Bound';
+    font-size: 1.9rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.title-sm {
+    text-transform: uppercase;
+    margin-top: -25px;
+    font-size: 7px;
+    color: #080E33;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+}
 </style>
 <!-- Start Footer Area -->
 <footer class="footer1">
@@ -48,9 +65,8 @@
                                     <div class="footer-logo">
                                     	<a class="footer-black-logo" href="#"><img src="img/logo/footer-logo2.png" alt=""></a>
                                     </div>
-                                    <p>
-                                        Are you looking for professional advice for your new business. Are you looking for professional advice for your new business. Are you looking for professional advice for your new business.
-                                    </p>
+                                     <h3 class="title-footer">Smart Traders</h3>
+                                     <h5 class="title-sm">unlock the power of analytics</h5>
                                 </div>
                             </div>
                         </div>
