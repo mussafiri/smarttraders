@@ -1,7 +1,7 @@
   <style>
       .active_custom {
-          color: #ffffff;
-          font-weight: 700;
+          color: #BA9256;
+          font-weight: 500;
       }
   </style>
   <header class="header-one">
