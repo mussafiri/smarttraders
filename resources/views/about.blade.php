@@ -172,29 +172,11 @@
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="about-content">
                             <h3>About Us</h3>
-                            <p>We are a private trading and investment company licensed to trade for proprietary account on regulated exchanges (DMCC),
-                                by executing trades of different financial instruments such as FOREX, STOCKS, INDICES,
-                                FUTURES AND COMODITIES as well as diversify its own capital in Real estates as one of asset management of the company.
+                            <p>We are a privately-owned capital management company built by a large network of 
+                                regulated trading partners and professional investment managers that are working 
+                                from our trading floor that manage investment portfolio in different financial assets. 
                                 <br><br>
                             </p>
-                            <p id="read_more">
-                                We use innovative approach in diversifying our portfolio and create sustainable income for our clients.
-                                With all the ongoing uncertainty in the world of finance brought about by different variables,
-                                one must seek alternatives that provide assurance and ease of mind. To provide this to our clients
-                                We have professional traders in our floor dedicated to manage and trade company funds and generate sustainable income for the company. <br> <br>
-
-                                We trade with regulated brokers with insurance of our trading accounts to avoid losses associated in in trading due to different environmental
-                                factors. Investing can be time consuming and needs a lot of research and dedication, with our company, our clients have their
-                                funds managed by our experts and professionals with minimal risk and safety.
-                            </p>
-                            <!-- <div class="about-details">
-                                <ul class="marker-list">
-									<li>The phrasal sequence of the Lorem Ipsum text.</li>
-									<li>ducimus adipisci voluptas consectetur adipisicing.</li>
-									<li>consectetur adipisicing elit praesentium maxime.</li>
-									<li>programmes can generate dummy text using..</li>
-								</ul>
-                            </div> -->
                         </div>
                     </div>
                     <!-- column end -->
@@ -215,7 +197,7 @@
                                 </div>
                                 <div class="mission-text">
                                     <h4 class="titles-ab">Our Vision</h4>
-                                    <p>We are committed to providing strategic investment solutions to stakeholders through our values of trust, respect, and fairness, commitment to excellence, innovation, and customer satisfaction. We believe that the key to success, both yours and ours is building long term relationships and to make it easy for investors who want to grow their portfolios in asset management such as real estates and other financial instruments as we manage risk and maintain sustainable income in long term. </p>
+                                    <p>To become the best trading hub of financial instruments and traders’ floor who manage funds and risk associated in trading to achieve consistent profitable trades in global financial market. </p>
                                 </div>
                             </div>
                         </div>
@@ -228,7 +210,7 @@
                                 </div>
                                 <div class="mission-text">
                                     <h4 class="titles-ab">Our Mission</h4>
-                                    <p>To become the best capital management bridge between individual or intuitional investors and the global online financial products offered by regulated brokers and managed by professional experts to grow our client’s investments in a way that harnesses traditional and new age opportunities that generate consistent profits. </p>
+                                    <p>To harness traditional and new age opportunities and enhance the use of technology in creating innovative investment solutions that make our clients’ investment safe and earn above average market returns.</p>
                                 </div>
                             </div>
                         </div>
@@ -237,61 +219,6 @@
             </div>
         </div>
         <!-- End About Area -->
-        <!-- Start Feature Area -->
-        <div class="feature-area  fix area-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="feature-content">
-                            <div class="feature-images">
-                                <img src="img/feature/f1.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="feature-text">
-                            <h3>Your investment money more safe and secure</h3>
-                            <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create. Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create. Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create. </p>
-
-                            <!-- <a class="feature-btn" href="#">Get started now</a> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="row margin-row">
-                    <div class="col-md-6 col-sm-6 hidden-xs">
-                        <div class="feature-text">
-                            <h3>Risk free investment system of our policy</h3>
-                            <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create</p>
-                            <ul>
-                                <li><a href="#">Innovation idea latest business tecnology</a></li>
-                                <li><a href="#">Digital content marketing online clients plateform</a></li>
-                                <li><a href="#">Safe secure services for you online email account</a></li>
-                            </ul>
-                            <!-- <a class="feature-btn" href="#">Learn about more</a> -->
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="overview-images">
-                            <canvas id="bissChart" width="300" height="240"></canvas>
-                        </div>
-                    </div>
-                    <!-- End Column -->
-                    <div class="hidden-md hidden-lg hidden-sm col-xs-12">
-                        <div class="feature-text">
-                            <h3>Easily grow your business earn more money</h3>
-                            <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create</p>
-                            <ul>
-                                <li><a href="#">Innovation idea latest business tecnology</a></li>
-                                <li><a href="#">Digital content marketing online clients plateform</a></li>
-                                <li><a href="#">Safe secure services for you online email account</a></li>
-                            </ul>
-                            <!-- <a class="feature-btn" href="#">Learn more</a> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Feature Area -->
     </div>
 </div>
 

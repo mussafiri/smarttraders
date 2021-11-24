@@ -71,9 +71,9 @@
                                       <div class="main-menu">
                                           <ul class="nav navbar-nav navbar-right">
                                               <li><a href="{{ url('about')}}"> <span class="{{Request::is('about') ? 'active_custom' : null }}">About Us</span></a></li>
-                                              <!-- <li><a href="{{ url('what_we_do')}}"><span class="{{Request::is('what_we_do') ? 'active_custom' : null }}">What We Do</span></a></li> -->
-                                              <li><a href="{{ url('traders')}}"><span class="{{Request::is('traders') ? 'active_custom' : null }}">Traders</span></a></li>
-                                              <!-- <li><a href="{{ url('investment')}}"><span class="{{Request::is('investment') ? 'active_custom' : null }}">Investment</span></a></li> -->
+                                              <li><a href="{{ url('what_we_do')}}"><span class="{{Request::is('what_we_do') ? 'active_custom' : null }}">What We Do</span></a></li>
+                                              <li><a href="{{ url('traders')}}"><span class="{{Request::is('traders') ? 'active_custom' : null }}">Assets</span></a></li>
+                                              <li><a href="{{ url('team')}}"><span class="{{Request::is('team') ? 'active_custom' : null }}">Team</span></a></li>
                                               <!-- <li><a  href="{{ url('#')}}">Pages</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="{{ url('team')}}">team</a></li>
