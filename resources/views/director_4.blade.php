@@ -12,11 +12,11 @@
     }
 
     #circle-shape-example .curve {
-        width: 33%;
+        width: 43%;
         height: auto;
         min-width: 150px;
-        margin-right: 2rem;
-        float: left;
+        margin-left: 2rem;
+        float: right;
         border-radius: 50%;
         -webkit-shape-outside: circle();
         shape-outside: circle();
@@ -275,6 +275,61 @@ font-family: 'Califonia Bound';
     width: 10%;
     border-bottom: 2px solid #CBA274;
 }
+.sidebar-side {
+    margin-bottom: 40px;
+}
+.sidebar-page-container .sidebar {
+    position: relative;
+    padding: 45px 45px 0px;
+    border: 2px solid #f3f3f3;
+}
+.sidebar-page-container .sidebar.default-sidebar {
+    border: none;
+    padding: 0px;
+}
+.sidebar-widget {
+    position: relative;
+    margin-bottom: 40px;
+}
+.blog-cat {
+    position: relative;
+    /* border: 1px solid #C4C4C4; */
+}
+.blog-cat li a {
+    position: relative;
+    color: rgba(209, 228, 240);
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+    padding: 18px 15px 18px 38px;
+    border: 1px solid #C4C4C4;
+    transition: all 500ms ease;
+    border-radius: 10px;
+    background: rgb(2, 16, 33, .62);
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    font-family: 'Raleway', sans-serif;
+}
+.blog-cat li a:before {
+    position: absolute;
+    content: '\f105';
+    right: 22px;
+    top: 15px;
+    color: rgba(209, 228, 240, .29);
+    font-size: 18px;
+    font-family: 'FontAwesome';
+}
+.blog-cat li.active a, .blog-cat li a:hover {
+    color: #fff;
+    background-color: rgba(209, 228, 240, .39);
+    border: none;
+}
+.hide{
+    display: none;
+}
 </style>
 <!-- Start breadcumb Area -->
 <div class="rev_slider_wrapper">
@@ -328,86 +383,23 @@ font-family: 'Califonia Bound';
                 </div>
                 <div class="row row-flex">
                     <!-- Single team member -->
-                    <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
-                        <div class="single-member-team">
-                            <div id="circle-shape-example">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/kiwifruit-on-a-plate.jpg" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
-                                <h3 class="titles-team">Saleh Ismail Alzarooni</h3>
-                                <?php $descriction_1 = "Saleh is the Chairman of BCM Holdings. He is a renowned Economist and a formidable leader with over 25 years of experience in leading various businesses. During this period, Saleh developed extensive business relations and network with several Gulf and African nations, investors, and moguls in both private and public sectors. Saleh has been working as the private office manager of His Excellence Sheikh Marwan Bin Mohammed Bin Rashid Al Maktoum for over two decades. In this capacity, Saleh works closely with His Highness and has conducted multiple successful business activities on behalf of His Excellence Sheikh Maktoum. His expansive diplomatic skills as well as his superlative attention to details has brought major success in many companies."; ?>
-                                <p style="color: rgba(209, 228, 240);">
-                                    {{ \Illuminate\Support\Str::limit($descriction_1, 200, '...') }}
-                                </p>
-                            </div>
-                            <a class='animated-arrow' href="{{url('Saleh/Alzarooni')}}">
-                                <span class='the-arrow -left'>
-                                    <span class='shaft'></span>
-                                </span>
-                                <span class='main'>
-                                    <span class='text'>
-                                        Read More
-                                    </span>
-                                    <span class='the-arrow -right'>
-                                        <span class='shaft'></span>
-                                    </span>
-                                </span>
-                            </a>
+                    <!--Sidebar Side-->
+                        <div class="sidebar-side col-md-4 col-sm-6 col-xs-12">
+                            <aside class="sidebar default-sidebar">
+                                   <!--Blog Category Widget-->
+                                <div class="sidebar-widget sidebar-blog-category">
+                                <ul class="blog-cat">
+                                        <li class="{{ Request::is('Saleh/Alzarooni') ? 'active' : '' }}"><a  href="{{url('Saleh/Alzarooni')}}">Saleh Ismail Alzarooni</a></li>
+                                        <li class="{{ Request::is('Mike/Sallu') ? 'active' : '' }}"><a  href="{{url('Mike/Sallu')}}">Mike Sallu</a></li>
+                                        <li class="{{ Request::is('Steven/Ndaula') ? 'active' : '' }}"><a href="{{url('Steven/Ndaula')}}">Steven Ndaula</a></li>
+                                        <li class="{{ Request::is('Ammer/Alhariri') ? 'active' : '' }}"><a href="{{url('Ammer/Alhariri')}}">Ammer Alhariri</a></li>
+                                        <li class="{{ Request::is('Anthnony/Witherspoon') ? 'active' : '' }}"><a href="{{url('Anthnony/Witherspoon')}}">Dr. Anthony Witherspoon</a></li>
+                                    </ul>
+                                </div>
+                            </aside>
                         </div>
-                    </div>
                     <!-- Single team member -->
-                    <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
-                        <div class="single-member-team">
-                            <div id="circle-shape-example">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/kiwifruit-on-a-plate.jpg" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
-                                <h3 class="titles-team">Mike Sallu</h3>
-                                <?php $descriction_2 = "Mike is the Deputy Chairman of BCM Holdings. He is a Fellow Certified Public Accountant and holds BCom and MA degrees. He is a renowned consultant and a multiskilled business leader, and he possesses significant experience of leading the board agenda. In addition to being the deputy chairman of BCM Holdings, he is the Chairman of UAP Insurance Kenya Limited, Ecobank Tanzania Limited, and Claritas International. He also sits on the boards of UAP Insurance Tanzania, UAP Insurance Rwanda, and Geno Services Limited. Previously, Michael worked for PricewaterhouseCoopers (PwC) for 24 years. He served 15 of those years as Partner and Director, and he was a Governance Board Member of PwC Africa and PwC Africa Central for a combined period of 6 years."; ?>
-                                <p style="color: rgba(209, 228, 240);">
-                                    {{ \Illuminate\Support\Str::limit($descriction_2, 200, '...') }}
-                                </p>
-                            </div>
-                            <a class='animated-arrow' href="{{url('Mike/Sallu')}}">
-                                <span class='the-arrow -left'>
-                                    <span class='shaft'></span>
-                                </span>
-                                <span class='main'>
-                                    <span class='text'>
-                                        Read More
-                                    </span>
-                                    <span class='the-arrow -right'>
-                                        <span class='shaft'></span>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Single team member -->
-                    <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
-                        <div class="single-member-team">
-                            <div id="circle-shape-example">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/kiwifruit-on-a-plate.jpg" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
-                                <h3 class="titles-team">Steven Ndaula</h3>
-
-                                <?php $descriction_3 = "Steven is the President and founder of the BCM Holdings. He is a professional master trader of online financial instruments with securities and investment accreditation from the Chartered Institute for Securities and Investment (CISI), and investments and trading certification from Knightsbridge Trading Academy and London Stock Exchange Group. He also trained in medicine and surgery with the International Medical and Technology University (IMTU) for 3 years. Steven has five (5) years of experience in trading online financial instruments such forex, stocks, indices, commodities, futures, and cryptocurrencies. He also has extensive experience in risk management, strategy, and long-term investments decision making. Steven is an astute entrepreneur who left medical profession to build a career in trading, and has established businesses in the UAE, Canada, South Africa, Tanzania, and Kenya. "; ?>
-                                <p style="color: rgba(209, 228, 240);">
-                                    {{ \Illuminate\Support\Str::limit($descriction_3, 200, '...') }}
-                                </p>
-                            </div>
-                            <a class='animated-arrow' href="{{url('Steven/Ndaula')}}">
-                                <span class='the-arrow -left'>
-                                    <span class='shaft'></span>
-                                </span>
-                                <span class='main'>
-                                    <span class='text'>
-                                        Read More
-                                    </span>
-                                    <span class='the-arrow -right'>
-                                        <span class='shaft'></span>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Single team member -->
-                    <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
+                    <div class="col-md-8 col-sm-12 col-xs-12 mb-3">
                         <div class="single-member-team">
                             <div id="circle-shape-example">
                                 <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/kiwifruit-on-a-plate.jpg" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
@@ -415,51 +407,12 @@ font-family: 'Califonia Bound';
 
                                 <?php $descriction_4 = "Ameer is a Registered Arbitrator in the UAE since 2010, and he is the owner of Bait Aljouda Consultation and Training (BACT). He holds a BSc in Law from the University of Damascus, Syria. Among other things, BACT is a Training Center in Dubai with KHDA educational permit and provides many courses in different fields. BACT is also recognized provider by UK awarding body to deliver TQUK qualification, and as a registered agent for trademark in UAE, it works with many agents worldwide in registration of trademarks in deferent countries."; ?>
                                 <p style="color: rgba(209, 228, 240);">
-                                    {{ \Illuminate\Support\Str::limit($descriction_4, 200, '...') }}
+                                    {{ $descriction_4}}
                                 </p>
                             </div>
-                            <a class='animated-arrow' href="{{url('Ammer/Alhariri')}}">
-                                <span class='the-arrow -left'>
-                                    <span class='shaft'></span>
-                                </span>
-                                <span class='main'>
-                                    <span class='text'>
-                                        Read More
-                                    </span>
-                                    <span class='the-arrow -right'>
-                                        <span class='shaft'></span>
-                                    </span>
-                                </span>
-                            </a>
                         </div>
                     </div>
-                    <!-- Single team member -->
-                    <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
-                        <div class="single-member-team">
-                            <div id="circle-shape-example">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/kiwifruit-on-a-plate.jpg" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
-                                <h3 class="titles-team">Dr. Anthony Witherspoon </h3>
-
-                                <?php $descriction_5 = "Anthony is a sought-after public speaker and owner of Sankofa Academy and Safeguard Insurance. In a historical accomplishment, he became Mayor of the City of Magnolia, Mississippi on July 1, 2014. He is a skilled administrative leader and consultant in both government and private sectors in the U.S. He previously served as the Vice President of the Mississippi State Conference of the NAACP, he was the President of the Mississippi Conference of Black Mayors, and the President of the Mississippi Black Caucus of Local Elected Officials. He was also a Board member of Beecham Memorial Hospital and Freedom Behavioral Health. He holds BSc in Business Administration and a Master’s degree in Public Administration from Belhaven University, and he has a Ph.D. from Jackson State University."; ?>
-                                <p style="color: rgba(209, 228, 240);">
-                                    {{ \Illuminate\Support\Str::limit($descriction_5, 200, '...') }}
-                                </p>
-                            </div>
-                            <a class='animated-arrow' href="{{url('Anthnony/Witherspoon')}}">
-                                <span class='the-arrow -left'>
-                                    <span class='shaft'></span>
-                                </span>
-                                <span class='main'>
-                                    <span class='text'>
-                                        Read More
-                                    </span>
-                                    <span class='the-arrow -right'>
-                                        <span class='shaft'></span>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
+                    <!--End Single team member -->
                 </div>
             </div>
         </div>

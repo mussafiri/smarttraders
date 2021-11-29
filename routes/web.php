@@ -22,8 +22,11 @@ Route::get('about', function () {
 Route::get('what_we_do', function () {
     return view('what_we_do');
 });
-Route::get('traders', function () {
-    return view('traded_products');
+Route::get('asset', function () {
+    return view('asset_management');
+});
+Route::get('/asset/under_management', function () {
+    return view('asset_under_management');
 });
 Route::get('blog-details', function () {
     return view('blog-details');
@@ -60,5 +63,20 @@ Route::get('signup', function () {
 });
 Route::get('team', function () {
     return view('team');
+});
+Route::get('Saleh/Alzarooni', function () {
+    return view('director_1');
+});
+Route::get('Mike/Sallu', function () {
+    return view('director_2');
+});
+Route::get('Steven/Ndaula', function () {
+    return view('director_3');
+});
+Route::get('Ammer/Alhariri', function () {
+    return view('director_4');
+});
+Route::get('Anthnony/Witherspoon', function () {
+    return view('director_5');
 });
 Route::post('contact','contactUsController@contact_Us_emailSend');

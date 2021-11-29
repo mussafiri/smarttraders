@@ -185,7 +185,7 @@
 
 @media (max-width: 767px) {
     .container {
-        width: 300px
+        /* width: 300px */
     }
     .logo {
         height: inherit;

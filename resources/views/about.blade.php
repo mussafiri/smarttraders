@@ -118,39 +118,65 @@
     .slide-content{
         margin-top: -80px;
     }
+    .rev_slider .slotholder:after, .rev_slider .slotholder:before{
+ width: 100%;
+ height: 100%;
+ content: "";
+ position: absolute;
+ top: 0;
+ pointer-events: none;
+ background: radial-gradient( circle at top right, rgb( 0, 0, 0, 0.02) , rgb(2, 16, 33, .7) 60%)
+}
+.title-1{
+font-family: 'Califonia Bound';
+}
+.title-under:before {
+    content: "";
+    position: absolute;
+    margin-left: 0.2em;
+    top: 105.2%;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 10%;
+    border-bottom: 2px solid #CBA274;
+}
 </style>
 <!-- Start breadcumb Area -->
-<div class="slide-area-page fix" data-stellar-background-ratio="0.6">
-    <div class="display-table">
-        <div class="display-table-cell">
-            <div id="cc"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-12 col-xs-12">
-                        <!-- Start Slider content -->
-                        <div class="slide-content text-left">
-                            <h2 class="title2">Welcome to the next level in <span style="color: #CBA274;">Trading</span></h2>
-                            <div class="layer-1-3">
-                                <p class="text-left">Take your trading to the next level with the highest degree of automation for your charting.</p>
-                            </div>
-                            <div class="layer-1-3">
-                                <a href="{{url('signup')}}" class="ready-btn left-btn">Sign Up Now</a>
-                            </div>
-                        </div>
-                        <!-- End Slider content -->
-                    </div>
+<div class="rev_slider_wrapper">
+    <div class="rev_slider" data-version="5.0">
+        <ul class="slotholder">
+            <li data-transition="fade" data-thumb="{{asset('img/background/b12.jpg')}}">
+
+                <img src="{{asset('img/background/b12.jpg')}}" alt="">
+                <div class="tp-caption rectangle-text" data-x="left" data-y="215" data-speed="700" data-start="1200" data-transform_in="o:0;x:-100;s:300;" data-transform_out="o:0;x:-100;s:300;">
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="breadcrumb1 text-center">
-        <ul class="breadcrumb-bg">
-            <li class="home-bread"><a href="{{url('/')}}">Home</a></li>
-            <li>About Us</li>
+
+                <div class="tp-caption title-1" data-x="left" data-y="255" data-speed="700" data-start="1200" data-transform_in="o:0;x:-100;s:300;" data-transform_out="o:0;x:-100;s:300;">
+                    Welcome To
+                </div>
+                <div class="tp-caption title-1" data-x="left" data-y="290" data-speed="700" data-start="1200" data-transform_in="o:0;x:-100;s:300;" data-transform_out="o:0;x:-100;s:300;">
+                    The Next Level
+                </div>
+                <div class="tp-caption title-1 title-under" data-x="left" data-y="330" data-speed="700" data-start="1200" data-transform_in="o:0;x:-100;s:300;" data-transform_out="o:0;x:-100;s:300;">
+                    In <span style="color: #CBA274;">Trading</span>
+                </div>
+                <div class="tp-caption text" data-x="left" data-y="370" data-speed="700" data-start="1200" data-transform_in="o:0;x:-100;s:300;" data-transform_out="o:0;x:-100;s:300;">
+                    Take your trading to the next level with
+                </div>
+                <div class="tp-caption text" data-x="left" data-y="390" data-speed="700" data-start="1200" data-transform_in="o:0;x:-100;s:300;" data-transform_out="o:0;x:-100;s:300;">
+                    the highest degree of automation for
+                </div>
+                <div class="tp-caption text" data-x="left" data-y="410" data-speed="700" data-start="1200" data-transform_in="o:0;x:-100;s:300;" data-transform_out="o:0;x:-100;s:300;">
+                    your charting.
+                </div>
+                <div class="tp-caption" data-x="left" data-y="450" data-speed="700" data-start="1350" data-transform_in="o:0;y:100;s:300;" data-transform_out="o:0;y:100;s:300;">
+                    <a class="btn btn-default btn-lg" href="{{'/services'}}">Home</a>
+                </div>
+            </li>
         </ul>
-    </div>
-</div>
-<!-- End breadcumb Area -->
+    </div><!-- rev_slider -->
+</div><!-- rev_slider_wrapper -->
 <!-- about-area start -->
 <div class="overlay-color" id="overlay"></div>
 <div class="background-color">

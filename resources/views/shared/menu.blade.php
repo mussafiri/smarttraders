@@ -52,10 +52,10 @@
                               <div class="logo">
                                   <!-- Brand -->
                                   <a class="navbar-brand page-scroll white-logo" href="{{ url('/')}}">
-                                      <img src="img/logo/logov1.png" height="50" alt="">
+                                      <img src="{{asset('img/logo/logov1.png')}}" height="50" alt="">
                                   </a>
                                   <a class="navbar-brand page-scroll black-logo" href="{{ url('/')}}">
-                                      <img src="img/logo/logov1.png" alt="">
+                                      <img src="{{asset('img/logo/logov1.png')}}" alt="">
                                   </a>
                               </div>
                               <!-- logo end -->
@@ -63,7 +63,7 @@
                           <div class="col-md-10 col-sm-10">
                               <div class="header-right-link">
                                   <!-- search option end -->
-                                  <a class="s-menu" href="{{ url('login')}}">Login</a>
+                                  <!-- <a class="s-menu" href="{{ url('login')}}">Login</a> -->
                               </div>
                               <!-- mainmenu start -->
                               <nav class="navbar navbar-default">
@@ -72,24 +72,8 @@
                                           <ul class="nav navbar-nav navbar-right">
                                               <li><a href="{{ url('about')}}"> <span class="{{Request::is('about') ? 'active_custom' : null }}">About Us</span></a></li>
                                               <li><a href="{{ url('what_we_do')}}"><span class="{{Request::is('what_we_do') ? 'active_custom' : null }}">What We Do</span></a></li>
-                                              <li><a href="{{ url('traders')}}"><span class="{{Request::is('traders') ? 'active_custom' : null }}">Assets</span></a></li>
+                                              <li><a href="{{ url('asset')}}"><span class="{{Request::is('asset') ? 'active_custom' : null }}">Assets</span></a></li>
                                               <li><a href="{{ url('team')}}"><span class="{{Request::is('team') ? 'active_custom' : null }}">Team</span></a></li>
-                                              <!-- <li><a  href="{{ url('#')}}">Pages</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="{{ url('team')}}">team</a></li>
-                                                            <li><a href="{{ url('faq')}}">FAQ</a></li>
-                                                            <li><a href="{{ url('review')}}">Reviews</a></li>
-                                                            <li><a href="{{ url('login')}}">Login</a></li>
-                                                            <li><a href="{{ url('signup')}}">Register</a></li>
-                                                        </ul>
-                                                    </li> -->
-                                              <!-- <li><a  href="{{ url('#')}}">Blog</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="{{ url('blog')}}">Blog grid</a></li>
-                                                            <li><a href="{{ url('blog-sidebar')}}">Blog Sidebar</a></li>
-                                                            <li><a href="{{ url('blog-details')}}">Blog Details</a></li>
-                                                        </ul>
-                                                    </li> -->
                                               <li><a href="{{ url('contact')}}"><span class="{{Request::is('contact') ? 'active_custom' : null }}">Contact Us</span></a></li>
                                           </ul>
                                       </div>
@@ -110,19 +94,17 @@
                   <div class="col-md-12">
                       <div class="mobile-menu">
                           <div class="logo">
-                              <a href="{{ url('/')}}"><img src="img/logo/logov1.png" alt="" /></a>
+                              <a href="{{ url('/')}}"><img src="{{asset('img/logo/logov1.png')}}" alt="" /></a>
                           </div>
                           <nav id="dropdown">
                               <ul>
                                   <li><a class="pages" href="{{ url('/')}}">Home</a>
                                   </li>
-                                  <li><a href="{{ url('about')}}">About Us</a></li>
-                                  <!-- <li><a href="{{ url('investment')}}">What We Do</a></li> -->
-                                  <li><a href="{{ url('traders')}}">Traders</a>
-                                  </li>
-                                  <!-- <li><a href="{{ url('investment')}}">Investment</a> -->
-                                  </li>
-                                  <li><a href="{{ url('contact')}}">Contact Us</a></li>
+                                  <li><a href="{{ url('about')}}"> <span class="{{Request::is('about') ? 'active_custom' : null }}">About Us</span></a></li>
+                                  <li><a href="{{ url('what_we_do')}}"><span class="{{Request::is('what_we_do') ? 'active_custom' : null }}">What We Do</span></a></li>
+                                  <li><a href="{{ url('asset')}}"><span class="{{Request::is('asset') ? 'active_custom' : null }}">Assets</span></a></li>
+                                  <li><a href="{{ url('team')}}"><span class="{{Request::is('team') ? 'active_custom' : null }}">Team</span></a></li>
+                                  <li><a href="{{ url('contact')}}"><span class="{{Request::is('contact') ? 'active_custom' : null }}">Contact Us</span></a></li>
                               </ul>
                           </nav>
                       </div>

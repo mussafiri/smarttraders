@@ -63,7 +63,7 @@
                             <div class="footer-content logo-footer">
                                 <div class="footer-head">
                                     <div class="footer-logo">
-                                    	<a class="footer-black-logo" href="#"><img src="img/logo/footer-logo2.png" alt=""></a>
+                                    	<a class="footer-black-logo" href="#"><img src="{{asset('img/logo/footer-logo2.png')}}" alt=""></a>
                                     </div>
                                      <h3 class="title-footer">Smart Traders</h3>
                                      <h5 class="title-sm">unlock the power of analytics</h5>
