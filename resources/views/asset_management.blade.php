@@ -120,7 +120,7 @@
     }
 
     .section-height {
-        height: 50vh;
+        height: 100%;
     }
 
     .sub-title-sm {
