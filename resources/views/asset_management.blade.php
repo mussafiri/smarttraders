@@ -30,7 +30,6 @@
         width: 100%;
         height: 1200px;
         margin-left: -20em;
-        bottom: -45.8em;
     }
 
     .title-bg {
