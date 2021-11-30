@@ -440,44 +440,297 @@
     .owl-carousel {
         margin-bottom: 15px
     }
-    .page-padding{
-        padding: 120px 0px 110px;
+
+    .page-padding {
+        padding: 70px 0px 110px;
+    }
+
+    .rev_slider .slotholder:after,
+    .rev_slider .slotholder:before {
+        width: 100%;
+        height: 100%;
+        content: "";
+        position: absolute;
+        top: 0;
+        pointer-events: none;
+        background: radial-gradient(circle at top right, rgb(0, 0, 0, 0.02), rgb(2, 16, 33, .7) 60%)
+    }
+
+    .title-1 {
+        font-family: 'Califonia Bound';
+    }
+
+    .title-under:before {
+        content: "";
+        position: absolute;
+        margin-left: 0.2em;
+        top: 105.2%;
+        left: 0;
+        bottom: 0;
+        height: 1px;
+        width: 10%;
+        border-bottom: 2px solid #CBA274;
+    }
+
+    #circle-shape-example {
+        text-align: left;
+        /* margin: 2rem; */
+    }
+
+    #circle-shape-example p {
+        line-height: 1.8;
+    }
+
+    #circle-shape-example .curve {
+        width: 33%;
+        height: auto;
+        min-width: 150px;
+        margin-right: 2rem;
+        float: left;
+        border-radius: 50%;
+        -webkit-shape-outside: circle();
+        shape-outside: circle();
+    }
+
+    .single-member-team {
+        height: 100%;
+        padding: 20px 10px;
+        margin-bottom: 30px;
+        background: rgb(2, 16, 33);
+        box-shadow: 2px 3px 5px rgb(0 0 0 / 50%);
+        /* box-shadow: 0 10px 25px 4px rgb(0 0 0 / 70%); */
+        /* width: 325px; */
+    }
+
+    .single-member-team:before {
+        position: absolute;
+        content: '';
+        left: 3px;
+        top: -13px;
+        width: 306px;
+        height: 200px;
+        border-width: 2px;
+        border-bottom-style: none;
+        border-top-style: solid;
+        border-left-style: solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to bottom left, #0A3041, #23A6E0, rgba(0, 0, 0, 0));
+    }
+
+    .mb-3 {
+        margin-bottom: 5rem;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .mt-5 {
+        margin-top: 55px;
+    }
+
+    .the-arrow {
+        width: 1px;
+        transition: all 0.2s;
+    }
+
+    .the-arrow.-left {
+        position: absolute;
+        top: 60%;
+        left: 0;
+    }
+
+    .the-arrow.-left>.shaft {
+        width: 0;
+        background-color: #4c4c4c;
+    }
+
+    .the-arrow.-left>.shaft:before,
+    .the-arrow.-left>.shaft:after {
+        width: 0;
+        background-color: #4c4c4c;
+    }
+
+    .the-arrow.-left>.shaft:before {
+        transform: rotate(0);
+    }
+
+    .the-arrow.-left>.shaft:after {
+        transform: rotate(0);
+    }
+
+    .the-arrow.-right {
+        top: 3px;
+    }
+
+    .the-arrow.-right>.shaft {
+        width: 1px;
+        transition-delay: 0.2s;
+    }
+
+    .the-arrow.-right>.shaft:before,
+    .the-arrow.-right>.shaft:after {
+        width: 8px;
+        transition-delay: 0.3s;
+        transition: all 0.5s;
+    }
+
+    .the-arrow.-right>.shaft:before {
+        transform: rotate(40deg);
+    }
+
+    .the-arrow.-right>.shaft:after {
+        transform: rotate(-40deg);
+    }
+
+    .the-arrow>.shaft {
+        background-color: #CCA177;
+        display: block;
+        height: 1px;
+        position: relative;
+        transition: all 0.2s;
+        transition-delay: 0;
+        top: -3px;
+        will-change: transform;
+    }
+
+    .the-arrow>.shaft:before,
+    .the-arrow>.shaft:after {
+        background-color: #CCA177;
+        content: "";
+        display: block;
+        height: 1px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transition: all 0.2s;
+        transition-delay: 0;
+    }
+
+    .the-arrow>.shaft:before {
+        transform-origin: top right;
+    }
+
+    .the-arrow>.shaft:after {
+        transform-origin: bottom right;
+    }
+
+    .animated-arrow {
+        display: inline-block;
+        color: #CCA177;
+        font-size: 1.05em;
+        font-style: italic;
+        text-decoration: none;
+        position: relative;
+        transition: all 0.2s;
+    }
+
+    .animated-arrow:hover {
+        color: #808080;
+    }
+
+    .animated-arrow:hover>.the-arrow.-left>.shaft {
+        width: 64px;
+        transition-delay: 0.1s;
+        background-color: #808080;
+    }
+
+    .animated-arrow:hover>.the-arrow.-left>.shaft:before,
+    .animated-arrow:hover>.the-arrow.-left>.shaft:after {
+        width: 8px;
+        transition-delay: 0.1s;
+        background-color: #808080;
+    }
+
+    .animated-arrow:hover>.the-arrow.-left>.shaft:before {
+        transform: rotate(40deg);
+    }
+
+    .animated-arrow:hover>.the-arrow.-left>.shaft:after {
+        transform: rotate(-40deg);
+    }
+
+    .animated-arrow:hover>.main {
+        transform: translateX(17px);
+        transform: translateX(80px);
+    }
+
+    .animated-arrow:hover>.main>.the-arrow.-right>.shaft {
+        width: 0;
+        transform: translateX(200%);
+        transition-delay: 0;
+    }
+
+    .animated-arrow:hover>.main>.the-arrow.-right>.shaft:before,
+    .animated-arrow:hover>.main>.the-arrow.-right>.shaft:after {
+        width: 0;
+        transition-delay: 0;
+        transition: all 0.1s;
+    }
+
+    .animated-arrow:hover>.main>.the-arrow.-right>.shaft:before {
+        transform: rotate(0);
+    }
+
+    .animated-arrow:hover>.main>.the-arrow.-right>.shaft:after {
+        transform: rotate(0);
+    }
+
+    .animated-arrow>.main {
+        display: flex;
+        align-items: center;
+        transition: all 0.2s;
+    }
+
+    .animated-arrow>.main>.text {
+        margin: 0 16px 0 0;
+        line-height: 1;
+    }
+
+    .animated-arrow>.main>.the-arrow {
+        position: relative;
     }
 </style>
 <!-- Start Intro Area -->
-<div class="slide-area fix" data-stellar-background-ratio="0.6">
-    <div class="display-table">
-        <div class="display-table-cell">
-            <div id="cc"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-12 col-xs-12">
-                        <!-- Start Slider content -->
-                        <div class="slide-content text-left">
-                            <h2 class="title2">Welcome to the next level in <span style="color: #CBA274;">Trading</span></h2>
-                            <div class="layer-1-3">
-                                <p class="text-left">Take your trading to the next level with the highest degree of automation for your charting.</p>
-                            </div>
-                            <div class="layer-1-3">
-                                <a href="{{url('signup')}}" class="ready-btn left-btn">Sign Up Now</a>
-                            </div>
-                        </div>
-                        <!-- End Slider content -->
-                    </div>
+<div class="rev_slider_wrapper">
+    <div class="rev_slider" data-version="5.0">
+        <ul class="slotholder">
+            <li data-transition="fade" data-thumb="{{asset('img/slider/h6.jpg')}}">
+
+                <img src="{{asset('img/slider/h6.jpg')}}" alt="">
+                <div class="tp-caption rectangle-text" data-x="left" data-y="215" data-speed="700" data-start="1200" data-transform_in="o:0;x:-100;s:300;" data-transform_out="o:0;x:-100;s:300;">
                 </div>
-            </div>
-            <div class="mouse_scroll">
-               <div class="mouse">
-                    <div class="wheel"></div>
+
+                <div class="tp-caption title-1" data-x="left" data-y="255" data-speed="700" data-start="1200" data-transform_in="o:0;x:-100;s:300;" data-transform_out="o:0;x:-100;s:300;">
+                    Welcome To
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
+                <div class="tp-caption title-1" data-x="left" data-y="290" data-speed="700" data-start="1200" data-transform_in="o:0;x:-100;s:300;" data-transform_out="o:0;x:-100;s:300;">
+                    The Next Level
+                </div>
+                <div class="tp-caption title-1 title-under" data-x="left" data-y="330" data-speed="700" data-start="1200" data-transform_in="o:0;x:-100;s:300;" data-transform_out="o:0;x:-100;s:300;">
+                    In <span style="color: #CBA274;">Trading</span>
+                </div>
+                <div class="tp-caption text" data-x="left" data-y="370" data-speed="700" data-start="1200" data-transform_in="o:0;x:-100;s:300;" data-transform_out="o:0;x:-100;s:300;">
+                    Take your trading to the next level with
+                </div>
+                <div class="tp-caption text" data-x="left" data-y="390" data-speed="700" data-start="1200" data-transform_in="o:0;x:-100;s:300;" data-transform_out="o:0;x:-100;s:300;">
+                    the highest degree of automation for
+                </div>
+                <div class="tp-caption text" data-x="left" data-y="410" data-speed="700" data-start="1200" data-transform_in="o:0;x:-100;s:300;" data-transform_out="o:0;x:-100;s:300;">
+                    your charting.
+                </div>
+                <div class="tp-caption" data-x="left" data-y="450" data-speed="700" data-start="1350" data-transform_in="o:0;y:100;s:300;" data-transform_out="o:0;y:100;s:300;">
+                    <a class="btn btn-default btn-lg" href="{{url('/')}}">Home</a>
+                </div>
+            </li>
+        </ul>
+    </div><!-- rev_slider -->
+</div><!-- rev_slider_wrapper -->
 <!-- End Intro Area -->
 <div class="overlay-color" id="overlay"></div>
 <div class="background-color">
-    <div class="about-area page-padding" style="background: rgb(2, 16, 33, 0.36);">
+    <div class="about-area page-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12">
@@ -517,7 +770,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="section-headline text-center">
                         <h3>The best investment plan</h3>
-                        <p>Help agencies to define their new business objectives and then create professional software.</p>
+                        <!-- <p>Help agencies to define their new business objectives and then create professional software.</p> -->
                     </div>
                 </div>
             </div>
@@ -609,7 +862,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="section-headline text-center">
                         <h3>Why choose investment plan</h3>
-                        <p>Help agencies to define their new business objectives and then create professional software.</p>
+                        <!-- <p>Help agencies to define their new business objectives and then create professional software.</p> -->
                     </div>
                 </div>
             </div>
@@ -679,193 +932,7 @@
             </div>
         </div>
     </div>
-    <!-- End Support-service Area -->
-    <!-- Start Work proses Area -->
-    <!-- <div class="work-proses fix  area-padding-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="section-headline text-center">
-                        <h3>Referral bonus level</h3>
-                        <p>Help agencies to define their new business objectives and then create professional software.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="row">
-                        <div class="work-proses-inner text-center">
-                            <div class="col-md-4 col-sm-4 col-xs-12">
-                                <div class="single-proses">
-                                    <div class="proses-content">
-                                        <div class="proses-icon point-blue">
-                                            <span class="point-view">01</span>
-                                            <a href="#"><i class="ti-briefcase"></i></a>
-                                        </div>
-                                        <div class="proses-text">
-                                            <h4>Level 01 instant 30% commission</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-    <!-- End column -->
-    <!-- <div class="col-md-4 col-sm-4 col-xs-12">
-                                <div class="single-proses">
-                                    <div class="proses-content">
-                                        <div class="proses-icon point-orange">
-                                            <span class="point-view">02</span>
-                                            <a href="#"><i class="ti-layers"></i></a>
-                                        </div>
-                                        <div class="proses-text">
-                                            <h4>Level 02 instant 20% commission</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-    <!-- End column -->
-    <!-- <div class="col-md-4 col-sm-4 col-xs-12">
-                                <div class="single-proses last-item">
-                                    <div class="proses-content">
-                                        <div class="proses-icon point-green">
-                                            <span class="point-view">03</span>
-                                            <a href="#"><i class="ti-bar-chart-alt"></i></a>
-                                        </div>
-                                        <div class="proses-text">
-                                            <h4>Level 03 instant 10% commission</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-    <!-- End column -->
-    <!-- </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- End Work proses Area -->
-    <!--Start payment-history area -->
-    <!-- <div class="payment-history-area  fix area-padding-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="section-headline text-center">
-                        <h3>Deposite and withdrawals history</h3>
-                        <p>Help agencies to define their new business objectives and then create professional software.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="deposite-content">
-                        <div class="diposite-box">
-                            <h4>Last deposite</h4>
-                            <span><i class="flaticon-005-savings"></i></span>
-                            <div class="deposite-table">
-                                <table>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Date</th>
-                                        <th>Amount</th>
-                                        <th>Currency</th>
-                                    </tr>
-                                    <tr>
-                                        <td>Admond sayhel</td>
-                                        <td>Jan 02, 2020</td>
-                                        <td>$1000</td>
-                                        <td>Bitcoin</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Jonshon</td>
-                                        <td>Dec 12, 2019</td>
-                                        <td>$5000</td>
-                                        <td>USD</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Hopper</td>
-                                        <td>Dec 22, 2019</td>
-                                        <td>$4000</td>
-                                        <td>Ripple</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Admond sayhel</td>
-                                        <td>Jan 02, 2020</td>
-                                        <td>$3000</td>
-                                        <td>Bitcoin</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Anjel july</td>
-                                        <td>Jan 05, 2020</td>
-                                        <td>$500</td>
-                                        <td>USD</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Lagisha</td>
-                                        <td>Jan 12, 2020</td>
-                                        <td>$5000</td>
-                                        <td>Bitcoin</td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="deposite-content">
-                        <div class="diposite-box">
-                            <h4>Last withdrawals</h4>
-                            <span><i class="flaticon-042-wallet"></i></span>
-                            <div class="deposite-table">
-                                <table>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Date</th>
-                                        <th>Amount</th>
-                                        <th>Currency</th>
-                                    </tr>
-                                    <tr>
-                                        <td>Arnold</td>
-                                        <td>Jan 04, 2020</td>
-                                        <td>$1000</td>
-                                        <td>USD</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Jhon Abra</td>
-                                        <td>Jan 07, 2020</td>
-                                        <td>$6000</td>
-                                        <td>USD</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Lanisha</td>
-                                        <td>Jan 13, 2020</td>
-                                        <td>$5000</td>
-                                        <td>USD</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Gongales</td>
-                                        <td>Jan 12, 2020</td>
-                                        <td>$2000</td>
-                                        <td>USD</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Admond sayhel</td>
-                                        <td>Jan 10, 2020</td>
-                                        <td>$1000</td>
-                                        <td>USD</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Remond</td>
-                                        <td>Jan 02, 2020</td>
-                                        <td>$3000</td>
-                                        <td>USD</td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- End payment-history area -->
+
     <!-- Start Banner Area -->
     <div class="banner-area area-padding">
         <div class="container">
@@ -882,200 +949,8 @@
         </div>
     </div>
     <!-- End Banner Area -->
-    <!-- Start Blog Area-->
-    <!-- <div class="blog-area fix  area-padding-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="section-headline text-center">
-                        <h3>Global investment plan news</h3>
-                        <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts</p>
-                    </div>
-                </div>
-            </div> -->
-    <!-- <div class="row">
-                <div class="blog-grid home-blog"> -->
-    <!-- Start single blog -->
-    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-blog">
-                            <div class="blog-image">
-                                <a class="image-scale" href="#">
-                                    <img src="img/blog/b1.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <span class="admin-type">
-                                        <i class="fa fa-user"></i>
-                                        Admin
-                                    </span>
-                                    <span class="date-type">
-                                        <i class="fa fa-calendar"></i>
-                                        20 july, 2019
-                                    </span>
-                                    <span class="comments-type">
-                                        <i class="fa fa-comment-o"></i>
-                                        13
-                                    </span>
-                                </div>
-                                <a href="#">
-                                    <h4>Creative design clients response is better</h4>
-                                </a>
-                            </div>
-                        </div>
-                    </div> -->
-    <!-- End single blog -->
-    <!-- Start single blog -->
-    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-blog">
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <span class="admin-type">
-                                        <i class="fa fa-user"></i>
-                                        Admin
-                                    </span>
-                                    <span class="date-type">
-                                        <i class="fa fa-calendar"></i>
-                                        13 may, 2018
-                                    </span>
-                                    <span class="comments-type">
-                                        <i class="fa fa-comment-o"></i>
-                                        16
-                                    </span>
-                                </div>
-                                <a href="#">
-                                    <h4>Web development is a best work in future world</h4>
-                                </a>
-                            </div>
-                            <div class="blog-image">
-                                <a class="image-scale" href="#">
-                                    <img src="img/blog/b2.jpg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-blog">
-                            <div class="blog-image">
-                                <a class="image-scale" href="#">
-                                    <img src="img/blog/b3.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <span class="admin-type">
-                                        <i class="fa fa-user"></i>
-                                        Admin
-                                    </span>
-                                    <span class="date-type">
-                                        <i class="fa fa-calendar"></i>
-                                        24 april, 2019
-                                    </span>
-                                    <span class="comments-type">
-                                        <i class="fa fa-comment-o"></i>
-                                        07
-                                    </span>
-                                </div>
-                                <a href="#">
-                                    <h4>You can trust me and business with together</h4>
-                                </a>
-                            </div>
-                        </div>
-                    </div> -->
-    <!-- End single blog -->
-    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-blog">
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <span class="admin-type">
-                                        <i class="fa fa-user"></i>
-                                        Admin
-                                    </span>
-                                    <span class="date-type">
-                                        <i class="fa fa-calendar"></i>
-                                        28 june, 2019
-                                    </span>
-                                    <span class="comments-type">
-                                        <i class="fa fa-comment-o"></i>
-                                        32
-                                    </span>
-                                </div>
-                                <a href="#">
-                                    <h4>business man want to be benifit any way</h4>
-                                </a>
-                            </div>
-                            <div class="blog-image">
-                                <a class="image-scale" href="#">
-                                    <img src="img/blog/b4.jpg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div> -->
-    <!-- End single blog -->
-    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-blog">
-                            <div class="blog-image">
-                                <a class="image-scale" href="#">
-                                    <img src="img/blog/b5.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <span class="admin-type">
-                                        <i class="fa fa-user"></i>
-                                        Admin
-                                    </span>
-                                    <span class="date-type">
-                                        <i class="fa fa-calendar"></i>
-                                        28 june, 2019
-                                    </span>
-                                    <span class="comments-type">
-                                        <i class="fa fa-comment-o"></i>
-                                        32
-                                    </span>
-                                </div>
-                                <a href="#">
-                                    <h4>business man want to be benifit any way</h4>
-                                </a>
-                            </div>
-                        </div>
-                    </div> -->
-    <!-- End single blog -->
-    <!-- <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-blog">
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <span class="admin-type">
-                                        <i class="fa fa-user"></i>
-                                        Admin
-                                    </span>
-                                    <span class="date-type">
-                                        <i class="fa fa-calendar"></i>
-                                        28 june, 2019
-                                    </span>
-                                    <span class="comments-type">
-                                        <i class="fa fa-comment-o"></i>
-                                        32
-                                    </span>
-                                </div>
-                                <a href="#">
-                                    <h4>business man want to be benifit any way</h4>
-                                </a>
-                            </div>
-                            <div class="blog-image">
-                                <a class="image-scale" href="#">
-                                    <img src="img/blog/b6.jpg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div> -->
-    <!-- End single blog -->
-    <!-- </div>
-            </div> -->
-    <!-- End row -->
-    <!-- </div>
-    </div> -->
-    <!-- End Blog Area -->
+
+
     <!-- Start reviews Area -->
     <div class="reviews-area fix area-padding">
         <div class="container">
@@ -1198,7 +1073,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="section-headline text-center">
                         <h3>FAQ</h3>
-                        <p>Help clients to define their new business objectives and then make professional trading.</p>
+                        <!-- <p>Help clients to define their new business objectives and then make professional trading.</p> -->
                     </div>
                 </div>
             </div>
@@ -1214,14 +1089,14 @@
                                         <div class="panel-heading">
                                             <h4 class="check-title">
                                                 <a data-toggle="collapse" class="active" data-parent="#accordion" href="#check1">
-                                                    <span class="acc-icons"></span>How to successful our mission and vision 
+                                                    <span class="acc-icons"></span>How to successful our mission and vision
                                                 </a>
                                             </h4>
                                         </div>
                                         <div id="check1" class="panel-collapse collapse in">
                                             <div class="panel-body">
                                                 <p>
-                                                <i class="fa fa-reply fa-rotate-180" aria-hidden="true"></i> &nbsp; When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
+                                                    <i class="fa fa-reply fa-rotate-180" aria-hidden="true"></i> &nbsp; When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
                                                 </p>
                                             </div>
                                         </div>
@@ -1239,7 +1114,7 @@
                                         <div id="check2" class="panel-collapse collapse">
                                             <div class="panel-body">
                                                 <p>
-                                                <i class="fa fa-reply fa-rotate-180" aria-hidden="true"></i> &nbsp; When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
+                                                    <i class="fa fa-reply fa-rotate-180" aria-hidden="true"></i> &nbsp; When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
                                                 </p>
                                             </div>
                                         </div>
@@ -1257,7 +1132,7 @@
                                         <div id="check3" class="panel-collapse collapse ">
                                             <div class="panel-body">
                                                 <p>
-                                                <i class="fa fa-reply fa-rotate-180" aria-hidden="true"></i> &nbsp; When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
+                                                    <i class="fa fa-reply fa-rotate-180" aria-hidden="true"></i> &nbsp; When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
                                                 </p>
                                             </div>
                                         </div>
@@ -1275,7 +1150,7 @@
                                         <div id="check4" class="panel-collapse collapse ">
                                             <div class="panel-body">
                                                 <p>
-                                                <i class="fa fa-reply fa-rotate-180" aria-hidden="true"></i> &nbsp; When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
+                                                    <i class="fa fa-reply fa-rotate-180" aria-hidden="true"></i> &nbsp; When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
                                                 </p>
                                             </div>
                                         </div>
@@ -1293,7 +1168,7 @@
                                         <div id="check5" class="panel-collapse collapse">
                                             <div class="panel-body">
                                                 <p>
-                                                <i class="fa fa-reply fa-rotate-180" aria-hidden="true"></i> &nbsp; When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
+                                                    <i class="fa fa-reply fa-rotate-180" aria-hidden="true"></i> &nbsp; When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained.
                                                 </p>
                                             </div>
                                         </div>
@@ -1312,178 +1187,104 @@
     <!-- End FAQ area -->
     <!-- Our Team Area -->
     <div class="team-page-area page-padding-team">
-        <video id="video" role="presentation" preload="auto" playsinline="" crossorigin="anonymous" loop="true" muted="" autoplay="true" class="blur">
-            <source src="img/background/board2.mp4" type="video/webm">
-            <source src="/img/background/board2.mp4" type="video/mp4">
-        </video>
-        <div class="overlay-team">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="text-center">
-                            <h3>Our Board  Of  Directors</h3>
-                            <p>Help agencies to define their new business objectives and then create professional software.</p>
-                        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-headline text-center mt-5">
+                        <h3>Our Board of Directors</h3>
+                        <!-- <p>Help agencies to define their new business objectives and then create professional software.</p> -->
                     </div>
                 </div>
-                <!-- <div id="videowrapper">
-           <div id="fullScreenDiv"> -->
-                <div class="row" class="styling">
-                    <div class="team-member text-center">
-                        <div class="team-carousel item-indicator">
-                            <!-- Single team member -->
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/t2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Benjamin Mokobane</a></h5>
-                                    <p>Director Operations <br>South African</p>
-                                    <ul class="team-hover">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- Single team member -->
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/t3.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Gration Kamugisha</a></h5>
-                                    <p>Director Operations <br>Canada</p>
-                                    <ul class="team-hover">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- Single team member -->
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/t4.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Martin Tairo</a></h5>
-                                    <p>Director Operations <br>Kenya</p>
-                                    <ul class="team-hover">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- Single team member -->
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/t1.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Emmanuel Magashi</a></h5>
-                                    <p>Director:<br>Trade And Investments</p>
-                                    <ul class="team-hover">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- Single team member -->
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/t2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Tumpe Daudi</a></h5>
-                                    <p>Director:<br>Sales And Marketing</p>
-                                    <ul class="team-hover">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- Single team member -->
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/t3.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Rev.Joseph A. Maseght</a></h5>
-                                    <p>Director:<br>Corporate Relations</p>
-                                    <ul class="team-hover">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- Single team member -->
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/t4.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Sylvanus Clemence</a></h5>
-                                    <p>Director:<br>asset Management</p>
-                                    <ul class="team-hover">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- Single team member -->
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/t4.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Ahmed A.S Mkwawa</a></h5>
-                                    <p>Director:<br>Operations</p>
-                                    <ul class="team-hover">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- Single team member -->
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/t1.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Steve Ndaula</a></h5>
-                                    <p>Managing Director</p>
-                                    <ul class="team-hover">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
+            </div>
+            <!-- <div id="videowrapper">
+              <div id="fullScreenDiv"> -->
+            <div class="row row-flex">
+                <!-- Single team member -->
+                <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
+                    <div class="single-member-team">
+                        <div id="circle-shape-example">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/kiwifruit-on-a-plate.jpg" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                            <h3 class="titles-team">Saleh Ismail Alzarooni</h3>
+                            <?php $descriction_1 = "Saleh is the Chairman of BCM Holdings. He is a renowned Economist and a formidable leader with over 25 years of experience in leading various businesses. During this period, Saleh developed extensive business relations and network with several Gulf and African nations, investors, and moguls in both private and public sectors. Saleh has been working as the private office manager of His Excellence Sheikh Marwan Bin Mohammed Bin Rashid Al Maktoum for over two decades. In this capacity, Saleh works closely with His Highness and has conducted multiple successful business activities on behalf of His Excellence Sheikh Maktoum. His expansive diplomatic skills as well as his superlative attention to details has brought major success in many companies."; ?>
+                            <p style="color: rgba(209, 228, 240);">
+                                {{ \Illuminate\Support\Str::limit($descriction_1, 200, '...') }}
+                            </p>
+                        </div>
+                        <a class='animated-arrow' href="{{url('Saleh/Alzarooni')}}">
+                            <span class='the-arrow -left'>
+                                <span class='shaft'></span>
+                            </span>
+                            <span class='main'>
+                                <span class='text'>
+                                    Read More
+                                </span>
+                                <span class='the-arrow -right'>
+                                    <span class='shaft'></span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Single team member -->
+                <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
+                    <div class="single-member-team">
+                        <div id="circle-shape-example">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/kiwifruit-on-a-plate.jpg" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                            <h3 class="titles-team">Mike Sallu</h3>
+                            <?php $descriction_2 = "Mike is the Deputy Chairman of BCM Holdings. He is a Fellow Certified Public Accountant and holds BCom and MA degrees. He is a renowned consultant and a multiskilled business leader, and he possesses significant experience of leading the board agenda. In addition to being the deputy chairman of BCM Holdings, he is the Chairman of UAP Insurance Kenya Limited, Ecobank Tanzania Limited, and Claritas International. He also sits on the boards of UAP Insurance Tanzania, UAP Insurance Rwanda, and Geno Services Limited. Previously, Michael worked for PricewaterhouseCoopers (PwC) for 24 years. He served 15 of those years as Partner and Director, and he was a Governance Board Member of PwC Africa and PwC Africa Central for a combined period of 6 years."; ?>
+                            <p style="color: rgba(209, 228, 240);">
+                                {{ \Illuminate\Support\Str::limit($descriction_2, 200, '...') }}
+                            </p>
+                        </div>
+                        <a class='animated-arrow' href="{{url('Mike/Sallu')}}">
+                            <span class='the-arrow -left'>
+                                <span class='shaft'></span>
+                            </span>
+                            <span class='main'>
+                                <span class='text'>
+                                    Read More
+                                </span>
+                                <span class='the-arrow -right'>
+                                    <span class='shaft'></span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Single team member -->
+                <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
+                    <div class="single-member-team">
+                        <div id="circle-shape-example">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/kiwifruit-on-a-plate.jpg" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                            <h3 class="titles-team">Steven Ndaula</h3>
+
+                            <?php $descriction_3 = "Steven is the President and founder of the BCM Holdings. He is a professional master trader of online financial instruments with securities and investment accreditation from the Chartered Institute for Securities and Investment (CISI), and investments and trading certification from Knightsbridge Trading Academy and London Stock Exchange Group. He also trained in medicine and surgery with the International Medical and Technology University (IMTU) for 3 years. Steven has five (5) years of experience in trading online financial instruments such forex, stocks, indices, commodities, futures, and cryptocurrencies. He also has extensive experience in risk management, strategy, and long-term investments decision making. Steven is an astute entrepreneur who left medical profession to build a career in trading, and has established businesses in the UAE, Canada, South Africa, Tanzania, and Kenya. "; ?>
+                            <p style="color: rgba(209, 228, 240);">
+                                {{ \Illuminate\Support\Str::limit($descriction_3, 200, '...') }}
+                            </p>
+                        </div>
+                        <a class='animated-arrow' href="{{url('Steven/Ndaula')}}">
+                            <span class='the-arrow -left'>
+                                <span class='shaft'></span>
+                            </span>
+                            <span class='main'>
+                                <span class='text'>
+                                    Read More
+                                </span>
+                                <span class='the-arrow -right'>
+                                    <span class='shaft'></span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="banner-all area-80 text-center">
+                        <div class="banner-content">
+                            <a class="banner-btn" href="{{url('team')}}">View All</a>
                         </div>
                     </div>
                 </div>

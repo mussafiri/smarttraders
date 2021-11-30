@@ -9,7 +9,25 @@
     .background-color-1 {
         background-color: rgb(2, 16, 33, 0.79);
     }
+#yin-yang {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80vmin;
+  background: linear-gradient( rgb(2, 16, 33) 50%, #c4c4c4 0);
+}
+#yin-yang:before, #yin-yang:after {
+  flex: 1;
+  height: 90%;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 30px;
+  background: rgb(2, 16, 33);
+  content: "";
+}
 
+#yin-yang:after {	
+  background: #c4c4c4;
+}
     .rev_slider .slotholder:after,
     .rev_slider .slotholder:before {
         width: 100%;
@@ -66,7 +84,7 @@
                     your charting.
                 </div>
                 <div class="tp-caption" data-x="left" data-y="450" data-speed="700" data-start="1350" data-transform_in="o:0;y:100;s:300;" data-transform_out="o:0;y:100;s:300;">
-                    <a class="btn btn-default btn-lg" href="{{'/services'}}">Home</a>
+                <a class="btn btn-default btn-lg" href="{{url('/')}}">Home</a>
                 </div>
             </li>
         </ul>
@@ -98,8 +116,7 @@
                                to meet your goals and needs.
                                <br><br>
                                We partner with Century Financial which has over with 30 years of market presence, as our professional 
-                               financial market analysts and risk managers.  We partner with different regulated and reputable trading 
-                               brokers to access different financial instruments. 
+                               financial market analysts and risk managers.  We partner with different regulated and reputable trading brokers to access different financial instruments. 
                             </p>
                         </div>
                     </div>

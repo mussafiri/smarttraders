@@ -305,7 +305,7 @@ font-family: 'Califonia Bound';
                     your charting.
 					</div>
 					<div class="tp-caption" data-x="left" data-y="450" data-speed="700" data-start="1350" data-transform_in="o:0;y:100;s:300;" data-transform_out="o:0;y:100;s:300;">
-						<a class="btn btn-default btn-lg" href="{{'/services'}}">Home</a>
+						<a class="btn btn-default btn-lg" href="{{url('/')}}">Home</a>
 					</div>
 				</li>
 			</ul>
