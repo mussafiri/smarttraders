@@ -141,7 +141,7 @@
                     <!-- <p>Help agencies to define their new business objectives and then create professional software.</p> -->
                 </div>
                 <div class="content">
-                    <p>We use innovative approach in diversifying our portfolio and create sustainable income for our investors.
+                    <p class="text-left">We use innovative approach in diversifying our portfolio and create sustainable income for our investors.
                         We trade in CFDs (Contracts for Difference), forex, indices, shares, commodities, treasuries, and ETFs,
                         along with ETFs (exchange-traded funds) trading for Proprietary account on regulated exchanges.
                         We speculate on major markets based on the effects of global trades and the performance of big businesses.
