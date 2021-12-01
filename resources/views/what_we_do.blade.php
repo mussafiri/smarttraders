@@ -75,7 +75,7 @@
 
     .shaped {
         float: left;
-        height: 80vh;
+        height: 100vh;
         width: 40vw;
         float: right;
         background: black url('img/about/ab2.jpg') center top no-repeat;
