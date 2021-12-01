@@ -1185,7 +1185,7 @@
     </div>
     <!-- End FAQ area -->
     <!-- Our Team Area -->
-    <div class="team-page-area page-padding-team">
+    <div class="team-page-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">

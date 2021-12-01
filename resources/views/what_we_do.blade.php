@@ -78,7 +78,9 @@
         height: 100vh;
         width: 40vw;
         float: right;
-        background: black url('img/about/ab2.jpg') center top no-repeat;
+        background: black url('img/about/ab2.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
         background-size: cover;
     }
 
