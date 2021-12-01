@@ -69,9 +69,9 @@ font-family: 'Califonia Bound';
 <div class="rev_slider_wrapper">
 		<div class="rev_slider"  data-version="5.0">
 			<ul class="slotholder">
-				<li data-transition="fade" data-thumb="{{asset('img/background/b11.jpg')}}">
+				<li data-transition="fade" data-thumb="{{asset('img/background/cc.jpg')}}">
 
-					<img src="{{asset('img/background/b11.jpg')}}" alt="">
+					<img src="{{asset('img/background/cc.jpg')}}" alt="">
                     <div class="tp-caption rectangle-text" data-x="left" data-y="215" data-speed="700" data-start="1200" data-transform_in="o:0;x:-100;s:300;" data-transform_out="o:0;x:-100;s:300;">
 					</div>
 
