@@ -9,25 +9,29 @@
     .background-color-1 {
         background-color: rgb(2, 16, 33, 0.79);
     }
-#yin-yang {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 80vmin;
-  background: linear-gradient( rgb(2, 16, 33) 50%, #c4c4c4 0);
-}
-#yin-yang:before, #yin-yang:after {
-  flex: 1;
-  height: 90%;
-  border-top-left-radius: 50%;
-  border-bottom-left-radius: 30px;
-  background: rgb(2, 16, 33);
-  content: "";
-}
 
-#yin-yang:after {	
-  background: #c4c4c4;
-}
+    #yin-yang {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 80vmin;
+        background: linear-gradient(rgb(2, 16, 33) 50%, #c4c4c4 0);
+    }
+
+    #yin-yang:before,
+    #yin-yang:after {
+        flex: 1;
+        height: 90%;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 30px;
+        background: rgb(2, 16, 33);
+        content: "";
+    }
+
+    #yin-yang:after {
+        background: #c4c4c4;
+    }
+
     .rev_slider .slotholder:after,
     .rev_slider .slotholder:before {
         width: 100%;
@@ -53,6 +57,40 @@
         height: 1px;
         width: 10%;
         border-bottom: 2px solid #CBA274;
+    }
+    .row-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content {
+        height: 100%;
+        padding: 20px 20px 10px;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 70%);
+        border: 1px solid #CCA177;
+    }
+
+    .col-pad {
+        margin-bottom: 30px;
+    }
+
+    .shaped {
+        float: left;
+        height: 80vh;
+        width: 40vw;
+        float: right;
+        background: black url('img/about/ab2.jpg') center top no-repeat;
+        background-size: cover;
+    }
+
+    .shaped {
+        /*...*/
+        shape-outside: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+        shape-margin: 10px;
+    }
+
+    .shaped {
+        /*...*/
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
     }
 </style>
 <!-- Start breadcumb Area -->
@@ -84,7 +122,7 @@
                     your charting.
                 </div>
                 <div class="tp-caption" data-x="left" data-y="450" data-speed="700" data-start="1350" data-transform_in="o:0;y:100;s:300;" data-transform_out="o:0;y:100;s:300;">
-                <a class="btn btn-default btn-lg" href="{{url('/')}}">Home</a>
+                    <a class="btn btn-default btn-lg" href="{{url('/')}}">Home</a>
                 </div>
             </li>
         </ul>
@@ -95,68 +133,107 @@
 <div class="background-color">
     <div class="background-color-1">
         <div class="about-feature-area area-padding-2">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="section-headline text-center">
-                        <h3>What We Do</h3>
-                        <!-- <p>Help agencies to define their new business objectives and then create professional software.</p> -->
-                    </div>
-                </div>
-            </div>
+
             <div class="container">
-                <div class="row">
-                    <!-- column end -->
-                    <div class="col-md-6 col-sm-12 col-xs-12">
-                        <div class="about-content">
-                            <p>We use innovative approach in diversifying our portfolio and create sustainable income for our investors. 
-                               We trade in CFDs (Contracts for Difference), forex, indices, shares, commodities, treasuries, and ETFs, 
-                               along with ETFs (exchange-traded funds) trading for Proprietary account on regulated exchanges.
-                               We speculate on major markets based on the effects of global trades and the performance of big businesses. 
-                               When you invest with us, you can rest assured that your funds will generate sustainable income in long term 
-                               to meet your goals and needs.
-                               <br><br>
-                               We partner with Century Financial which has over with 30 years of market presence, as our professional 
-                               financial market analysts and risk managers.  We partner with different regulated and reputable trading brokers to access different financial instruments. 
-                            </p>
-                        </div>
-                    </div>
-                    <!-- column end -->
-
-
-                    <div class="col-md-6 col-sm-12 col-xs-12">
-                        <div class="about-image">
-                            <img src="img/about/ab.jpg" alt="">
-                            <div class="video-content">
-                                <a href="https://www.youtube.com/watch?v=O33uuBh6nXA" class="video-play vid-zone">
-                                    <i class="fa fa-play"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="shaped"></div>
+                <div class="section-headline text-center">
+                    <h3>What We Do</h3>
+                    <!-- <p>Help agencies to define their new business objectives and then create professional software.</p> -->
+                </div>
+                <div class="content">
+                    <p>We use innovative approach in diversifying our portfolio and create sustainable income for our investors.
+                        We trade in CFDs (Contracts for Difference), forex, indices, shares, commodities, treasuries, and ETFs,
+                        along with ETFs (exchange-traded funds) trading for Proprietary account on regulated exchanges.
+                        We speculate on major markets based on the effects of global trades and the performance of big businesses.
+                        When you invest with us, you can rest assured that your funds will generate sustainable income in long term
+                        to meet your goals and needs.
+                        <br><br>
+                        We partner with Century Financial which has over with 30 years of market presence, as our professional
+                        financial market analysts and risk managers. We partner with different regulated and reputable trading brokers to access different financial instruments.
+                    </p>
                 </div>
             </div>
             <!-- about-area end -->
             <!-- Start About Area -->
-            <div class="container">
-                <div class="row">
-                    <div class="about-mission">
-                        <!-- Start column -->
-                        <div class="col-md-10 col-sm-10 col-xs-12">
-                            <div class="about-details">
-                                <h3>Our Trading Brokers and Insurance Policy</h3>
-                                <ul class="marker-list">
-                                    <li>INFINOX CAPITAL: A globally recognized FX & CFD broker, regulated since 2009 with trading insurers of ARCH Syndicate 2012 at Lloyd’s of London. </li>
-                                    <li>SAXO BANK: Is a Danish investment bank specializing in online trading and investment. Protection of securities in case of Saxo Bank’s Default:
-                                        All securities held with Saxo Bank will be returned to the White Label Client if they are retrievable from Saxo Bank’s custodian.
-                                        <br> <br>
-                                        That the securities are retrievable is ensured by the requirement of section 72 of the Danish Act on Financial Services, which imposes on Danish banks to ensure that, the client’s rights to their securities are at all times protected, also in case of a default.
-                                    </li>
-                                    <li>PEPPERSTONE: A regulated by the British Financial Conduct Authority (FCA) and the Australian Securities and Investments Commission (ASIC). Pepperstone strictly separates customer capital and company funds. This means that customers are insured against major losses even in the unlikely event that the company goes bankrupt.</li>
-                                </ul>
+            <div class="invest-area  page-padding-2" style="background: rgb(2, 16, 33, 0.06);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="section-headline text-center">
+                                <h3>Traded products</h3>
+                                <p>We diversify our portfolios with a range of financial products such as FOREX, Indices, Commodities, Equities CFDs, and Futures. We trade with financial markets with registered and regulated brokers.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-flex">
+                        <div class="col-md-6 col-sm-6 col-xs-12 col-pad">
+                            <div class="content">
+                                <div class="top-price-inner">
+                                    <div class="rates">
+                                        <span class="prices">Forex</span>
+                                    </div>
+                                    <span class="per-day">(Foreign Exchange)</span>
+                                </div>
+                                <p class="pricing-text">
+                                    We Buy and Sell currency pairs on the most popular trading market and exploit the results of world events. With the markets
+                                    reacting to geo-political and economic stimuli every day, it's a great way to speculate on world events.
+                                    Forex Traders buy and sell about $5trn of Forex daily, which creates liquid markets that offers opportunities for all types of traders.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 col-pad">
+                            <div class="content">
+                                <div class="top-price-inner">
+                                    <div class="rates">
+                                        <span class="prices">Trading Indices CFDs</span>
+                                    </div>
+                                </div>
+                                <p class="pricing-text">
+                                    We speculate the major markets based on the effects of global trade and the performance of big businesses.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-flex">
+                        <div class="col-md-4 col-sm-4 col-xs-12 col-pad">
+                            <div class="content">
+                                <div class="top-price-inner">
+                                    <div class="rates">
+                                        <span class="prices">Commodities</span>
+                                    </div>
+                                </div>
+                                <p class="pricing-text">
+                                    We trade the world's raw materials including gold, silver, and energy products like crude oil.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 col-pad">
+                            <div class="content">
+                                <div class="top-price-inner">
+                                    <div class="rates">
+                                        <span class="prices">Equities</span>
+                                    </div>
+                                </div>
+                                <p class="pricing-text">
+                                    Trade stocks and shares in some of the world's biggest companies and best-known brands.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 col-pad">
+                            <div class="content">
+                                <div class="top-price-inner">
+                                    <div class="rates">
+                                        <span class="prices">Futures</span>
+                                    </div>
+                                </div>
+                                <p class="pricing-text">
+                                    Traders worldwide use us futures to control risk or seek opportunity on changing markets
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
+                </di>
             </div>
         </div>
     </div>
