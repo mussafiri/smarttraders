@@ -356,7 +356,7 @@ font-family: 'Califonia Bound';
                     <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                         <div class="single-member-team">
                             <div id="circle-shape-example">
-                                <img src="{{asset('img/team/picture-11.jpg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                                <img src="{{asset('img/team/picture1t.jpg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
                                 <h3 class="titles-team">Mike Sallu</h3>
                                 <?php $descriction_2 = "Mike is the Deputy Chairman of BCM Holdings. He is a Fellow Certified Public Accountant and holds BCom and MA degrees. He is a renowned consultant and a multiskilled business leader, and he possesses significant experience of leading the board agenda. In addition to being the deputy chairman of BCM Holdings, he is the Chairman of UAP Insurance Kenya Limited, Ecobank Tanzania Limited, and Claritas International. He also sits on the boards of UAP Insurance Tanzania, UAP Insurance Rwanda, and Geno Services Limited. Previously, Michael worked for PricewaterhouseCoopers (PwC) for 24 years. He served 15 of those years as Partner and Director, and he was a Governance Board Member of PwC Africa and PwC Africa Central for a combined period of 6 years."; ?>
                                 <p style="color: rgba(209, 228, 240);">
@@ -436,7 +436,7 @@ font-family: 'Califonia Bound';
                     <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                         <div class="single-member-team">
                             <div id="circle-shape-example">
-                                <img src="{{asset('img/team/Picture3.jpg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                                <img src="{{asset('img/team/Picture5t.jpg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
                                 <h3 class="titles-team">Dr. Anthony Witherspoon </h3>
 
                                 <?php $descriction_5 = "Anthony is a sought-after public speaker and owner of Sankofa Academy and Safeguard Insurance. In a historical accomplishment, he became Mayor of the City of Magnolia, Mississippi on July 1, 2014. He is a skilled administrative leader and consultant in both government and private sectors in the U.S. He previously served as the Vice President of the Mississippi State Conference of the NAACP, he was the President of the Mississippi Conference of Black Mayors, and the President of the Mississippi Black Caucus of Local Elected Officials. He was also a Board member of Beecham Memorial Hospital and Freedom Behavioral Health. He holds BSc in Business Administration and a Master’s degree in Public Administration from Belhaven University, and he has a Ph.D. from Jackson State University."; ?>
