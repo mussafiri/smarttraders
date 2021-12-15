@@ -71,16 +71,16 @@
                             </div>
                         </div>
                         <!-- end single footer -->
-                        <div class="col-md-4 col-sm-3 col-xs-12">
+                        <div class="col-md-7 col-sm-3 col-xs-12">
                             <div class="footer-content">
                                 <div class="footer-head">
                                     <h4>Explore</h4>
                                     <ul class="footer-list">
                                         <li><a href="#">About us</a></li>
-                                        <li><a href="#">Services </a></li>
-                                        <li><a href="#">Events</a></li>
-                                        <li><a href="#">Promotion</a></li>
-                                        <li><a href="#">Transition</a></li>
+                                        <li><a href="#">What We Do </a></li>
+                                        <li><a href="#">Assets</a></li>
+                                        <li><a href="#">Our Team</a></li>
+                                        <li><a href="#">Contact Us</a></li>
                                         <li><a href="#">Social Media</a></li>
                                     </ul>
                                     <ul class="footer-list hidden-sm">
@@ -95,16 +95,7 @@
                             </div>
                         </div>
                         <!-- end single footer -->
-                        <div class="col-md-3 col-sm-4 col-xs-12">
-                            <div class="footer-content last-content">
-                                <div class="footer-head">
-                                    <h4>Account</h4> 
-                                    <div class="footer-contacts">
-										<span style="color: #fff;font-size: 20px;font-weight:550">Get Started!</span> <a href="{{url('/login')}}" class="ready-btn-footer">Login</a>
-									</div> 
-                                </div>
-                            </div>
-                        </div>
+                    
                         <div class="col-md-2 col-sm-4 col-xs-12">
                             <div class="footer-content last-content">
                                 <div class="footer-head">

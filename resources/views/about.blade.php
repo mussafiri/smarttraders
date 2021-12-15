@@ -197,10 +197,21 @@ font-family: 'Califonia Bound';
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="about-content">
                             <h3>About Us</h3>
-                            <p>We are a privately-owned capital management company built by a large network of 
-                                regulated trading partners and professional investment managers that are working 
-                                from our trading floor that manage investment portfolio in different financial assets. 
+                            <p> <b>Smart Traders</b> is a privately-owned capital management company incorporated in the
+                                United Arab Emirates and licensed to trade financial instruments on regulated exchanges.
+                                the company partner with large network of regulated trading brokers, financial advisers and
+                                professional investment managers that are working from our trading floor centre in Dubai
+                                and manage investment portfolio in different financial assets. 
                                 <br><br>
+                                We plan to expand our trading centres globally in major cities such as United Kingdom,
+                                U.S.A, Singapore and Canada. We choose to start with Dubai to establish our main
+                                headquarter and trading Centre and create a hub of professional traders on the floor with a
+                                pool of managed funds from different investors globally.
+                                <br><br>
+                                Our core business is to speculate on major markets based on the effects of global trades and
+                                the performance of big businesses. We trade in CFDs (Contracts for Differences) such
+                                as forex, indices, shares, commodities, treasuries along with ETFs (exchange-traded funds)
+                                for Proprietary account on regulated exchanges
                             </p>
                         </div>
                     </div>
@@ -222,7 +233,8 @@ font-family: 'Califonia Bound';
                                 </div>
                                 <div class="mission-text">
                                     <h4 class="titles-ab">Our Vision</h4>
-                                    <p>To become the best trading hub of financial instruments and traders’ floor who manage funds and risk associated in trading to achieve consistent profitable trades in global financial market. </p>
+                                    <p> is to offer the best capital management services and act as bridge between
+                                        investors and the global financial markets to achieve financial well-being.</p>
                                 </div>
                             </div>
                         </div>

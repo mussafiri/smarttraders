@@ -389,11 +389,11 @@ font-family: 'Califonia Bound';
                                    <!--Blog Category Widget-->
                                 <div class="sidebar-widget sidebar-blog-category">
                                     <ul class="blog-cat">
-                                        <li class="{{ Request::is('Saleh/Alzarooni') ? 'active' : '' }}"><a  href="{{url('Saleh/Alzarooni')}}">Saleh Ismail Alzarooni</a></li>
-                                        <li class="{{ Request::is('Mike/Sallu') ? 'active' : '' }}"><a  href="{{url('Mike/Sallu')}}">Mike Sallu</a></li>
                                         <li class="{{ Request::is('Steven/Ndaula') ? 'active' : '' }}"><a href="{{url('Steven/Ndaula')}}">Steven Ndaula</a></li>
-                                        <li class="{{ Request::is('Ammer/Alhariri') ? 'active' : '' }}"><a href="{{url('Ammer/Alhariri')}}">Ammer Alhariri</a></li>
                                         <li class="{{ Request::is('Anthnony/Witherspoon') ? 'active' : '' }}"><a href="{{url('Anthnony/Witherspoon')}}">Dr. Anthony Witherspoon</a></li>
+                                        <li class="{{ Request::is('Saleh/Alzarooni') ? 'active' : '' }}"><a  href="{{url('Saleh/Alzarooni')}}">Sylvanus Clemence</a></li>
+                                        <li class="{{ Request::is('Mike/Sallu') ? 'active' : '' }}"><a  href="{{url('Mike/Sallu')}}">Mike Sallu</a></li>
+                                        <!-- <li class="{{ Request::is('Ammer/Alhariri') ? 'active' : '' }}"><a href="{{url('Ammer/Alhariri')}}">Ammer Alhariri</a></li> -->
                                     </ul>
                                 </div>
                             </aside>

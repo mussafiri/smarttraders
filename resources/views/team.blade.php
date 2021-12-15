@@ -326,63 +326,10 @@ font-family: 'Califonia Bound';
                     </div>
                 </div>
                 <div class="row row-flex">
-                    <!-- Single team member -->
-                    <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
+                <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                         <div class="single-member-team">
                             <div id="circle-shape-example">
-                                <img src="" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
-                                <h3 class="titles-team">Saleh Ismail Alzarooni</h3>
-                                <?php $descriction_1 = "Saleh is the Chairman of BCM Holdings. He is a renowned Economist and a formidable leader with over 25 years of experience in leading various businesses. During this period, Saleh developed extensive business relations and network with several Gulf and African nations, investors, and moguls in both private and public sectors. Saleh has been working as the private office manager of His Excellence Sheikh Marwan Bin Mohammed Bin Rashid Al Maktoum for over two decades. In this capacity, Saleh works closely with His Highness and has conducted multiple successful business activities on behalf of His Excellence Sheikh Maktoum. His expansive diplomatic skills as well as his superlative attention to details has brought major success in many companies."; ?>
-                                <p style="color: rgba(209, 228, 240);">
-                                    {{ \Illuminate\Support\Str::limit($descriction_1, 200, '...') }}
-                                </p>
-                            </div>
-                            <a class='animated-arrow' href="{{url('Saleh/Alzarooni')}}">
-                                <span class='the-arrow -left'>
-                                    <span class='shaft'></span>
-                                </span>
-                                <span class='main'>
-                                    <span class='text'>
-                                        Read More
-                                    </span>
-                                    <span class='the-arrow -right'>
-                                        <span class='shaft'></span>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Single team member -->
-                    <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
-                        <div class="single-member-team">
-                            <div id="circle-shape-example">
-                                <img src="{{asset('img/team/picture1t.jpg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
-                                <h3 class="titles-team">Mike Sallu</h3>
-                                <?php $descriction_2 = "Mike is the Deputy Chairman of BCM Holdings. He is a Fellow Certified Public Accountant and holds BCom and MA degrees. He is a renowned consultant and a multiskilled business leader, and he possesses significant experience of leading the board agenda. In addition to being the deputy chairman of BCM Holdings, he is the Chairman of UAP Insurance Kenya Limited, Ecobank Tanzania Limited, and Claritas International. He also sits on the boards of UAP Insurance Tanzania, UAP Insurance Rwanda, and Geno Services Limited. Previously, Michael worked for PricewaterhouseCoopers (PwC) for 24 years. He served 15 of those years as Partner and Director, and he was a Governance Board Member of PwC Africa and PwC Africa Central for a combined period of 6 years."; ?>
-                                <p style="color: rgba(209, 228, 240);">
-                                    {{ \Illuminate\Support\Str::limit($descriction_2, 200, '...') }}
-                                </p>
-                            </div>
-                            <a class='animated-arrow' href="{{url('Mike/Sallu')}}">
-                                <span class='the-arrow -left'>
-                                    <span class='shaft'></span>
-                                </span>
-                                <span class='main'>
-                                    <span class='text'>
-                                        Read More
-                                    </span>
-                                    <span class='the-arrow -right'>
-                                        <span class='shaft'></span>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Single team member -->
-                    <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
-                        <div class="single-member-team">
-                            <div id="circle-shape-example">
-                                <img src="" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                                <img src="{{asset('img/team/2.jpeg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
                                 <h3 class="titles-team">Steven Ndaula</h3>
 
                                 <?php $descriction_3 = "Steven is the President and founder of the BCM Holdings. He is a professional master trader of online financial instruments with securities and investment accreditation from the Chartered Institute for Securities and Investment (CISI), and investments and trading certification from Knightsbridge Trading Academy and London Stock Exchange Group. He also trained in medicine and surgery with the International Medical and Technology University (IMTU) for 3 years. Steven has five (5) years of experience in trading online financial instruments such forex, stocks, indices, commodities, futures, and cryptocurrencies. He also has extensive experience in risk management, strategy, and long-term investments decision making. Steven is an astute entrepreneur who left medical profession to build a career in trading, and has established businesses in the UAE, Canada, South Africa, Tanzania, and Kenya. "; ?>
@@ -391,33 +338,6 @@ font-family: 'Califonia Bound';
                                 </p>
                             </div>
                             <a class='animated-arrow' href="{{url('Steven/Ndaula')}}">
-                                <span class='the-arrow -left'>
-                                    <span class='shaft'></span>
-                                </span>
-                                <span class='main'>
-                                    <span class='text'>
-                                        Read More
-                                    </span>
-                                    <span class='the-arrow -right'>
-                                        <span class='shaft'></span>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Single team member -->
-                    <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
-                        <div class="single-member-team">
-                            <div id="circle-shape-example">
-                                <img src="{{asset('img/team/Picture2.jpg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
-                                <h3 class="titles-team">Ameer Alhariri</h3>
-
-                                <?php $descriction_4 = "Ameer is a Registered Arbitrator in the UAE since 2010, and he is the owner of Bait Aljouda Consultation and Training (BACT). He holds a BSc in Law from the University of Damascus, Syria. Among other things, BACT is a Training Center in Dubai with KHDA educational permit and provides many courses in different fields. BACT is also recognized provider by UK awarding body to deliver TQUK qualification, and as a registered agent for trademark in UAE, it works with many agents worldwide in registration of trademarks in deferent countries."; ?>
-                                <p style="color: rgba(209, 228, 240);">
-                                    {{ \Illuminate\Support\Str::limit($descriction_4, 200, '...') }}
-                                </p>
-                            </div>
-                            <a class='animated-arrow' href="{{url('Ammer/Alhariri')}}">
                                 <span class='the-arrow -left'>
                                     <span class='shaft'></span>
                                 </span>
@@ -459,6 +379,87 @@ font-family: 'Califonia Bound';
                             </a>
                         </div>
                     </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
+                        <div class="single-member-team">
+                            <div id="circle-shape-example">
+                                <img src="{{asset('img/team/1.jpeg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                                <h3 class="titles-team">Sylvanus Clemence.</h3>
+
+                                <?php $descriction_4 = "Sylvanus is a co-founder and professional in finance
+                                                        and accounting with postgraduate degree. Sylvanus also
+                                                        trained in logistics for his masters degree and brings
+                                                        experience in real estate and property management"; ?>
+                                <p style="color: rgba(209, 228, 240);">
+                                    {{ \Illuminate\Support\Str::limit($descriction_4, 200, '...') }}
+                                </p>
+                            </div>
+                            <a class='animated-arrow' href="{{url('Ammer/Alhariri')}}">
+                                <span class='the-arrow -left'>
+                                    <span class='shaft'></span>
+                                </span>
+                                <span class='main'>
+                                    <span class='text'>
+                                        Read More
+                                    </span>
+                                    <span class='the-arrow -right'>
+                                        <span class='shaft'></span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Single team member -->
+                    <!-- Single team member -->
+                    <!-- <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
+                        <div class="single-member-team">
+                            <div id="circle-shape-example">
+                                <img src="" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                                <h3 class="titles-team">Saleh Ismail Alzarooni</h3>
+                                <p style="color: rgba(209, 228, 240);">
+                                </p>
+                            </div>
+                            <a class='animated-arrow' href="{{url('Saleh/Alzarooni')}}">
+                                <span class='the-arrow -left'>
+                                    <span class='shaft'></span>
+                                </span>
+                                <span class='main'>
+                                    <span class='text'>
+                                        Read More
+                                    </span>
+                                    <span class='the-arrow -right'>
+                                        <span class='shaft'></span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div> -->
+                    <!-- Single team member -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
+                        <div class="single-member-team">
+                            <div id="circle-shape-example">
+                                <img src="{{asset('img/team/picture1t.jpg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                                <h3 class="titles-team">Mike Sallu</h3>
+                                <?php $descriction_2 = "Mike is the Deputy Chairman of BCM Holdings. He is a Fellow Certified Public Accountant and holds BCom and MA degrees. He is a renowned consultant and a multiskilled business leader, and he possesses significant experience of leading the board agenda. In addition to being the deputy chairman of BCM Holdings, he is the Chairman of UAP Insurance Kenya Limited, Ecobank Tanzania Limited, and Claritas International. He also sits on the boards of UAP Insurance Tanzania, UAP Insurance Rwanda, and Geno Services Limited. Previously, Michael worked for PricewaterhouseCoopers (PwC) for 24 years. He served 15 of those years as Partner and Director, and he was a Governance Board Member of PwC Africa and PwC Africa Central for a combined period of 6 years."; ?>
+                                <p style="color: rgba(209, 228, 240);">
+                                    {{ \Illuminate\Support\Str::limit($descriction_2, 200, '...') }}
+                                </p>
+                            </div>
+                            <a class='animated-arrow' href="{{url('Mike/Sallu')}}">
+                                <span class='the-arrow -left'>
+                                    <span class='shaft'></span>
+                                </span>
+                                <span class='main'>
+                                    <span class='text'>
+                                        Read More
+                                    </span>
+                                    <span class='the-arrow -right'>
+                                        <span class='shaft'></span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Single team member -->
                 </div>
             </div>
         </div>

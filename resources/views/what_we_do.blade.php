@@ -156,6 +156,73 @@
                 </div>
             </div>
             <!-- about-area end -->
+
+            <div class="invest-area  page-padding-2" style="background: rgb(2, 16, 33, 0.06);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="section-headline text-center">
+                                <h3>Our Investment Products</h3>
+                                <p>We offer three types of investment products which our clients can choose depending on the benefits of each.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-flex">
+                        <div class="col-md-6 col-sm-6 col-xs-12 col-pad">
+                            <div class="content">
+                                <div class="top-price-inner">
+                                    <div class="rates">
+                                        <span class="prices">Ordinary Share Investment</span>
+                                    </div>
+                                </div>
+                                <p class="pricing-text">
+                                An ordinary share represents a fraction of ownership in
+the corporation that issues it. As an owner, shareholders will gets a vote in the
+company's major decisions, decided in shareholder meetings as well as get paid
+dividends annually. we issue this class of shares for serious investors who are
+willing to grow with the company vision and goals. we target 10 subscribers in this
+class of share with minimum investment of $500,000. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 col-pad">
+                            <div class="content">
+                                <div class="top-price-inner">
+                                    <div class="rates">
+                                        <span class="prices">Preference Shareholder</span>
+                                    </div>
+                                </div>
+                                <p class="pricing-text">
+                                This also is another class of share which will gain interest in
+different periods as shown in the table below. They are short term investors . The
+minimum capital required is $100,000 and an investment above $500,000 will be
+receiving bonus of unit Apartment . after the end of contract the principal will be
+paid back to investor.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-flex">
+                        <div class="col-md-6 col-sm-4 col-xs-12 col-pad">
+                            <div class="content">
+                                <div class="top-price-inner">
+                                    <div class="rates">
+                                        <span class="prices">Managed - Trading Account</span>
+                                    </div>
+                                </div>
+                                <p class="pricing-text">
+                                this is self trading account managed by our traders.
+under L.P.O.A (Limited power of Attorney), our professional traders will open/close trades in
+clients account on his/her behalf and profit generated will be shared as 45% to client and
+55% to the company. Minimum investment to this service is $500,000 for individuals and
+$1,000,000 for corporate investors.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </di>
+            </div>
             <!-- Start About Area -->
             <div class="invest-area  page-padding-2" style="background: rgb(2, 16, 33, 0.06);">
                 <div class="container">

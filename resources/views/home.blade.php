@@ -690,6 +690,13 @@
     .animated-arrow>.main>.the-arrow {
         position: relative;
     }
+    .bold-500{
+        font-size: 1.9rem;
+    }
+    .support-all{
+        color: rgb(196, 215, 228);
+        text-align: center; 
+    }
 </style>
 <!-- Start Intro Area -->
 <div class="rev_slider_wrapper">
@@ -720,7 +727,7 @@
                     your charting.
                 </div>
                 <div class="tp-caption" data-x="left" data-y="450" data-speed="700" data-start="1350" data-transform_in="o:0;y:100;s:300;" data-transform_out="o:0;y:100;s:300;">
-                    <a class="btn btn-default btn-lg" href="{{url('/')}}">Home</a>
+                    <!-- <a class="btn btn-default btn-lg" href="{{url('/')}}">Home</a> -->
                 </div>
             </li>
         </ul>
@@ -735,13 +742,16 @@
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <div class="about-content">
                         <h3>About Us</h3>
-                        <p>We are a private trading and investment company licensed to trade for proprietary account on regulated exchanges (DMCC),
-                            by executing trades of different financial instruments such as FOREX, STOCKS, INDICES,
-                            FUTURES AND COMODITIES as well as diversify its own capital in Real estates as one of asset management of the company.
+                        <p><b class="bold-500">Smart Traders</b> is a privately-owned capital management company incorporated in the
+                            United Arab Emirates and licensed to trade financial instruments on regulated exchanges.
+                            the company partner with large network of regulated trading brokers, financial advisers and
+                            professional investment managers that are working from our trading floor centre in Dubai
+                            and manage investment portfolio in different financial assets.
                             <br><br>
-                            We use innovative approach in diversifying our portfolio and create sustainable income for our clients.
-                            With all the ongoing uncertainty in the world of finance brought about by different variables,
-                            one must seek alternatives that provide assurance and ease of mind. To provide this to our clients ...
+                            We plan to expand our trading centres globally in major cities such as United Kingdom,
+                            U.S.A, Singapore and Canada. We choose to start with Dubai to establish our main
+                            headquarter and trading Centre and create a hub of professional traders on the floor with a
+                            pool of managed funds from different investors globally...
                         </p>
                         <div class="mt-3">
                             <a class="read-more white" href="{{url('about')}}">Read More</a>
@@ -775,74 +785,53 @@
             </div>
             <div class="row">
                 <div class="pricing-content">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="pri_table_list">
                             <div class="top-price-inner">
                                 <div class="rates">
-                                    <span class="prices">5%</span><span class="users">Daily</span>
-                                </div>
-                                <span class="per-day">Monthly</span>
-                            </div>
-                            <ol class="pricing-text">
-                                <li class="check">Minimam Invest : $100</li>
-                                <li class="check">Maximam Invest : $1000</li>
-                                <li class="check">Avarage Monthly : 50% </li>
-                            </ol>
-                            <div class="price-btn blue">
-                                <!-- <a class="blue" href="#">Deposite</a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="pri_table_list">
-                            <div class="top-price-inner">
-                                <div class="rates">
-                                    <span class="prices">15%</span><span class="users">Daily</span>
+                                    <span class="prices">5.01%</span><span class="users">3 years</span>
                                 </div>
                                 <span class="per-day">Quotery</span>
                             </div>
                             <ol class="pricing-text">
-                                <li class="check">Minimam Invest : $1000</li>
-                                <li class="check">Maximam Invest : $10000</li>
-                                <li class="check">Avarage Monthly :100% </li>
+                                <li class="check">Annual Interest Rate : 20.04%</li>
+                                <li class="check">Total Interest Return : 60.12%</li>
                             </ol>
                             <div class="price-btn blue">
                                 <!-- <a class="blue" href="#">Deposite</a> -->
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="pri_table_list">
                             <div class="top-price-inner">
                                 <span class="base">Popular</span>
                                 <div class="rates">
-                                    <span class="prices">50%</span><span class="users">Daily</span>
+                                    <span class="prices">14.64%</span><span class="users">4 years</span>
                                 </div>
                                 <span class="per-day">Semi- Annualy</span>
                             </div>
                             <ol class="pricing-text">
-                                <li class="check">Minimam Invest : $1000</li>
-                                <li class="check">Maximam Invest : $50000</li>
-                                <li class="check">Avarage Monthly : 200% </li>
+                                <li class="check">Annual Interest Rate : 29.28%</li>
+                                <li class="check">Total Interest Return : 117.12%</li>
                             </ol>
                             <div class="price-btn blue">
                                 <!-- <a class="blue" href="#">Deposite</a> -->
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="pri_table_list">
                             <span class="base">Best sale</span>
                             <div class="top-price-inner">
                                 <div class="rates">
-                                    <span class="prices">100%</span><span class="users">Daily</span>
+                                    <span class="prices">32.27%</span><span class="users">5 years</span>
                                 </div>
                                 <span class="per-day">Annualy</span>
                             </div>
                             <ol class="pricing-text">
-                                <li class="check">Minimam Invest : $1000</li>
-                                <li class="check">Maximam Invest : $50000</li>
-                                <li class="check">Avarage Monthly : 250% </li>
+                                <li class="check">Annual Interest Rate : 32.27%</li>
+                                <li class="check">Total Interest Return : 161.35%</li>
                             </ol>
                             <div class="price-btn blue">
                                 <!-- <a class="blue" href="#">Deposite</a> -->
@@ -860,7 +849,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="section-headline text-center">
-                        <h3>Why choose investment plan</h3>
+                        <h3>Why Choose Us?</h3>
                         <!-- <p>Help agencies to define their new business objectives and then create professional software.</p> -->
                     </div>
                 </div>
@@ -868,65 +857,14 @@
             <div class="row">
                 <div class="support-all">
                     <!-- Start About -->
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="support-services wow ">
-                            <a class="support-images" href="#"><i class="flaticon-023-management font-weight-600"></i></a>
-                            <div class="support-content">
-                                <h4>Expert management</h4>
-                                <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Start About -->
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="support-services ">
-                            <a class="support-images" href="#"><i class="flaticon-036-security font-weight-600"></i></a>
-                            <div class="support-content">
-                                <h4>Secure investment</h4>
-                                <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Start services -->
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="support-services ">
-                            <a class="support-images" href="#"><i class="flaticon-003-approve font-weight-600"></i></a>
-                            <div class="support-content">
-                                <h4>Registered company</h4>
-                                <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Start services -->
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="support-services">
-                            <a class="support-images" href="#"><i class="flaticon-042-wallet font-weight-600"></i></a>
-                            <div class="support-content">
-                                <h4>Instant withdrawal</h4>
-                                <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Start services -->
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="support-services ">
-                            <a class="support-images" href="#"><i class="flaticon-032-report font-weight-600"></i></a>
-                            <div class="support-content">
-                                <h4>Verified security</h4>
-                                <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Start services -->
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="support-services">
-                            <a class="support-images" href="#"><i class="flaticon-024-megaphone font-weight-600"></i></a>
-                            <div class="support-content">
-                                <h4>Live customer support</h4>
-                                <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create</p>
-                            </div>
-                        </div>
-                    </div>
+                    We use innovative approach in diversifying our portfolio and create sustainable income for
+                    our investors. With our team of professional traders and financial analysts we help clients to
+                    avoid risks of trading themselves and avoiding the risk of locking their capital in one asset
+                    class, instead they gain both return from trading and estates as their principal remain intact
+                    at the end of the contract.
+                    We speculate on major markets based on the effects of global trades and the performance of
+                    big businesses. When clients invest with us, they can rest assured that their Capital will
+                    generate sustainable income in the long term to meet their goals.
                 </div>
             </div>
         </div>
@@ -940,7 +878,7 @@
                     <div class="banner-all area-80 text-center">
                         <div class="banner-content">
                             <h3>Our investment plan world wide business relations for development</h3>
-                            <a class="banner-btn" href="#">Sign up now</a>
+                            <a class="banner-btn" href="#">Learning More</a>
                         </div>
                     </div>
                 </div>
@@ -1200,83 +1138,88 @@
             <div class="row row-flex">
                 <!-- Single team member -->
                 <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
-                    <div class="single-member-team">
-                        <div id="circle-shape-example">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/kiwifruit-on-a-plate.jpg" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
-                            <h3 class="titles-team">Saleh Ismail Alzarooni</h3>
-                            <?php $descriction_1 = "Saleh is the Chairman of BCM Holdings. He is a renowned Economist and a formidable leader with over 25 years of experience in leading various businesses. During this period, Saleh developed extensive business relations and network with several Gulf and African nations, investors, and moguls in both private and public sectors. Saleh has been working as the private office manager of His Excellence Sheikh Marwan Bin Mohammed Bin Rashid Al Maktoum for over two decades. In this capacity, Saleh works closely with His Highness and has conducted multiple successful business activities on behalf of His Excellence Sheikh Maktoum. His expansive diplomatic skills as well as his superlative attention to details has brought major success in many companies."; ?>
-                            <p style="color: rgba(209, 228, 240);">
-                                {{ \Illuminate\Support\Str::limit($descriction_1, 200, '...') }}
-                            </p>
-                        </div>
-                        <a class='animated-arrow' href="{{url('Saleh/Alzarooni')}}">
-                            <span class='the-arrow -left'>
-                                <span class='shaft'></span>
-                            </span>
-                            <span class='main'>
-                                <span class='text'>
-                                    Read More
-                                </span>
-                                <span class='the-arrow -right'>
-                                    <span class='shaft'></span>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-                <!-- Single team member -->
-                <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
-                    <div class="single-member-team">
-                        <div id="circle-shape-example">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/kiwifruit-on-a-plate.jpg" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
-                            <h3 class="titles-team">Mike Sallu</h3>
-                            <?php $descriction_2 = "Mike is the Deputy Chairman of BCM Holdings. He is a Fellow Certified Public Accountant and holds BCom and MA degrees. He is a renowned consultant and a multiskilled business leader, and he possesses significant experience of leading the board agenda. In addition to being the deputy chairman of BCM Holdings, he is the Chairman of UAP Insurance Kenya Limited, Ecobank Tanzania Limited, and Claritas International. He also sits on the boards of UAP Insurance Tanzania, UAP Insurance Rwanda, and Geno Services Limited. Previously, Michael worked for PricewaterhouseCoopers (PwC) for 24 years. He served 15 of those years as Partner and Director, and he was a Governance Board Member of PwC Africa and PwC Africa Central for a combined period of 6 years."; ?>
-                            <p style="color: rgba(209, 228, 240);">
-                                {{ \Illuminate\Support\Str::limit($descriction_2, 200, '...') }}
-                            </p>
-                        </div>
-                        <a class='animated-arrow' href="{{url('Mike/Sallu')}}">
-                            <span class='the-arrow -left'>
-                                <span class='shaft'></span>
-                            </span>
-                            <span class='main'>
-                                <span class='text'>
-                                    Read More
-                                </span>
-                                <span class='the-arrow -right'>
-                                    <span class='shaft'></span>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-                <!-- Single team member -->
-                <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
-                    <div class="single-member-team">
-                        <div id="circle-shape-example">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/kiwifruit-on-a-plate.jpg" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
-                            <h3 class="titles-team">Steven Ndaula</h3>
+                        <div class="single-member-team">
+                            <div id="circle-shape-example">
+                                <img src="{{asset('img/team/2.jpeg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                                <h3 class="titles-team">Steven Ndaula</h3>
 
-                            <?php $descriction_3 = "Steven is the President and founder of the BCM Holdings. He is a professional master trader of online financial instruments with securities and investment accreditation from the Chartered Institute for Securities and Investment (CISI), and investments and trading certification from Knightsbridge Trading Academy and London Stock Exchange Group. He also trained in medicine and surgery with the International Medical and Technology University (IMTU) for 3 years. Steven has five (5) years of experience in trading online financial instruments such forex, stocks, indices, commodities, futures, and cryptocurrencies. He also has extensive experience in risk management, strategy, and long-term investments decision making. Steven is an astute entrepreneur who left medical profession to build a career in trading, and has established businesses in the UAE, Canada, South Africa, Tanzania, and Kenya. "; ?>
-                            <p style="color: rgba(209, 228, 240);">
-                                {{ \Illuminate\Support\Str::limit($descriction_3, 200, '...') }}
-                            </p>
-                        </div>
-                        <a class='animated-arrow' href="{{url('Steven/Ndaula')}}">
-                            <span class='the-arrow -left'>
-                                <span class='shaft'></span>
-                            </span>
-                            <span class='main'>
-                                <span class='text'>
-                                    Read More
-                                </span>
-                                <span class='the-arrow -right'>
+                                <?php $descriction_3 = "Steven is the President and founder of the BCM Holdings. He is a professional master trader of online financial instruments with securities and investment accreditation from the Chartered Institute for Securities and Investment (CISI), and investments and trading certification from Knightsbridge Trading Academy and London Stock Exchange Group. He also trained in medicine and surgery with the International Medical and Technology University (IMTU) for 3 years. Steven has five (5) years of experience in trading online financial instruments such forex, stocks, indices, commodities, futures, and cryptocurrencies. He also has extensive experience in risk management, strategy, and long-term investments decision making. Steven is an astute entrepreneur who left medical profession to build a career in trading, and has established businesses in the UAE, Canada, South Africa, Tanzania, and Kenya. "; ?>
+                                <p style="color: rgba(209, 228, 240);">
+                                    {{ \Illuminate\Support\Str::limit($descriction_3, 200, '...') }}
+                                </p>
+                            </div>
+                            <a class='animated-arrow' href="{{url('Steven/Ndaula')}}">
+                                <span class='the-arrow -left'>
                                     <span class='shaft'></span>
                                 </span>
-                            </span>
-                        </a>
+                                <span class='main'>
+                                    <span class='text'>
+                                        Read More
+                                    </span>
+                                    <span class='the-arrow -right'>
+                                        <span class='shaft'></span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
                     </div>
-                </div>
+                <!-- Single team member -->
+                <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
+                        <div class="single-member-team">
+                            <div id="circle-shape-example">
+                                <img src="{{asset('img/team/Picture5t.jpg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                                <h3 class="titles-team">Dr. Anthony Witherspoon </h3>
+
+                                <?php $descriction_5 = "Anthony is a sought-after public speaker and owner of Sankofa Academy and Safeguard Insurance. In a historical accomplishment, he became Mayor of the City of Magnolia, Mississippi on July 1, 2014. He is a skilled administrative leader and consultant in both government and private sectors in the U.S. He previously served as the Vice President of the Mississippi State Conference of the NAACP, he was the President of the Mississippi Conference of Black Mayors, and the President of the Mississippi Black Caucus of Local Elected Officials. He was also a Board member of Beecham Memorial Hospital and Freedom Behavioral Health. He holds BSc in Business Administration and a Master’s degree in Public Administration from Belhaven University, and he has a Ph.D. from Jackson State University."; ?>
+                                <p style="color: rgba(209, 228, 240);">
+                                    {{ \Illuminate\Support\Str::limit($descriction_5, 200, '...') }}
+                                </p>
+                            </div>
+                            <a class='animated-arrow' href="{{url('Anthnony/Witherspoon')}}">
+                                <span class='the-arrow -left'>
+                                    <span class='shaft'></span>
+                                </span>
+                                <span class='main'>
+                                    <span class='text'>
+                                        Read More
+                                    </span>
+                                    <span class='the-arrow -right'>
+                                        <span class='shaft'></span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                <!-- Single team member -->
+                <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
+                        <div class="single-member-team">
+                            <div id="circle-shape-example">
+                                <img src="{{asset('img/team/1.jpeg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                                <h3 class="titles-team">Sylvanus Clemence.</h3>
+
+                                <?php $descriction_4 = "Sylvanus is a co-founder and professional in finance
+                                                        and accounting with postgraduate degree. Sylvanus also
+                                                        trained in logistics for his masters degree and brings
+                                                        experience in real estate and property management"; ?>
+                                <p style="color: rgba(209, 228, 240);">
+                                    {{ \Illuminate\Support\Str::limit($descriction_4, 200, '...') }}
+                                </p>
+                            </div>
+                            <a class='animated-arrow' href="{{url('Ammer/Alhariri')}}">
+                                <span class='the-arrow -left'>
+                                    <span class='shaft'></span>
+                                </span>
+                                <span class='main'>
+                                    <span class='text'>
+                                        Read More
+                                    </span>
+                                    <span class='the-arrow -right'>
+                                        <span class='shaft'></span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
             </div>
 
             <div class="row">
