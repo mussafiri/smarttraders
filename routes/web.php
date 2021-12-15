@@ -64,7 +64,7 @@ Route::get('signup', function () {
 Route::get('team', function () {
     return view('team');
 });
-Route::get('Saleh/Alzarooni', function () {
+Route::get('Sylvanus/Clemence', function () {
     return view('director_1');
 });
 Route::get('Mike/Sallu', function () {

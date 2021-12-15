@@ -391,7 +391,7 @@ font-family: 'Califonia Bound';
                                 <ul class="blog-cat">
                                         <li class="{{ Request::is('Steven/Ndaula') ? 'active' : '' }}"><a href="{{url('Steven/Ndaula')}}">Steven Ndaula</a></li>
                                         <li class="{{ Request::is('Anthnony/Witherspoon') ? 'active' : '' }}"><a href="{{url('Anthnony/Witherspoon')}}">Dr. Anthony Witherspoon</a></li>
-                                        <li class="{{ Request::is('Saleh/Alzarooni') ? 'active' : '' }}"><a  href="{{url('Saleh/Alzarooni')}}">Sylvanus Clemence</a></li>
+                                        <li class="{{ Request::is('Sylvanus/Clemence') ? 'active' : '' }}"><a  href="{{url('Sylvanus/Clemence')}}">Sylvanus Clemence</a></li>
                                         <li class="{{ Request::is('Mike/Sallu') ? 'active' : '' }}"><a  href="{{url('Mike/Sallu')}}">Mike Sallu</a></li>
                                         <!-- <li class="{{ Request::is('Ammer/Alhariri') ? 'active' : '' }}"><a href="{{url('Ammer/Alhariri')}}">Ammer Alhariri</a></li> -->
                                     </ul>
@@ -402,7 +402,7 @@ font-family: 'Califonia Bound';
                     <div class="col-md-8 col-sm-12 col-xs-12 mb-3">
                         <div class="single-member-team">
                             <div id="circle-shape-example">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/kiwifruit-on-a-plate.jpg" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                                <img src="{{asset('img/team/Picture5t.jpg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
                                 <h3 class="titles-team">Dr. Anthony Witherspoon </h3>
 
                                 <?php $descriction_5 = "Anthony is a sought-after public speaker and owner of Sankofa Academy and Safeguard Insurance. In a historical accomplishment, he became Mayor of the City of Magnolia, Mississippi on July 1, 2014. He is a skilled administrative leader and consultant in both government and private sectors in the U.S. He previously served as the Vice President of the Mississippi State Conference of the NAACP, he was the President of the Mississippi Conference of Black Mayors, and the President of the Mississippi Black Caucus of Local Elected Officials. He was also a Board member of Beecham Memorial Hospital and Freedom Behavioral Health. He holds BSc in Business Administration and a Master’s degree in Public Administration from Belhaven University, and he has a Ph.D. from Jackson State University."; ?>

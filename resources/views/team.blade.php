@@ -393,7 +393,7 @@ font-family: 'Califonia Bound';
                                     {{ \Illuminate\Support\Str::limit($descriction_4, 200, '...') }}
                                 </p>
                             </div>
-                            <a class='animated-arrow' href="{{url('Ammer/Alhariri')}}">
+                            <a class='animated-arrow' href="{{url('Sylvanus/Clemence')}}">
                                 <span class='the-arrow -left'>
                                     <span class='shaft'></span>
                                 </span>

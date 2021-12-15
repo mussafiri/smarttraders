@@ -391,7 +391,7 @@ font-family: 'Califonia Bound';
                                     <ul class="blog-cat">
                                         <li class="{{ Request::is('Steven/Ndaula') ? 'active' : '' }}"><a href="{{url('Steven/Ndaula')}}">Steven Ndaula</a></li>
                                         <li class="{{ Request::is('Anthnony/Witherspoon') ? 'active' : '' }}"><a href="{{url('Anthnony/Witherspoon')}}">Dr. Anthony Witherspoon</a></li>
-                                        <li class="{{ Request::is('Saleh/Alzarooni') ? 'active' : '' }}"><a  href="{{url('Saleh/Alzarooni')}}">Sylvanus Clemence</a></li>
+                                        <li class="{{ Request::is('Sylvanus/Clemence') ? 'active' : '' }}"><a  href="{{url('Sylvanus/Clemence')}}">Sylvanus Clemence</a></li>
                                         <li class="{{ Request::is('Mike/Sallu') ? 'active' : '' }}"><a  href="{{url('Mike/Sallu')}}">Mike Sallu</a></li>
                                         <!-- <li class="{{ Request::is('Ammer/Alhariri') ? 'active' : '' }}"><a href="{{url('Ammer/Alhariri')}}">Ammer Alhariri</a></li> -->
                                     </ul>
@@ -402,7 +402,7 @@ font-family: 'Califonia Bound';
                     <div class="col-md-8 col-sm-12 col-xs-12 mb-3">
                         <div class="single-member-team ">
                             <div id="circle-shape-example">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/kiwifruit-on-a-plate.jpg" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                                <img src="{{asset('img/team/picture1t.jpg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
                                 <h3 class="titles-team">Mike Sallu</h3>
                                 <?php $descriction_2 = "Mike is the Deputy Chairman of BCM Holdings. He is a Fellow Certified Public Accountant and holds BCom and MA degrees. He is a renowned consultant and a multiskilled business leader, and he possesses significant experience of leading the board agenda. In addition to being the deputy chairman of BCM Holdings, he is the Chairman of UAP Insurance Kenya Limited, Ecobank Tanzania Limited, and Claritas International. He also sits on the boards of UAP Insurance Tanzania, UAP Insurance Rwanda, and Geno Services Limited. Previously, Michael worked for PricewaterhouseCoopers (PwC) for 24 years. He served 15 of those years as Partner and Director, and he was a Governance Board Member of PwC Africa and PwC Africa Central for a combined period of 6 years."; ?>
                                 <p style="color: rgba(209, 228, 240);">

@@ -391,7 +391,7 @@ font-family: 'Califonia Bound';
                                    <ul class="blog-cat">
                                         <li class="{{ Request::is('Steven/Ndaula') ? 'active' : '' }}"><a href="{{url('Steven/Ndaula')}}">Steven Ndaula</a></li>
                                         <li class="{{ Request::is('Anthnony/Witherspoon') ? 'active' : '' }}"><a href="{{url('Anthnony/Witherspoon')}}">Dr. Anthony Witherspoon</a></li>
-                                        <li class="{{ Request::is('Saleh/Alzarooni') ? 'active' : '' }}"><a  href="{{url('Saleh/Alzarooni')}}">Sylvanus Clemence</a></li>
+                                        <li class="{{ Request::is('Sylvanus/Clemence') ? 'active' : '' }}"><a  href="{{url('Sylvanus/Clemence')}}">Sylvanus Clemence</a></li>
                                         <li class="{{ Request::is('Mike/Sallu') ? 'active' : '' }}"><a  href="{{url('Mike/Sallu')}}">Mike Sallu</a></li>
                                         <!-- <li class="{{ Request::is('Ammer/Alhariri') ? 'active' : '' }}"><a href="{{url('Ammer/Alhariri')}}">Ammer Alhariri</a></li> -->
                                     </ul>
@@ -402,7 +402,7 @@ font-family: 'Califonia Bound';
                     <div class="col-md-8 col-sm-12 col-xs-12 mb-3">
                         <div class="single-member-team">
                             <div id="circle-shape-example">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/kiwifruit-on-a-plate.jpg" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                                <img src="{{asset('img/team/2.jpeg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
                                 <h3 class="titles-team">Steven Ndaula</h3>
 
                                 <?php $descriction_3 = "Steven is the President and founder of the BCM Holdings. He is a professional master trader of online financial instruments with securities and investment accreditation from the Chartered Institute for Securities and Investment (CISI), and investments and trading certification from Knightsbridge Trading Academy and London Stock Exchange Group. He also trained in medicine and surgery with the International Medical and Technology University (IMTU) for 3 years. Steven has five (5) years of experience in trading online financial instruments such forex, stocks, indices, commodities, futures, and cryptocurrencies. He also has extensive experience in risk management, strategy, and long-term investments decision making. Steven is an astute entrepreneur who left medical profession to build a career in trading, and has established businesses in the UAE, Canada, South Africa, Tanzania, and Kenya. "; ?>

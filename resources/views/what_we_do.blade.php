@@ -58,10 +58,12 @@
         width: 10%;
         border-bottom: 2px solid #CBA274;
     }
+
     .row-flex {
         display: flex;
         flex-wrap: wrap;
     }
+
     .content {
         height: 100%;
         padding: 20px 20px 10px;
@@ -176,12 +178,12 @@
                                     </div>
                                 </div>
                                 <p class="pricing-text">
-                                An ordinary share represents a fraction of ownership in
-the corporation that issues it. As an owner, shareholders will gets a vote in the
-company's major decisions, decided in shareholder meetings as well as get paid
-dividends annually. we issue this class of shares for serious investors who are
-willing to grow with the company vision and goals. we target 10 subscribers in this
-class of share with minimum investment of $500,000. 
+                                    An ordinary share represents a fraction of ownership in
+                                    the corporation that issues it. As an owner, shareholders will gets a vote in the
+                                    company's major decisions, decided in shareholder meetings as well as get paid
+                                    dividends annually. we issue this class of shares for serious investors who are
+                                    willing to grow with the company vision and goals. we target 10 subscribers in this
+                                    class of share with minimum investment of $500,000.
                                 </p>
                             </div>
                         </div>
@@ -193,11 +195,11 @@ class of share with minimum investment of $500,000.
                                     </div>
                                 </div>
                                 <p class="pricing-text">
-                                This also is another class of share which will gain interest in
-different periods as shown in the table below. They are short term investors . The
-minimum capital required is $100,000 and an investment above $500,000 will be
-receiving bonus of unit Apartment . after the end of contract the principal will be
-paid back to investor.
+                                    This also is another class of share which will gain interest in
+                                    different periods as shown in the table below. They are short term investors . The
+                                    minimum capital required is $100,000 and an investment above $500,000 will be
+                                    receiving bonus of unit Apartment . after the end of contract the principal will be
+                                    paid back to investor.
                                 </p>
                             </div>
                         </div>
@@ -211,11 +213,11 @@ paid back to investor.
                                     </div>
                                 </div>
                                 <p class="pricing-text">
-                                this is self trading account managed by our traders.
-under L.P.O.A (Limited power of Attorney), our professional traders will open/close trades in
-clients account on his/her behalf and profit generated will be shared as 45% to client and
-55% to the company. Minimum investment to this service is $500,000 for individuals and
-$1,000,000 for corporate investors.
+                                    this is self trading account managed by our traders.
+                                    under L.P.O.A (Limited power of Attorney), our professional traders will open/close trades in
+                                    clients account on his/her behalf and profit generated will be shared as 45% to client and
+                                    55% to the company. Minimum investment to this service is $500,000 for individuals and
+                                    $1,000,000 for corporate investors.
                                 </p>
                             </div>
                         </div>
