@@ -96,6 +96,91 @@
         /*...*/
         clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
     }
+
+    .step {
+        position: relative;
+        min-height: 12em;
+        color: gray;
+
+    }
+
+    .title {
+        line-height: 1.5em;
+        color: #061E29;
+        font-size: 2.72rem;
+        margin-bottom: 5px;
+        font-weight: 600;
+    }
+
+    .caption {
+        font-size: 1.9rem;
+        color: #1B1E21;
+    }
+
+    .step+.step {
+        margin-top: 2.5em
+    }
+
+    .step>div:first-child {
+        position: static;
+        height: 0;
+    }
+
+    .step>div:not(:first-child) {
+        margin-left: 1.5em;
+        padding-left: 1em;
+    }
+
+    /* Circle */
+    .circle {
+        background: linear-gradient(to bottom right, #0a3041, #23A6E0);
+        position: relative;
+        width: 2.1em;
+        height: 2.1em;
+        line-height: 1.5em;
+        border-radius: 100%;
+        color: #fff;
+        padding-top: 5px;
+        text-align: center;
+        box-shadow: 0 0 0 13px rgb(0, 0, 0), 0.5;
+    }
+
+    /* Vertical Line */
+    .circle:after {
+        content: ' ';
+        position: absolute;
+        display: block;
+        top: 1px;
+        right: 50%;
+        bottom: 1px;
+        left: 50%;
+        height: 100%;
+        width: 1px;
+        transform: scale(1, 2);
+        transform-origin: 50% -100%;
+        background: linear-gradient(to bottom,#23A6E0, #0a3041) ;
+        z-index: 1;
+    }
+
+    .step:last-child .circle:after {
+        display: none
+    }
+
+    .step.step-active {
+        color: #4285f4
+    }
+
+    .step.step-active .circle {
+        background-color: #4285f4;
+    }
+
+    .steps-box {
+        background: linear-gradient(130deg, rgba(230, 235, 237, 0.930) 95%, rgba(37, 92, 122, 0.730) 90%);
+        border-bottom: solid 3px #0C3A4F;
+        border-right: solid 3px #0C3A4F;
+        padding: 20px 40px 10px 40px;
+        box-shadow: 4px 6px 10px rgb(0 0 0 / 70%);
+    }
 </style>
 <!-- Start breadcumb Area -->
 <div class="rev_slider_wrapper">
@@ -164,62 +249,63 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="section-headline text-center">
-                                <h3>Our Investment Products</h3>
+                                <h3>Our Investment Packages</h3>
                                 <p>We offer three types of investment products which our clients can choose depending on the benefits of each.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="row row-flex">
-                        <div class="col-md-6 col-sm-6 col-xs-12 col-pad">
-                            <div class="content">
-                                <div class="top-price-inner">
-                                    <div class="rates">
-                                        <span class="prices">Ordinary Share Investment</span>
-                                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="step">
+                                <div>
+                                    <div class="circle">1</div>
                                 </div>
-                                <p class="pricing-text">
-                                    An ordinary share represents a fraction of ownership in
+                                <div class="col-md-12">
+                                    <div class="steps-box">
+                                        <div class="title">Ordinary Share Investment</div>
+                                        <div class="caption">An ordinary share represents a fraction of ownership in
                                     the corporation that issues it. As an owner, shareholders will gets a vote in the
                                     company's major decisions, decided in shareholder meetings as well as get paid
                                     dividends annually. we issue this class of shares for serious investors who are
                                     willing to grow with the company vision and goals. we target 10 subscribers in this
                                     class of share with minimum investment of $500,000.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12 col-pad">
-                            <div class="content">
-                                <div class="top-price-inner">
-                                    <div class="rates">
-                                        <span class="prices">Preference Shareholder</span>
+                                        </div>
                                     </div>
                                 </div>
-                                <p class="pricing-text">
-                                    This also is another class of share which will gain interest in
+                            </div>
+                            <div class="step">
+                                <div>
+                                    <div class="circle">2</div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="steps-box">
+                                        <div class="title">Preference Shareholder</div>
+                                        <div class="caption">This also is another class of share which will gain interest in
                                     different periods as shown in the table below. They are short term investors . The
                                     minimum capital required is $100,000 and an investment above $500,000 will be
                                     receiving bonus of unit Apartment . after the end of contract the principal will be
                                     paid back to investor.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row row-flex">
-                        <div class="col-md-6 col-sm-4 col-xs-12 col-pad">
-                            <div class="content">
-                                <div class="top-price-inner">
-                                    <div class="rates">
-                                        <span class="prices">Managed - Trading Account</span>
+                                        </div>
                                     </div>
                                 </div>
-                                <p class="pricing-text">
-                                    this is self trading account managed by our traders.
+                            </div>
+                            <div class="step">
+                                <div>
+                                    <div class="circle">3</div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="steps-box">
+                                        <div class="title">Managed - Trading Account</div>
+                                        <div class="caption">This is self trading account managed by our traders.
                                     under L.P.O.A (Limited power of Attorney), our professional traders will open/close trades in
                                     clients account on his/her behalf and profit generated will be shared as 45% to client and
                                     55% to the company. Minimum investment to this service is $500,000 for individuals and
                                     $1,000,000 for corporate investors.
-                                </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            <div class="step" style="margin-top: 0px;min-height: 0em;"></div>
                         </div>
                     </div>
                 </div>
