@@ -7,7 +7,7 @@
     }
 
     .background-color-1 {
-        background-color: rgb(2, 16, 33, 0.79);
+        background-color: rgb(2, 16, 33, 0.9);
     }
 
     #yin-yang {
@@ -69,6 +69,7 @@
         padding: 20px 20px 10px;
         box-shadow: 0 5px 25px rgb(0 0 0 / 70%);
         border: 1px solid #CCA177;
+        background: #0A1828;
     }
 
     .col-pad {

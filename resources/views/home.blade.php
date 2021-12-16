@@ -191,8 +191,7 @@
     }
 
     .background-color {
-        background: rgb(2, 16, 33);
-        opacity: 0.949;
+        background: rgb(2, 16, 33, 0.985);
     }
 
     #overlay,
@@ -690,12 +689,14 @@
     .animated-arrow>.main>.the-arrow {
         position: relative;
     }
-    .bold-500{
+
+    .bold-500 {
         font-size: 1.9rem;
     }
-    .support-all{
+
+    .support-all {
         color: rgb(196, 215, 228);
-        text-align: center; 
+        text-align: center;
     }
 </style>
 <!-- Start Intro Area -->
@@ -1123,116 +1124,117 @@
     </div>
     <!-- End FAQ area -->
     <!-- Our Team Area -->
-    <div class="team-page-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="section-headline text-center mt-5">
-                        <h3>Our Board of Directors</h3>
-                        <!-- <p>Help agencies to define their new business objectives and then create professional software.</p> -->
+            <div class="team-page-area" style="background: rgb(2, 16, 33, 0.01);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="section-headline text-center mt-5">
+                                <h3>Our Board of Directors</h3>
+                                <!-- <p>Help agencies to define their new business objectives and then create professional software.</p> -->
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <!-- <div id="videowrapper">
+                    <!-- <div id="videowrapper">
               <div id="fullScreenDiv"> -->
-            <div class="row row-flex">
-                <!-- Single team member -->
-                <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
-                        <div class="single-member-team">
-                            <div id="circle-shape-example">
-                                <img src="{{asset('img/team/2.jpeg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
-                                <h3 class="titles-team">Steven Ndaula</h3>
+                    <div class="row row-flex">
+                        <!-- Single team member -->
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
+                            <div class="single-member-team">
+                                <div id="circle-shape-example">
+                                    <img src="{{asset('img/team/2.jpeg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                                    <h3 class="titles-team">Steven Ndaula</h3>
 
-                                <?php $descriction_3 = "Steven is the President and founder of the BCM Holdings. He is a professional master trader of online financial instruments with securities and investment accreditation from the Chartered Institute for Securities and Investment (CISI), and investments and trading certification from Knightsbridge Trading Academy and London Stock Exchange Group. He also trained in medicine and surgery with the International Medical and Technology University (IMTU) for 3 years. Steven has five (5) years of experience in trading online financial instruments such forex, stocks, indices, commodities, futures, and cryptocurrencies. He also has extensive experience in risk management, strategy, and long-term investments decision making. Steven is an astute entrepreneur who left medical profession to build a career in trading, and has established businesses in the UAE, Canada, South Africa, Tanzania, and Kenya. "; ?>
-                                <p style="color: rgba(209, 228, 240);">
-                                    {{ \Illuminate\Support\Str::limit($descriction_3, 200, '...') }}
-                                </p>
-                            </div>
-                            <a class='animated-arrow' href="{{url('Steven/Ndaula')}}">
-                                <span class='the-arrow -left'>
-                                    <span class='shaft'></span>
-                                </span>
-                                <span class='main'>
-                                    <span class='text'>
-                                        Read More
-                                    </span>
-                                    <span class='the-arrow -right'>
+                                    <?php $descriction_3 = "Steven is the President and founder of the BCM Holdings. He is a professional master trader of online financial instruments with securities and investment accreditation from the Chartered Institute for Securities and Investment (CISI), and investments and trading certification from Knightsbridge Trading Academy and London Stock Exchange Group. He also trained in medicine and surgery with the International Medical and Technology University (IMTU) for 3 years. Steven has five (5) years of experience in trading online financial instruments such forex, stocks, indices, commodities, futures, and cryptocurrencies. He also has extensive experience in risk management, strategy, and long-term investments decision making. Steven is an astute entrepreneur who left medical profession to build a career in trading, and has established businesses in the UAE, Canada, South Africa, Tanzania, and Kenya. "; ?>
+                                    <p style="color: rgba(209, 228, 240);">
+                                        {{ \Illuminate\Support\Str::limit($descriction_3, 200, '...') }}
+                                    </p>
+                                </div>
+                                <a class='animated-arrow' href="{{url('Steven/Ndaula')}}">
+                                    <span class='the-arrow -left'>
                                         <span class='shaft'></span>
                                     </span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                <!-- Single team member -->
-                <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
-                        <div class="single-member-team">
-                            <div id="circle-shape-example">
-                                <img src="{{asset('img/team/Picture5t.jpg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
-                                <h3 class="titles-team">Dr. Anthony Witherspoon </h3>
-
-                                <?php $descriction_5 = "Anthony is a sought-after public speaker and owner of Sankofa Academy and Safeguard Insurance. In a historical accomplishment, he became Mayor of the City of Magnolia, Mississippi on July 1, 2014. He is a skilled administrative leader and consultant in both government and private sectors in the U.S. He previously served as the Vice President of the Mississippi State Conference of the NAACP, he was the President of the Mississippi Conference of Black Mayors, and the President of the Mississippi Black Caucus of Local Elected Officials. He was also a Board member of Beecham Memorial Hospital and Freedom Behavioral Health. He holds BSc in Business Administration and a Master’s degree in Public Administration from Belhaven University, and he has a Ph.D. from Jackson State University."; ?>
-                                <p style="color: rgba(209, 228, 240);">
-                                    {{ \Illuminate\Support\Str::limit($descriction_5, 200, '...') }}
-                                </p>
-                            </div>
-                            <a class='animated-arrow' href="{{url('Anthnony/Witherspoon')}}">
-                                <span class='the-arrow -left'>
-                                    <span class='shaft'></span>
-                                </span>
-                                <span class='main'>
-                                    <span class='text'>
-                                        Read More
+                                    <span class='main'>
+                                        <span class='text'>
+                                            Read More
+                                        </span>
+                                        <span class='the-arrow -right'>
+                                            <span class='shaft'></span>
+                                        </span>
                                     </span>
-                                    <span class='the-arrow -right'>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Single team member -->
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
+                            <div class="single-member-team">
+                                <div id="circle-shape-example">
+                                    <img src="{{asset('img/team/Picture5t.jpg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                                    <h3 class="titles-team">Dr. Anthony Witherspoon </h3>
+
+                                    <?php $descriction_5 = "Anthony is a sought-after public speaker and owner of Sankofa Academy and Safeguard Insurance. In a historical accomplishment, he became Mayor of the City of Magnolia, Mississippi on July 1, 2014. He is a skilled administrative leader and consultant in both government and private sectors in the U.S. He previously served as the Vice President of the Mississippi State Conference of the NAACP, he was the President of the Mississippi Conference of Black Mayors, and the President of the Mississippi Black Caucus of Local Elected Officials. He was also a Board member of Beecham Memorial Hospital and Freedom Behavioral Health. He holds BSc in Business Administration and a Master’s degree in Public Administration from Belhaven University, and he has a Ph.D. from Jackson State University."; ?>
+                                    <p style="color: rgba(209, 228, 240);">
+                                        {{ \Illuminate\Support\Str::limit($descriction_5, 200, '...') }}
+                                    </p>
+                                </div>
+                                <a class='animated-arrow' href="{{url('Anthnony/Witherspoon')}}">
+                                    <span class='the-arrow -left'>
                                         <span class='shaft'></span>
                                     </span>
-                                </span>
-                            </a>
+                                    <span class='main'>
+                                        <span class='text'>
+                                            Read More
+                                        </span>
+                                        <span class='the-arrow -right'>
+                                            <span class='shaft'></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                <!-- Single team member -->
-                <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
-                        <div class="single-member-team">
-                            <div id="circle-shape-example">
-                                <img src="{{asset('img/team/1.jpeg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
-                                <h3 class="titles-team">Sylvanus Clemence.</h3>
+                        <!-- Single team member -->
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
+                            <div class="single-member-team">
+                                <div id="circle-shape-example">
+                                    <img src="{{asset('img/team/1.jpeg')}}" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+                                    <h3 class="titles-team">Sylvanus Clemence.</h3>
 
-                                <?php $descriction_4 = "Sylvanus is a co-founder and professional in finance
+                                    <?php $descriction_4 = "Sylvanus is a co-founder and professional in finance
                                                         and accounting with postgraduate degree. Sylvanus also
                                                         trained in logistics for his masters degree and brings
                                                         experience in real estate and property management"; ?>
-                                <p style="color: rgba(209, 228, 240);">
-                                    {{ \Illuminate\Support\Str::limit($descriction_4, 200, '...') }}
-                                </p>
-                            </div>
-                            <a class='animated-arrow' href="{{url('Ammer/Alhariri')}}">
-                                <span class='the-arrow -left'>
-                                    <span class='shaft'></span>
-                                </span>
-                                <span class='main'>
-                                    <span class='text'>
-                                        Read More
-                                    </span>
-                                    <span class='the-arrow -right'>
+                                    <p style="color: rgba(209, 228, 240);">
+                                        {{ \Illuminate\Support\Str::limit($descriction_4, 200, '...') }}
+                                    </p>
+                                </div>
+                                <a class='animated-arrow' href="{{url('Ammer/Alhariri')}}">
+                                    <span class='the-arrow -left'>
                                         <span class='shaft'></span>
                                     </span>
-                                </span>
-                            </a>
+                                    <span class='main'>
+                                        <span class='text'>
+                                            Read More
+                                        </span>
+                                        <span class='the-arrow -right'>
+                                            <span class='shaft'></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
-            </div>
 
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="banner-all area-80 text-center">
-                        <div class="banner-content">
-                            <a class="banner-btn" href="{{url('team')}}">View All</a>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="banner-all area-80 text-center">
+                                <div class="banner-content">
+                                    <a class="banner-btn" href="{{url('team')}}">View All</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+
     <!-- End Our Team Area -->
 </div>
 <script>

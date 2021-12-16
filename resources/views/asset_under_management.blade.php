@@ -12,7 +12,7 @@
     }
 
     .background-color {
-        background: rgb(2, 16, 33);
+        background: rgb(2, 16, 33, .9);
     }
 
     .background-color-1 {

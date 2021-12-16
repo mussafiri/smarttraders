@@ -55,13 +55,7 @@
         flex-wrap: wrap;
     }
 
-    .background-color {
-        background: rgb(2, 16, 33, 0.82);
-    }
-
-    .background-color-1 {
-        background-color: rgb(2, 16, 33, 0.79);
-    }
+    
 
     #overlay,
     #cc {
@@ -315,7 +309,7 @@ font-family: 'Califonia Bound';
 <div class="overlay-color" id="overlay"></div>
 <div class="background-color">
     <div class="background-color-1">
-        <div class="team-page-area page-padding-2" style="background: rgb(2, 16, 33, 0.36);">
+        <div class="team-page-area page-padding-2" style="background: rgb(2, 16, 33, 0.9);">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">

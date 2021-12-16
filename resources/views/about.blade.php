@@ -16,7 +16,7 @@
     }
 
     .background-color-1 {
-        background-color: rgb(2, 16, 33, 0.79);
+        background-color: rgb(2, 16, 33, 0.9);
     }
 
     #overlay,
