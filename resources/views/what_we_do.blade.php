@@ -175,7 +175,7 @@
     }
 
     .steps-box {
-        background: linear-gradient(130deg, rgba(230, 235, 237, 0.930) 95%, rgba(37, 92, 122, 0.730) 90%);
+        background: linear-gradient(130deg, rgba(230, 235, 237, 0.930) 95%, rgba(37, 92, 122, 0.730) 97%);
         border-bottom: solid 3px #0C3A4F;
         border-right: solid 3px #0C3A4F;
         padding: 20px 40px 10px 40px;
