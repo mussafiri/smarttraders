@@ -93,11 +93,11 @@
               <div class="row">
                   <div class="col-md-12">
                       <div class="mobile-menu">
-                          <div class="logo">
+                          <div class="logo hidden-lg hidden-md hidden-sm">
                               <a href="{{ url('/')}}"><img src="{{asset('img/logo/logov1.png')}}" alt="" /></a>
                           </div>
                           <nav id="dropdown">
-                              <ul>
+                              <ul style="display: none;">
                                   <li><a class="pages" href="{{ url('/')}}">Home</a>
                                   </li>
                                   <li><a href="{{ url('about')}}"> <span class="{{Request::is('about') ? 'active_custom' : null }}">About Us</span></a></li>
