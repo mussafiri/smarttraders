@@ -1,148 +1,63 @@
-<style>
-    .ready-btn-footer {
-    border: 1px solid #ffffff;
-    color: #ffffff;
-    cursor: pointer;
-    /* display: inline-block; */
-    font-size: 14px;
-    margin-top: 20px;
-    margin-left: 5px;
-    padding: 5px 30px 5px 30px;
-    text-align: center;
-    transition: all 0.4s ease 0s;
-    z-index: 2;
-    background: #080E33;
-    border-radius: 30px;
-    -webkit-box-shadow: 0 8px 6px -6px black;
-	   -moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
-}
-.ready-btn-footer:hover{
-    border: none;
-    color: #ffffff;
-    cursor: pointer;
-    /* display: inline-block; */
-    font-size: 14px;
-    margin-top: 20px;
-    margin-left: 5px;
-    font-weight: 600;
-    padding: 5px 30px 5px 30px;
-    text-align: center;
-    transition: all 0.4s ease 0s;
-    z-index: 2;
-    background: transparent;
-    border-radius: 30px;
-    -webkit-box-shadow: 0 8px 6px -6px black;
-	   -moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
-}
-.title-footer{
-    color: #ffffff;
-    text-transform: uppercase;
-    font-family: 'Califonia Bound';
-    font-size: 1.9rem;
-    text-align: center;
-    letter-spacing: 2px;
-}
-.title-sm {
-    text-transform: uppercase;
-    margin-top: -25px;
-    font-size: 7px;
-    color: #080E33;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-align: center;
-}
-</style>
-<!-- Start Footer Area -->
-<footer class="footer1">
-            <div class="footer-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-5 col-xs-12">
-                            <div class="footer-content logo-footer">
-                                <div class="footer-head">
-                                    <div class="footer-logo">
-                                    	<a class="footer-black-logo" href="#"><img src="{{asset('img/logo/footer-logo2.png')}}" alt=""></a>
-                                    </div>
-                                     <h3 class="title-footer">Smart Traders</h3>
-                                     <h5 class="title-sm">unlock the power of analytics</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end single footer -->
-                        <div class="col-md-7 col-sm-3 col-xs-12">
-                            <div class="footer-content">
-                                <div class="footer-head">
-                                    <h4>Explore</h4>
-                                    <ul class="footer-list">
-                                        <li><a href="#">About us</a></li>
-                                        <li><a href="#">What We Do </a></li>
-                                        <li><a href="#">Assets</a></li>
-                                        <li><a href="#">Our Team</a></li>
-                                        <li><a href="#">Contact Us</a></li>
-                                        <li><a href="#">Social Media</a></li>
-                                    </ul>
-                                    <ul class="footer-list hidden-sm">
-										<li><a href="#">Customer Care</a></li>
-                                        <li><a href="#">Live chat</a></li>
-                                        <li><a href="#">Notification</a></li>
-                                        <li><a href="#">Privacy</a></li>
-                                        <li><a href="#">Terms & Condition</a></li>
-                                        <li><a href="#">Contact us </a></li>
-									</ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end single footer -->
-                    
-                        <div class="col-md-2 col-sm-4 col-xs-12">
-                            <div class="footer-content last-content">
-                                <div class="footer-head">
-                                    <h4>Connect</h4>  
-                                    <div class="footer-icons">
-                                        <ul>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-google"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-instagram"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+<footer class="ftco-footer ftco-bg-dark ftco-section">
+    <div class="container">
+        <div class="row mb-5 d-flex">
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">PrimeLaw</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                        <li class="ftco-animate"><a href="index.html#"><span class="icon-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="index.html#"><span class="icon-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="index.html#"><span class="icon-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4 ml-md-4">
+                    <h2 class="ftco-heading-2">Usefull Links</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html#">Family Law</a></li>
+                        <li><a href="index.html#">Drug Law</a></li>
+                        <li><a href="index.html#">Insurance Law</a></li>
+                        <li><a href="index.html#">Criminal Law</a></li>
+                        <li><a href="index.html#">Business Law</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Quick Links</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html#">About Us</a></li>
+                        <li><a href="index.html#">Practice Areas</a></li>
+                        <li><a href="index.html#">Appointment</a></li>
+                        <li><a href="index.html#">Terms &amp; Conditions</a></li>
+                        <li><a href="index.html#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Have a Questions?</h2>
+                    <div class="block-23 mb-3">
+                        <ul>
+                            <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                            <li><a href="index.html#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+                            <li><a href="index.html#"><span class="icon icon-envelope"></span><span class="text"><span class="__cf_email__" data-cfemail="e980878f86a990869c9b8d8684888087c78a8684">[email&#160;protected]</span></span></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="footer-area-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="copyright">
-                                <p>
-                                  © 2021
-                                    <a href="">SmartTrader.com</a> - UNITED ARAB EMIRATES
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>
+                    Copyright &copy;<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                </p>
             </div>
-        </footer>
-        <!-- End Footer area -->
+        </div>
+    </div>
+</footer>
