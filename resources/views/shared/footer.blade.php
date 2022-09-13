@@ -29,9 +29,9 @@
                     <h2 class="ftco-heading-2">Quick Links</h2>
                     <ul class="list-unstyled">
                         <li><a href="index.html#">About Us</a></li>
-                        <li><a href="index.html#">Practice Areas</a></li>
-                        <li><a href="index.html#">Appointment</a></li>
                         <li><a href="index.html#">Terms &amp; Conditions</a></li>
+                        <li><a href="index.html#">Privacy Policy</a></li>
+                        <li><a href="index.html#">Disclaimer</a></li>
                         <li><a href="index.html#">FAQ</a></li>
                     </ul>
                 </div>
