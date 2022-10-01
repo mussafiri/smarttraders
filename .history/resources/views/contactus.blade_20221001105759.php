@@ -52,7 +52,7 @@
       <input type="email" name="email" class="form-control rounded" placeholder="Your Email">
     </div>
     <div class="form-group">
-      <input name="phone" class="form-control rounded" style="width:206%" id="phone" type="tel" id="phone" placeholder="+971 (0___) ___-____" data-slots="_" value="+971">
+      <input name="phone" class="form-control rounded" style="width:206%" id="phone" type="tel" id="phone" placeholder="+1 (___) ___-____" data-slots="_" value="+971 ">
     </div>
     <div class="form-group">
     <input type="text" name="subject" class="form-control rounded" placeholder="Subject">
